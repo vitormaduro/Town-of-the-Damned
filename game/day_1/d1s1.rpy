@@ -1,56 +1,8 @@
-label start:
-    scene black
+label d1s1:
+    scene bg rons_office
 
-    pause 1.0
-
-    show text "{size=90}{color=#fff}BUTTONS LAB PRESENTS{/color}{/size}":
-        xalign 0.5
-        yalign 0.5
-    with Dissolve(1.0)
-
-    pause 1.0
-
-    hide text with Dissolve(1.0)
-
-    show text "{size=90}{color=#fff}A whimsical adventure in a world where magic and mystery collide{/color}{/size}":
-        xalign 0.5
-        yalign 0.5
-    with Dissolve(1.0)
-
-    pause 1.0
-
-    hide text with Dissolve(1.0)
-
-    show text "{size=90}{color=#fff}Ron Kitzinger and the Town of the Damned{/color}{/size}":
-        xalign 0.5
-        yalign 0.5
-    with Dissolve(1.0)
-
-    pause 1.0
-
-    hide text with Dissolve(1.0)
-
-    show text "{size=90}{color=#fff}Day 1\nSunday, June 12th {/color}{/size}":
-        yalign 0.5
-        xalign 0.5
-    with Dissolve(1.0)
-
-    pause 1.0
-
-    hide text with Dissolve(1.0)
-
-    show text "{size=90}{color=#fff}The Phone Call{/color}{/size}":
-        xalign 0.5
-        yalign 0.5
-    with Dissolve(1.0)
-
-    pause 1.0
-
-    hide text with Dissolve(1.0)
-
-    scene bg rons_office 
     show marley sad at right with dissolve
-    show ron awkward at left with dissolve
+    show ron anxious at left with dissolve
 
     #SFX- Muffled city noises (Continuous)
 
@@ -81,7 +33,7 @@ label start:
     scene bg rons_office 
 
     show marley sad at right with dissolve
-    show ron awkward at left with dissolve
+    show ron anxious at left with dissolve
 
     r "{i}*Shudder*{/i} Every time I see a birthday cake, I get flashbacks. And we only got a couple hundred bucks from it." 
 
@@ -137,17 +89,7 @@ label start:
 
     "She gets up and leaves the room, slamming the door behind her, muffling the sound of her sobs."
     "I sigh as I get to my feet."
-    "I should start packing boxes."
-
-# label deduction_minigame:
-#     $ result = renpy.call_screen("deduction_game_menu")
-
-#     while result is False:
-#         "Hmm... That doesn't seem to be correct"
-#         $ result = renpy.call_screen("deduction_mini_game")
-
-#     "Yes! That's it!"
-        
+    "I should start packing boxes."  
 
 label box_packing_minigame:
     scene black
@@ -155,6 +97,7 @@ label box_packing_minigame:
 
 label after_box_minigame:
     scene bg rons_office
+
     show ron neutral at center with dissolve
 
     # Sfx- intercom buzz
@@ -262,4 +205,7 @@ label after_box_minigame:
     m "Ooh, sounds fun!"
 
     scene black with fade
+    
+    pause 2.0
+
     jump d1s2
