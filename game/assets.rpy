@@ -17,33 +17,36 @@ image chris neutral:
 
 #Danny Small Sprites
 image danny angry:
-    "images/danny_angry_small.png"
+    "images/danny/danny_angry_small.png"
 image danny annoyed:
-    "images/danny_annoyed_small.png"
+    "images/danny/danny_annoyed_small.png"
 image danny awkward:
-    "images/danny_awkward_small.png"
+    "images/danny/danny_awkward_small.png"
 image danny blushing:
-    "images/danny_blushing_small.png"
+    "images/danny/danny_blushing_small.png"
 image danny confused:
-    "images/danny_confused_small.png"
+    "images/danny/danny_confused_small.png"
 image danny curious:
-    "images/danny_curious_small.png"
+    "images/danny/danny_curious_small.png"
 image danny moody:
-    "images/danny_moody_small.png"
+    "images/danny/danny_moody_small.png"
+image danny neutral:
+    "images/danny/danny_neutral_large.png"
+    zoom 0.4
 image danny sad:
-    "images/danny_sad_small.png"
+    "images/danny/danny_sad_small.png"
 image danny scared:
-    "images/danny_scared_small.png"
+    "images/danny/danny_scared_small.png"
 image danny serious:
-    "images/danny_serious_small.png"
+    "images/danny/danny_serious_small.png"
 image danny shocked:
-    "images/danny_shocked_small.png"
+    "images/danny/danny_shocked_small.png"
 image danny smile:
-    "images/danny_smile_small.png"
+    "images/danny/danny_smile_small.png"
 image danny thoughtful:
-    "images/danny_thoughtful_small.png"
+    "images/danny/danny_thoughtful_small.png"
 image danny worried:
-    "images/danny_worried_small.png"
+    "images/danny/danny_worried_small.png"
 
 #Emily Small Sprites
 image emily angry:
@@ -106,37 +109,40 @@ image norman thoughtful:
 #Ron Side Sprites
 image ron angry:
     "images/ron/ron_angry_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron awkward:
     "images/ron/ron_awkward_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron blushing:
     "images/ron/ron_blushing_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron confused:
     "images/ron/ron_confused_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron moody:
     "images/ron/ron_moody_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron neutral:
     "images/ron/ron_neutral_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron sad:
     "images/ron/ron_sad_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron serious:
     "images/ron/ron_serious_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron smile:
     "images/ron/ron_smile_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron sympathetic:
     "images/ron/ron_sympathetic_large.png"
-    zoom 0.45
+    zoom 0.4
 image ron thoughtful:
     "images/ron/ron_thoughtful_large.png"
-    zoom 0.45
+    zoom 0.4
+image ron anxious:
+    "images/ron/ron_awkward_large.png"
+    zoom 0.4
 
 #Sandra Small Sprites
 image sandra neutral:
@@ -377,7 +383,7 @@ image bg rons_office: #placeholder
     "images/bgs/bmp-room-no-items.png"
     zoom 0.5
 image bg kingston_streets: #placeholder
-    "images/bg_kingston_streets.png"
+    "images/bgs/street.jpg"
 image bg library: #placeholder
     "images/bg_library.png"
 image bg hospital_pc: #placeholder
@@ -390,6 +396,8 @@ image bg mayors_office: #placeholder
     "images/mayors_office.png"
 image bg sheriffs_office: #placeholder
     "images/sheriffs_office.png"
+image bg city_map:
+    "images/bgs/city_map.jpg"
 
 #CGs
 image bg cg_unicorn_attacking:
