@@ -10,7 +10,7 @@ screen map_screen():
             hover "images/city_map/book_hover.png"
             xpos 785
             ypos 90
-            action Jump("d1s3b")
+            action Jump("library")
 
     if not visited_museum:
         imagebutton:
@@ -18,7 +18,7 @@ screen map_screen():
             hover "images/city_map/museum_hover.png"
             xpos 1465
             ypos 385
-            action Jump("d1s3f")
+            action Jump("museum")
 
     if visited_library and visited_museum:
         imagebutton:
@@ -28,15 +28,13 @@ screen map_screen():
             ypos 515
             action Jump("d1s3h")
 
-label d1s3b:
-    "You went to the library. This scene is missing for now"
+label library:
     $ visited_library = True
-    call screen map_screen
+    jump d1s3b
 
-label d1s3f:
-    "You went to the museum. This scene is missing for now"
+label museum:
     $ visited_museum = True
-    call screen map_screen
+    jump d1s3f
 
 label d1s3h:
     "You went to Danny's house. This scene is missing for now"
