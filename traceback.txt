@@ -1,27 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/intro/intro.rpy", line 2, in script
-    call screen map_screen
+  File "game/day_1/d1s3f.rpy", line 19, in script
+    call screen maps(0) with fade
   File "renpy/common/000statements.rpy", line 670, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/day_1/map_screen.rpy", line 7, in execute
-    screen map_screen():
-  File "game/day_1/map_screen.rpy", line 7, in execute
-    screen map_screen():
-  File "game/day_1/map_screen.rpy", line 10, in execute
-    imagebutton:
-  File "game/day_1/map_screen.rpy", line 10, in keywords
-    imagebutton:
-  File "game/day_1/map_screen.rpy", line 11, in <module>
-    idle library_icon
-NameError: name 'library_icon' is not defined
+  File "renpy/common/00action_other.rpy", line 585, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/day_1/d1s3f.rpy", line 107, in change_map
+    renpy.call_screen("maps", index)
+Exception: Cannot start an interaction in the middle of an interaction, without creating a new context.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/intro/intro.rpy", line 2, in script
-    call screen map_screen
+  File "game/day_1/d1s3f.rpy", line 19, in script
+    call screen maps(0) with fade
   File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\ast.py", line 2259, in execute
     self.call("execute")
   File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\ast.py", line 2241, in call
@@ -36,35 +30,43 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 3582, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 4055, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 684, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 684, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 684, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\screen.py", line 476, in visit_all
-    callback(self)
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 4055, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\screen.py", line 487, in per_interact
-    self.update()
-  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\screen.py", line 680, in update
-    self.screen.function(**self.scope)
-  File "game/day_1/map_screen.rpy", line 7, in execute
-    screen map_screen():
-  File "game/day_1/map_screen.rpy", line 7, in execute
-    screen map_screen():
-  File "game/day_1/map_screen.rpy", line 10, in execute
-    imagebutton:
-  File "game/day_1/map_screen.rpy", line 10, in keywords
-    imagebutton:
-  File "game/day_1/map_screen.rpy", line 11, in <module>
-    idle library_icon
-NameError: name 'library_icon' is not defined
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 4543, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\layout.py", line 1179, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\transition.py", line 166, in event
+    return self.transitions[-1].event(ev, x, y, st)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\transition.py", line 53, in event
+    return self.new_widget.event(ev, x, y, st) # E1101
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\layout.py", line 1179, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\layout.py", line 1179, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\screen.py", line 770, in event
+    rv = self.child.event(ev, x, y, st)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\layout.py", line 1179, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\layout.py", line 1179, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\behavior.py", line 1142, in event
+    return handle_click(self.clicked)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\behavior.py", line 1075, in handle_click
+    rv = run(action)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\behavior.py", line 379, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_other.rpy", line 585, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/day_1/d1s3f.rpy", line 107, in change_map
+    renpy.call_screen("maps", index)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\exports.py", line 3347, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\blue_\OneDrive\Documentos\renpy-8.1.3-sdk\renpy\display\core.py", line 3551, in interact
+    raise Exception("Cannot start an interaction in the middle of an interaction, without creating a new context.")
+Exception: Cannot start an interaction in the middle of an interaction, without creating a new context.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 Rounded GUI 1.1.0
-Tue Feb  6 15:20:44 2024
+Wed Feb  7 13:46:31 2024

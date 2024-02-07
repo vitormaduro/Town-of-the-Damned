@@ -91,6 +91,8 @@ image marley smile:
     "images/marley/marley_smile_small.png"
 image marley thoughtful:
     "images/marley/marley_thoughtful_small.png"
+image marley curious:
+    "images/marley/marley_neutral_small.png"
 
 #Norman Small Sprites
 image norman angry:
@@ -398,6 +400,24 @@ image bg sheriffs_office: #placeholder
     "images/sheriffs_office.png"
 image bg city_map:
     "images/bgs/city_map.jpg"
+image bg library:
+    "images/bgs/libraries.jpg"
+image bg bookshelf:
+    "images/bgs/bookshelf.jpg"
+image bg book:
+    "images/bgs/book.jpg"
+    zoom 0.97
+image bg museum_open:
+    "images/bgs/bg_museum_clean.png"
+    zoom 0.5
+image bg museum_closed:
+    "images/bgs/bg_museum_clean_closed.png"
+    zoom 0.5
+image bg museum_destroyed:
+    "images/bgs/bg_museum_destroyed.png"
+    zoom 0.5
+image bg museum_display:
+    "images/bgs/museum_display.png"
 
 #CGs
 image bg cg_unicorn_attacking:

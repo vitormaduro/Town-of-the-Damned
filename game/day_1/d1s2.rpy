@@ -1,3 +1,4 @@
+# Welcome to Kingston
 label d1s2:
     scene bg kingston_streets with fade
 
