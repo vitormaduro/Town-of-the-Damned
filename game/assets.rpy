@@ -91,8 +91,6 @@ image marley smile:
     "images/marley/marley_smile_small.png"
 image marley thoughtful:
     "images/marley/marley_thoughtful_small.png"
-image marley curious:
-    "images/marley/marley_neutral_small.png"
 
 #Norman Small Sprites
 image norman angry:
@@ -141,9 +139,6 @@ image ron sympathetic:
     zoom 0.4
 image ron thoughtful:
     "images/ron/ron_thoughtful_large.png"
-    zoom 0.4
-image ron anxious:
-    "images/ron/ron_awkward_large.png"
     zoom 0.4
 
 #Sandra Small Sprites
@@ -418,6 +413,19 @@ image bg museum_destroyed:
     zoom 0.5
 image bg museum_display:
     "images/bgs/museum_display.png"
+image bg wikipedia:
+    "images/bgs/wikipedia.png"
+image bg ziplock:
+    "images/bgs/ziplock.png"
+
+image hair_lock:
+    "images/bgs/hair_strand.png"
+    zoom 0.7
+image card:
+    "images/bgs/card.png"
+image necklace:
+    "images/bgs/necklace.png"
+    zoom 1.5
 
 #CGs
 image bg cg_unicorn_attacking:
@@ -425,8 +433,10 @@ image bg cg_unicorn_attacking:
     zoom 0.5
 image bg cg_witch:
     "images/cg_witch.png"
+    zoom 0.5
 image bg cg_witch_wolf:
     "images/cg_witch_wolf.png"
+    zoom 0.5
 
 #Audio
 

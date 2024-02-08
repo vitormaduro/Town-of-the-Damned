@@ -26,7 +26,7 @@ screen map_screen():
             hover "images/city_map/house_hover.png"
             xpos 240
             ypos 515
-            action Jump("d1s3h")
+            action Jump("house")
 
 label library:
     $ visited_library = True
@@ -36,5 +36,5 @@ label museum:
     $ visited_museum = True
     jump d1s3f
 
-label d1s3h:
+label house:
     "You went to Danny's house. This scene is missing for now"
