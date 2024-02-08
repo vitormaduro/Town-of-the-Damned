@@ -101,7 +101,7 @@ label after_reading_display:
 
 init python:
     def change_map(index):
-        if index == 4:
+        if index == 1:
             renpy.jump("after_maps")
         else:
             renpy.show_screen("maps", index)
