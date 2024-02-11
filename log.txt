@@ -1,89 +1,139 @@
-2024-02-10 16:37:49 UTC
-Linux-5.15.0-88-generic-x86_64-with-glibc2.35
-Ren'Py 8.2.0.24012702
+Sun Feb 11 09:12:05 2024
+Windows-10-10.0.19045
+Ren'Py 8.1.3.23091805
+ 
 
-Early init took 0.18s
-Loading error handling took 0.11s
-Loading script took 0.48s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.00s
-Running init code took 0.17s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.03s
-Reloading save slot metadata took 0.06s
+Bootstrap to the start of init.init. took 0.05s
+Early init. took 0.00s
+Loader init. took 0.06s
+Loading error handling. took 0.04s
+Loading script. took 0.36s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.03s
 Index archives took 0.00s
-Backing up script files to '/home/river/.renpy/backups/Town-of-the-Damned':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
+Backing up script files to 'C:\\Users\\blue_\\AppData\\Roaming/RenPy/backups\\Town-of-the-Damned':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.00s
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
+Init translation took 0.05s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.07s
-Prepare screens took 0.29s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.08s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.04s
 Running _start took 0.00s
-Interface start took 0.27s
+Performance test:
+Interface start. took 0.11s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
+primary display bounds: (0, 0, 3440, 1440)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Mesa Intel(R) HD Graphics 3000 (SNB GT2)'
-Version: b'3.3 (Compatibility Profile) Mesa 23.0.4-0ubuntu1~22.04.1'
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6700'
+Version: b'4.6.0 Compatibility Profile Context 23.12.1.231124'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 696) drawable=(1366, 696)
+Screen sizes: virtual=(1920, 1080) physical=(3440, 1377) drawable=(3440, 1377)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 696) drawable=(1366, 696)
+Resetting cache.
+Bootstrap to the start of init.init. took 76.74s
+Early init. took 0.00s
+Loader init. took 0.06s
+Loading error handling. took 0.04s
+Loading script. took 0.33s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.05s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\blue_\\AppData\\Roaming/RenPy/backups\\Town-of-the-Damned':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3440, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6700'
+Version: b'4.6.0 Compatibility Profile Context 23.12.1.231124'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(3440, 1377) drawable=(3440, 1377)
 Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 126.69s
+Early init. took 0.00s
+Loader init. took 0.06s
+Loading error handling. took 0.02s
+Loading script. took 0.35s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.05s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\blue_\\AppData\\Roaming/RenPy/backups\\Town-of-the-Damned':
+Dump and make backups. took 0.09s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
 
-Full traceback:
-  File "game/day_1/d1s6c.rpy", line 7, in script
-    show danny nervous at right with dissolve
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 1113, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 1076, in show_imspec
-    renpy.config.show(name,
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/exports.py", line 739, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/display/image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 246, in _duplicate
-    args.extraneous()
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 109, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'danny' does not accept attributes 'nervous'.
-
-While running game code:
-  File "game/day_1/d1s6c.rpy", line 7, in script
-    show danny nervous at right with dissolve
-Exception: Image 'danny' does not accept attributes 'nervous'.
-
-Full traceback:
-  File "game/day_1/d1s6c.rpy", line 166, in script
-    show terry angry at left with dissolve
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 1113, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/ast.py", line 1076, in show_imspec
-    renpy.config.show(name,
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/exports.py", line 739, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/display/image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 246, in _duplicate
-    args.extraneous()
-  File "/home/river/Downloads/renpy-8.2.0-sdk/renpy/display/displayable.py", line 109, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'terry' does not accept attributes 'angry'.
-
-While running game code:
-  File "game/day_1/d1s6c.rpy", line 166, in script
-    show terry angry at left with dissolve
-Exception: Image 'terry' does not accept attributes 'angry'.
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3440, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6700'
+Version: b'4.6.0 Compatibility Profile Context 23.12.1.231124'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(3440, 1377) drawable=(3440, 1377)
+Maximum texture size: 4096x4096

@@ -5,7 +5,7 @@ label d1s6d:
     show danny neutral at center with dissolve
     show marley moody at left with dissolve
 
-    t "Heh, couldn’t stay away from me, huh sugar?"
+    t "Heh, couldn't stay away from me, huh sugar?"
     m "Oh God, I think I'm gonna puke."
     t "I love it when a gal plays hard to get."
     m "I'm not playing hard to get—I don't like you. Stop flirting with me."

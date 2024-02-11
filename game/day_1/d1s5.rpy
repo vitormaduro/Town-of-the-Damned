@@ -25,11 +25,11 @@ label d1s5:
 
     show marley thoughtful at right with dissolve
 
-    m "We'll put one in each crime scene’s possible entry points. You can't remove them unless you know this specific spell. Nothing under another’s command will be able to pass through. It'll keep any ghouls out or trapped inside. How many should we make, Ron?"
+    m "We'll put one in each crime scene's possible entry points. You can't remove them unless you know this specific spell. Nothing under another's command will be able to pass through. It'll keep any ghouls out or trapped inside. How many should we make, Ron?"
 
     show ron thoughtful at center with dissolve
 
-    r "Police station, library, mayor’s office—let's say fifteen to be sure."
+    r "Police station, library, mayor's office—let's say fifteen to be sure."
     m "Alright, can you thread the charms while I do the special hand movements?"
 
     show ron smile at center with dissolve

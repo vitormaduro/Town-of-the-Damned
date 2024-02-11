@@ -15,7 +15,7 @@ label d1s2:
     show ron awkward at center with move
     show danny smile at left with dissolve
 
-    b "Ron! Hiya buddy! It’s great to see you again!"
+    b "Ron! Hiya buddy! It's great to see you again!"
 
     show ron neutral at center with dissolve
 

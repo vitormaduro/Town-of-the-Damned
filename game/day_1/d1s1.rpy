@@ -40,8 +40,8 @@ label d1s1:
 
     show ron moody at left with dissolve
 
-    r "Just 'cos we have the word 'supernatural' in the company’s name, doesn't mean we can deal with anything magical! They should have just called animal control!"
-    r "{i}*Sigh*{/i} I can't pay rent for this office. They've turned the lights off at my apartment. I ain’t got no choice but to dissolve the business."
+    r "Just 'cos we have the word 'supernatural' in the company's name, doesn't mean we can deal with anything magical! They should have just called animal control!"
+    r "{i}*Sigh*{/i} I can't pay rent for this office. They've turned the lights off at my apartment. I ain't got no choice but to dissolve the business."
     m "No, Ron! You can't! You— you've got to fight—"
     r "There's nothing I can do! Oh please, cut the tears. We both know you're faking it!"
     m "How can you say that? First you fire me, now you tell me I'm not allowed to cry?"
@@ -60,7 +60,7 @@ label d1s1:
 
     r "Listen to this garbage:" 
     r "'I hired Mr. Ron to rid my family of a banshee. He took my money, did some cleansing ritual, and vanished. But the blasted banshee is still here. "
-    r "Now, we're out $300 and I haven’t slept for the last three weeks because of the constant wailing!'"
+    r "Now, we're out $300 and I haven't slept for the last three weeks because of the constant wailing!'"
     r "Now, we ain't had a banshee call since last year, and that customer was more than happy with our services!"
     r "I've asked the site to take 'em down, but they're taking their sweet time with it. I reckon it's too late; the damage has been done. I'm sorry, Marley!"
 
@@ -136,7 +136,7 @@ label after_box_minigame:
     r "Ghouls?"
     b "Yeah. Someone's been raising the dead! Only like two or three at a time. I asked my mom, the {i}mayor{/i}—"
     r "Yes, Danny, I know your mom's the stinking mayor."
-    b "Well, I got her to agree to give you the case. It’s yours if you want it."
+    b "Well, I got her to agree to give you the case. It's yours if you want it."
     r "Danny, I don't—"
     b "And the price tag is nothing to sniff at."
 
@@ -181,7 +181,7 @@ label after_box_minigame:
 
     "Danny is so loud that I have to pull the phone from my ear for a second."
 
-    b "I'll organize everything right away. I'm on it! Can you set off today? Don't worry, I’ll sort it out. I'll call you when I've got it all ready!"
+    b "I'll organize everything right away. I'm on it! Can you set off today? Don't worry, I'll sort it out. I'll call you when I've got it all ready!"
 
     #SFX- Dial tone
 

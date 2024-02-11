@@ -19,7 +19,7 @@ label d1s6b:
 
     show emily guilty at right with dissolve
 
-    e "Sorry, sorry, I keep forgetting you don’t like being called that. I'll try to be better."
+    e "Sorry, sorry, I keep forgetting you don't like being called that. I'll try to be better."
     b "Good."
 
     show danny neutral at center with dissolve

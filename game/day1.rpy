@@ -10,12 +10,12 @@ label welcomeToKingston:
     mar "So this is the place that raised you."
     ron awkward "Shut it, Mar."
     mar "Jeez, you look as if someone just stole all your candy!"
-    ron "I don't like this town, Mar…"
+    ron "I don't like this town, Mar..."
     show danny smile at left with dissolve
-    dan "Ron! Hiya buddy! It’s great to see you again!"
+    dan "Ron! Hiya buddy! It's great to see you again!"
     ron neutral "Hey Danny. It's great to see you too. You remember my friend, Marley Shipway, don't you?"
     mar "Hiya!"
-    dan "Uh… sure, yeah. Hi Marry."
+    dan "Uh... sure, yeah. Hi Marry."
     show marley moody with dissolve
     mar "Um, actually, it's—"
     show danny smile at left with dissolve
@@ -32,19 +32,19 @@ label welcomeToKingston:
     mar "Why you little—"
     show danny smile with dissolve
     dan "Why don't I give you a tour around town, Ron? Help you re-familiarize yourself."
-    ron awkward "Uh… good idea."
+    ron awkward "Uh... good idea."
     "Before Marley teleports him into a river."
     dan "Where shall we head to first?"
     # MAP
     # Only the research locations will be unlocked-
-    # -	[D1] [S3a]- Laptop (Danny’s house) 
+    # -	[D1] [S3a]- Laptop (Danny's house) 
     # -	[D1] [S3b]- Books (Library)
     # -	[D1] [S3c]- Old birth/death records and family trees (Town Hall)
-    # -	[D1] [S3d]- Arrest records (Sheriff’s office)
+    # -	[D1] [S3d]- Arrest records (Sheriff's office)
     # -	[D1] [S3e]- Old Maddux stories (Kingston High)
     # -	[D1] [S3f]- Recent birth/death records (Hospital)
     # -	[D1] [S3g]- Historic political stuff, old maps (Museum)
-    # -	[D1] [S3h]- Once all options on the map have been explored, go to Danny’s house
+    # -	[D1] [S3h]- Once all options on the map have been explored, go to Danny's house
 
 label thisIsAComputer:
     # [D1] [S3a]- This is a computer
@@ -58,7 +58,7 @@ label thisIsAComputer:
     "Kingston, TX"
     "A small town in eastern Texas, USA, Kingston is one of the oldest in the area."
     "Kingston was founded in 1673 by Terence Maddux. He and his fellow settlers came over from England on a ship called 'The Conquest.' Maddux had been tasked, by England's Grand Wizard Nathan Pulsifer, to settle in that territory specifically. Pulsifer foresaw that an English settlement in the area would have great importance in any battle over the land."
-    "To protect the settlers from hostile Indigenous Peoples and Spaniards, Pulsifer gave Maddux five special pillars, named 'The Protective Pillars of Kingston,’ which Pulsifer carved from sacred birch wood and inscribed with protective runes. Once Maddux and his people made their way to the specified area, they planted the five posts around the perimeter of the settlement. Maddux anointed the tops with his own blood. The pillars remained in place for 321 years. They prevented any who wished harm on the people that resided within those pillars from passing through the town’s perimeter. Thus, Kingston soon began a healthy trade with the Indigenous Peoples in the area while the Spanish settlers remained entirely unaware of the town’s existence. When they finally noticed the town in 1820, their hold over the area was slipping too much for them to strike."
+    "To protect the settlers from hostile Indigenous Peoples and Spaniards, Pulsifer gave Maddux five special pillars, named 'The Protective Pillars of Kingston,' which Pulsifer carved from sacred birch wood and inscribed with protective runes. Once Maddux and his people made their way to the specified area, they planted the five posts around the perimeter of the settlement. Maddux anointed the tops with his own blood. The pillars remained in place for 321 years. They prevented any who wished harm on the people that resided within those pillars from passing through the town's perimeter. Thus, Kingston soon began a healthy trade with the Indigenous Peoples in the area while the Spanish settlers remained entirely unaware of the town's existence. When they finally noticed the town in 1820, their hold over the area was slipping too much for them to strike."
 
     "Kingston has a colorful set of local legends, including stories of a chaotic Witch who wanted to bring the people of Kingston to their knees. This legend has been added to by the fact that Kingston has been the site of many interesting crimes, and"
     # The rest of the page is cut off
@@ -113,17 +113,17 @@ label bigFilingCabinets:
     show danny neutral at left
     with fade
     dan "These are the official historic records of the town. We keep them in the Town Hall. I doubt you'll need them—most of this stuff is about people who died ages ago, and it's only birth, death, and marriage records. But it might be useful."
-    dan "Super old system though. It's all alphabetized by surname. You're probably in here. Why don't you look yourself up? Think ‘K’ is in the second filing cabinet."
+    dan "Super old system though. It's all alphabetized by surname. You're probably in here. Why don't you look yourself up? Think ‘K' is in the second filing cabinet."
     # Player must click on the cabinet drawer labelled K-L. The drawer will open, with files containing various surnames beginning with K or L. There is a very large section on the Kitzingers.
     show marley thoughtful with dissolve
     mar "Wow, there's a lot of Kitzingers."
-    ron "My ancestors were one of the town’s founding families."
+    ron "My ancestors were one of the town's founding families."
     # Player must click on the Kitzinger file. It opens to reveal a large file divided by the first letter of the first name.
     dan "I guess you'll be under 'R.'"
     # Player must click on the R section. It opens straight to Ron's file- Ronald Kitzinger
     # When player clicks the following dialogue plays
     mar "I didn't know you had siblings!"
-    dan "Humph. You mustn’t be a very good friend if you didn't know that."
+    dan "Humph. You mustn't be a very good friend if you didn't know that."
     show marley moody with dissolve
     mar "What's your dang problem?"
     ron "Stop being a pain."
@@ -141,7 +141,7 @@ label moreRuleBreaking:
     show marley neutral at right
     show danny smile at left
     with fade
-    dan "We've got access to all the sheriff’s records, but I'm afraid he’s not very organized. I've asked for any records to do with people connected to the case, but so far, he's only got mine available. Not much there."
+    dan "We've got access to all the sheriff's records, but I'm afraid he's not very organized. I've asked for any records to do with people connected to the case, but so far, he's only got mine available. Not much there."
     # Player must click on Danny's file- Danny
     # When player clicks the following dialogue plays
     mar "Just a speeding ticket? That's all? Well, you've got a record cleaner than mine."
@@ -187,7 +187,7 @@ label returningToHappyMemories:
     dan "Oh come on, Terry wasn't that bad. Anyway, since the family founded the town, they have school projects on them a bunch. Why don't you look through this first one? There's some more, but I doubt they'll be useful."
     # When clicked on, TERENCE MADDUX DISPLAY will come up.
     # Once the display has been looked through and the player clicks, the following dialogue will play.
-    ron "Come on. I have no interest in staring at this shrine to my old bully’s great-great-grandpa. Or staying in this godforsaken place any longer."
+    ron "Come on. I have no interest in staring at this shrine to my old bully's great-great-grandpa. Or staying in this godforsaken place any longer."
     dan "It's gotten a lot better here recently. Mom got some interesting projects funded—"
     ron "Yes, yes, we get it, your mum is amazing. Now come on, let's get out of here."
     # RETURN TO MAP
@@ -209,18 +209,18 @@ label theFirstClues:
     ron "I- I don't remember you ever having been to our office."
     dan "No, haha. You never invited me. I had to do a bit of snooping on your social media!"
     mar "That's not creepy at all. Is that a papier-mâché bust of Ron?"
-    ron "Well, uh… it's nice of you to go to all this trouble, Danny."
+    ron "Well, uh... it's nice of you to go to all this trouble, Danny."
     dan "Any time! I just really want you to be comfortable here."
     ron "But didn't you get in trouble with your landlord? This must have required some serious renovations!"
     dan "I had to have the back wall completely redone. But mom smoothed it over with the landlord for me."
-    mar "Uh-huh… um, anyway, why don't you tell us what's going on?"
+    mar "Uh-huh... um, anyway, why don't you tell us what's going on?"
     dan "If you need anything, you just let me know! I'm always happy to help in any way I can!"
     mar "Well, we 'need' you to tell us what's going on so we can solve the case, so—"
     dan "Anything at all, Ron. Anything you want. Don't hesitate to ask. No holds barred."
     show marley serious with dissolve
-    mar "So what’s happening—"
+    mar "So what's happening—"
     dan "I can get you a TV in here, a coffee machine—"
-    ron neutral "Uh… why don't you just tell us what's been going on, Danny?"
+    ron neutral "Uh... why don't you just tell us what's been going on, Danny?"
     show marley neutral
     show danny neutral
     with dissolve
@@ -244,18 +244,18 @@ label theFirstClues:
     show marley neutral
     show danny neutral
     with dissolve
-    "He pulls out a plastic zipper bag from one of the desk’s drawers and holds it out to me."
+    "He pulls out a plastic zipper bag from one of the desk's drawers and holds it out to me."
     "There are three objects in it."
     "Danny's Evidence"
     # The image is three things in a plastic bag. When you click on each, it gives you information. 
     "OBJECT 1"
     "Description- Hair the same colour as Seb's, tied up in a red ribbon"
-    "Information given- \"A lock of purple hair tied up with a red bow. Seb's hair changed that color a few years back thanks to his elf’s blood according to his Instachat...that I absolutely didn't stalk."
+    "Information given- \"A lock of purple hair tied up with a red bow. Seb's hair changed that color a few years back thanks to his elf's blood according to his Instachat...that I absolutely didn't stalk."
     "OBJECT 2"
     "Description- A knock off Pokémon looking card"
     "Information given- \"An old Pikiman card–a fancy Balaturtle. Seb got one back when he was collecting them in school."
     "OBJECT 3"
-    "Description- A neckless with a pretty blue heart-shaped locket on it. When clicked, it opens to show an elf woman and a human man- Seb’s parents."
+    "Description- A neckless with a pretty blue heart-shaped locket on it. When clicked, it opens to show an elf woman and a human man- Seb's parents."
     "Information given- \"A heart-shaped locket... My breath catches in my throat–this was his mother's locket. Or it had been hers, many, many years ago. I've never seen Seb take it off, not since the day she pressed it into his hand as he cried over her hospital bed."
     dan "They're all his, right?"
     ron thoughtful "Um. You found these all at the locations that were attacked?"
@@ -263,20 +263,20 @@ label theFirstClues:
     ron "That's strange."
     show danny thoughtful with dissolve
     dan "What?"
-    ron "Seb's a smart guy. You'd think he wouldn’t leave such easily identifiable things at a crime scene. Part of the process to summon a ghoul is to give it an item that's important to you... an anchor—but surely he would have found a way to grab them back afterwards."
+    ron "Seb's a smart guy. You'd think he wouldn't leave such easily identifiable things at a crime scene. Part of the process to summon a ghoul is to give it an item that's important to you... an anchor—but surely he would have found a way to grab them back afterwards."
     show danny neutral with dissolve
-    dan "I don’t know. Anyway, we should start checking out the scenes before it gets too late—"
+    dan "I don't know. Anyway, we should start checking out the scenes before it gets too late—"
     show marley serious with dissolve
     mar "Not yet."
     show danny moody with dissolve
     dan "What? Why not, what's wrong?"
     mar "I need to meditate."
     dan "WHAT? What bullcrap is that?"
-    mar "Again… I. Am. A. Witch. All my power relies on nature. And I don't know the nature here. I'm not in tune with it. To use my magic, I have to get in touch with nature each and every day."
+    mar "Again... I. Am. A. Witch. All my power relies on nature. And I don't know the nature here. I'm not in tune with it. To use my magic, I have to get in touch with nature each and every day."
     mar "I need access to my magic in all times during an investigation. So, before we do anything, I need to find somewhere to meditate."
     dan "Jesus. Not that amazing of a power set you got there if you have to mediate every day."
     "Marley looks Danny up and down, judgment in her eyes."
-    mar "Maybe you should try it, Danny. Think it would really… benefit you. Fix your whole vibe."
+    mar "Maybe you should try it, Danny. Think it would really... benefit you. Fix your whole vibe."
     "I fight off a laugh as Marley turns and leaves before Danny can muster a comeback."
     hide marley
     show danny angry
@@ -295,7 +295,7 @@ label theFirstClues:
     ron "Next, you can try to be their friend. You get on their good side, get them to want to help you. If they're innocent, they might go out of their way to lend a hand in the investigation–but, of course, the flip side is that this puts them in danger."
     ron "If they're guilty, sometimes it makes them drop their defenses, makes 'em slip up. But it can be dangerous–you think you're getting under their defenses, but really, they're getting under yours."
     ron "Then, finally, you can try and make 'em angry. That's the most dangerous one; even if they're innocent, the suspect might try and screw you up out of spite. They stonewall you. Although, I have known people who responded well when I tried to make them mad—liked the brutal honesty of it, I guess."
-    ron "But in a case like this, ego is always involved, so if you make the guilty suspect angry, they’ll take it to heart. They'll probably try to screw you over, but they'll also probably make mistakes—ones big enough to show themselves."
+    ron "But in a case like this, ego is always involved, so if you make the guilty suspect angry, they'll take it to heart. They'll probably try to screw you over, but they'll also probably make mistakes—ones big enough to show themselves."
     show danny thoughtful with dissolve
     dan "I see. So ya' assess each suspect and pick the best technique?"
     ron smile "Exactly. None of the methods are wrong, but some are better than others depending on the situation. They'll each get different results. Every decision I make when talking to a suspect aims to make them feel a certain way about me. Everything I do is trying to get them to feel one of those ways."
@@ -311,11 +311,11 @@ label theWolf:
     # FADE IN
     # SFX- Nature noises, crows
     scene bg cg_witch with fade
-    "I follow nature’s pull on my soul away from the tiny town. I head past some farms and find myself in thick woodland."
+    "I follow nature's pull on my soul away from the tiny town. I head past some farms and find myself in thick woodland."
     "Perfect."
     "After a bit of walking, I find a small clearing and sit myself down. I close my eyes and focus on my breathing."
     # SFX- Deep breathing
-    "With every breath in, the smell of flowers, the trees’ bark, the rotting leaves, animals’ musk all mix in my noise. A wonderful orchestra of scents."
+    "With every breath in, the smell of flowers, the trees' bark, the rotting leaves, animals' musk all mix in my noise. A wonderful orchestra of scents."
     "Then the sounds—the leaves rustling through the trees. The cawing of the crows above."
     "Slowly, from deep in my gut, I can feel little tendrils of my magic reaching out, stretching like someone waking up after a long sleep."
     "It connects itself to the plants as they slowly push their roots deep into the ground, sucking up moisture, their leaves bathing in the delicious sun."
@@ -331,7 +331,7 @@ label theWolf:
     w "*Sniff sniff* But that's not all you are."
     mar "No. I am a Witch. A person who connects to nature for magical powers."
     w "Hm. Humans. Always chasing power like a pup chases a squirrel. Ignorant of or uncaring for whatever you trample under-paw in your never-ending hunt for your goal."
-    "Well… she's not wrong. I can feel the anger and rage at humans, nestled deep in her lupine heart. Perhaps it's best I change the topic."
+    "Well... she's not wrong. I can feel the anger and rage at humans, nestled deep in her lupine heart. Perhaps it's best I change the topic."
     "I'm surprised to see a wolf here at all—I did some research on the wildlife in this area on the way over—the wolves that once lived here were wiped out ages ago."
     mar "This must be lonely hunting for you, sister. Your pack must be the only one for many territories."
     w "I have not seen another of my kind since my brother went to the earth. When I join him, the great hunters will no longer roam this land. And, for that, I am grateful."
@@ -339,7 +339,7 @@ label theWolf:
     mar "Is this land so unkind to you, sister? The hunting's too meagre?"
     w "No, Witch. The prey is unending. But this is not the place for my kind. This pace is too full of the un-us."
     "The what?"
-    mar "The… un-us?"
+    mar "The... un-us?"
     w "Those that look like us, but are not us. The more you look, the more you see—they're short, with too-long limbs, too-silky hair, stretched out faces. Eyes to black. Glassy. Their words so garbled. A false reflection of us."
     w "They are beasts of humans—like their perverted cubs."
     "Oh, she must be talking about dogs."
@@ -347,7 +347,7 @@ label theWolf:
     mar "'Tricked'? How do you mean 'tricked'?"
     w "That is a long story, witch. The story of my pack. You do not wish to hear so sad a history."
     "Like hell I don't."
-    "But how do I get her to share it? She's very stiff. Formal. She doesn’t trust me—I can't blame her for that. Should I be stiff and formal too? Show respect? Or try to be kind? Friendly?"
+    "But how do I get her to share it? She's very stiff. Formal. She doesn't trust me—I can't blame her for that. Should I be stiff and formal too? Show respect? Or try to be kind? Friendly?"
     menu wolfMenu:
         "It would be a great honor to hear your ancestor's story, sister. If you would do me the kindness of sharing it.":
             jump wolfRejectsYou # {Go to [D1] [S4] [O1]}
@@ -360,17 +360,17 @@ label wolfRejectsYou: # [D1] [S4] [O1]
     "For a few minutes, the wolf considers me wearily, as if deciding whether to trust me."
     "Then she gives a thoughtful little huff."
     w "*Huff* Fine. If you are so curious, I will tell you. But watch that curiosity of yours, Witch. Many a sibling has followed their curiosity, only to have it ensnare them."
-    "Well, that’s something I can definitely relate to."
+    "Well, that's something I can definitely relate to."
     mar "Thank you sister—your advice is good—I will remember it."
-    w "Good. Here is my pack’s story. Heed it well. It all began many years ago, when my mother’s mother’s mother was barely older than a cub. This is her story. She still lived with her parents and brethren. One day, they smelt another wolf in their territory."
+    w "Good. Here is my pack's story. Heed it well. It all began many years ago, when my mother's mother's mother was barely older than a cub. This is her story. She still lived with her parents and brethren. One day, they smelt another wolf in their territory."
     w "They tracked him down and found a male. But rather than fight, he begged them to listen to him. He spoke of the hardship his pack faced in their old territory—competing for food and hiding from humans and their fire sticks."
-    w "He said that he knew a place where they would be safe and have plenty of prey. He offered to lead them there. My mother’s mother’s mother’s father was very suspicious of this too-perfect promise."
-    w "But my foremother… one look at this stranger, and she knew she would follow him to the ends of the earth. He was strong, but clever too—the cleverest wolf she had ever met. So, she begged her father to listen. And eventually, he agreed."
+    w "He said that he knew a place where they would be safe and have plenty of prey. He offered to lead them there. My mother's mother's mother's father was very suspicious of this too-perfect promise."
+    w "But my foremother... one look at this stranger, and she knew she would follow him to the ends of the earth. He was strong, but clever too—the cleverest wolf she had ever met. So, she begged her father to listen. And eventually, he agreed."
     w "The stranger eventually convinced three packs to follow him to this promised land. It was a long and painful journey—hiding by day, sneaking through the strange, busy human territories by night. It was terrifying."
     w "But over the journey, the stranger and my foremother fell in love and became mates. Eventually, the three packs reached this land. And at first, all seemed perfect. They prey was plentiful and easy to catch."
     w "Occasionally a wolf would be killed by one of the humans sticks, but it was rare enough that they could manage. For my foremother, life seemed like a dream. Her mate was sweet and kind and tough, and when they had pups, he was a wonderful father."
     w "Except for one thing: he was barley there during the time of the light while she slept. He usually returned soon after she woke to hunt, but when she woke during the middle of the light time, his side of the den was cold."
-    w "And sometimes, when he was there, he'd be… different. None of that intelligent spark. More aggressive. Obsessed with the hunt. And then he wouldn't remember what happened during those times."
+    w "And sometimes, when he was there, he'd be... different. None of that intelligent spark. More aggressive. Obsessed with the hunt. And then he wouldn't remember what happened during those times."
     w "So, one day, my foremother decided to follow him after the lighting of the sky to see where he went. It's hard to stalk a wolf like you'd stalk pray."
     w "She followed him through the shadows of the forest until they reached some land that the humans had grown tall metal bushes around, to keep creatures out. He went through a gap, and as she watched through the hedge, she saw the most terrible thing."
     w "As the light struck him, he began to change. He struggled and writhed, as if in pain, and his legs got longer, his face flattened. The pads of his paws distorted and stretched. His fur seemed to pull back into his body. Until there stood not her mate, but a human."
@@ -381,28 +381,28 @@ label wolfRejectsYou: # [D1] [S4] [O1]
     w "A human who smelt of the wolf. They watched in horror as the man turned back into their brethren. But when he tried to leave the metal bushes enclosure, out stepped my foremother and the other wolves."
     w "They told him that if he dared show his face near any of their dens again, they would rip him apart. He was not a wolf and not their brother. The not-wolf begged them to listen, insisted that he was one of them, more one of them than one of the humans."
     w "But the wolves felt too deceived—they had trusted him, followed him far from their old dens—and he was not even a true wolf. He went to my foremother, asked for her to listen, to think of the love they shared—and the cubs."
-    w "And she struck him. Bit deep into his neck until her mate’s blood dribbled into her mouth. Terrified and heartbroken, he ripped himself free and fled. They never saw him again."
+    w "And she struck him. Bit deep into his neck until her mate's blood dribbled into her mouth. Terrified and heartbroken, he ripped himself free and fled. They never saw him again."
     w "As for my foremother—life was difficult, raising her pups alone. No other wolf would come near her pups if they could help it, for they were his pups too. Sometimes, as they grew, she'd wake during the light time and find the den empty."
-    w "She'd go outside and there her pups would be, staring up at the moon’s bright brother the same as she gazed at the moon. They were smart too, like their father. Often she'd find them too close to the human territories, watching them curiously."
+    w "She'd go outside and there her pups would be, staring up at the moon's bright brother the same as she gazed at the moon. They were smart too, like their father. Often she'd find them too close to the human territories, watching them curiously."
     w "Of her five pups, only one found a mate, as most were too scared to go near them. And from the litters that came from that coupling, only one wolf reached adulthood, as the prey grew scarcer and the humans and their fire sticks crept into the woods more and more."
     w "And many of my blood fell to the allure of your people. And they were shot. And some just disappeared. The single surviving wolf of that line had only one litter—my litter."
     w "And of them, most have died or disappeared. The other packs have died out too. I am the last wolf left from the families the not-wolf brought here. And the last of his descendants."
-    w "Although many generations have diluted his blood in my body, I still feel it—the lure of the moon’s bright brother, the call of the humans and their strange above ground dens that reach as high as the trees."
-    w "When my final hunt is over, my body given over for the scavengers to feast on, it gives me peace to know that no more of the not-wolf’s children will walk this earth."
+    w "Although many generations have diluted his blood in my body, I still feel it—the lure of the moon's bright brother, the call of the humans and their strange above ground dens that reach as high as the trees."
+    w "When my final hunt is over, my body given over for the scavengers to feast on, it gives me peace to know that no more of the not-wolf's children will walk this earth."
     w "Sometimes, at the height of the light-time, I think I can feel him. In my blood. My heart. Longing to stretch out my paws until they lengthen. Pull myself up on my hind legs and reach up a high as I can. To feel the wind on my bare skin, free from fur."
     w "It's wrong to want these things. Unnatural. That urge will die with me."
-    "Finally, the wolf falls silent, giving me time to mull over her story. It sounds like, many years ago, her pack encountered… No. No, they couldn't have. They're an incredibly regulated group of people. No way one could live out here."
-    "But… it is very isolated…"
+    "Finally, the wolf falls silent, giving me time to mull over her story. It sounds like, many years ago, her pack encountered... No. No, they couldn't have. They're an incredibly regulated group of people. No way one could live out here."
+    "But... it is very isolated..."
     "Well, dogs can have vivid imaginations, maybe wolves can too. But I probably shouldn't tell her that. Remember—respectful."
-    mar "Thank you for telling me your pack’s story. I am sorry for the pain of your past."
+    mar "Thank you for telling me your pack's story. I am sorry for the pain of your past."
     w "Remember the tale, Witch. Remember that the face a stranger shows can be a well-made lie. And you never know what's behind it."
     mar "Thank you, sister. I will not forget your advice."
-    w "I need to go. The more time I spend in the light, the more I can feel the unnatural desire to… change."
-    mar "Go in peace, sister. Regardless of your family’s past, I wish you well. May your hunts be plentiful. May you always find fresh water. And when your time is done, may the earth accept your remains with open arms as you return to the Mother of all life."
+    w "I need to go. The more time I spend in the light, the more I can feel the unnatural desire to... change."
+    mar "Go in peace, sister. Regardless of your family's past, I wish you well. May your hunts be plentiful. May you always find fresh water. And when your time is done, may the earth accept your remains with open arms as you return to the Mother of all life."
     "The wolf cocks her head at me."
     w "What are these strange words you speak?"
     mar "It's an ancient Witch blessing."
-    w "Oh. Well… thank you. The same to you… sister."
+    w "Oh. Well... thank you. The same to you... sister."
     # SFX- 	Deep breath
     #     Padding feet
     "As the she-wolf stands, I close my eyes and take another deep breath."
@@ -441,8 +441,8 @@ label theCharms: # [D1] [S5]- The Charms
     "I watch as Marley grabs her box of beads."
     ron "Like I said, Marley's a Witch. Me and her are gonna make these special charms."
     show marley thoughtful with dissolve
-    mar "We'll put one in each crime scene’s possible entry points. You can't remove them unless you know this specific spell. Nothing under another’s command will be able to pass through. It'll keep any ghouls out or trapped inside. How many should we make, Ron?"
-    ron thoughtful "Police station, library, mayor’s office—let's say fifteen to be sure."
+    mar "We'll put one in each crime scene's possible entry points. You can't remove them unless you know this specific spell. Nothing under another's command will be able to pass through. It'll keep any ghouls out or trapped inside. How many should we make, Ron?"
+    ron thoughtful "Police station, library, mayor's office—let's say fifteen to be sure."
     mar "Alright, can you thread the charms while I do the special hand movements?"
     ron smile "Sure thing."
     # Open Charm Making game
@@ -537,7 +537,7 @@ label mayorEmilySawyer:
     ron "It's great to see you again after so long."
     e "Danny has been so excited about you coming!"
     n "Oh yes, as long as the little prince is happy."
-    ron "Uh…"
+    ron "Uh..."
     "I stare at the man, confused and watch him pack things from around the wrecked secretary's desk into cardboard boxes."
     "He doesn't look like a secretary, though. I recognize his jacket as an expensive, designer brand, and his watch is a fancy Swiss make."
     "He glowers at Emily as he packs."
@@ -546,12 +546,12 @@ label mayorEmilySawyer:
     e "So, Ron, uh, ghouls. What can you tell me about them?"
     ron "Well, um, the corpses will be from a local graveyard. The summoner will have taken earth from the grave of the body, then used it in a ritual. They'll obey the summoner's commands until dawn, at which point they'll de-animate."
     show emily neutral with dissolve
-    e "Ooh, that's so interesting! I don’t really know anything about the topic. I'm very interested in magic, but I never investigated the whole 'undead' type of magic."
+    e "Ooh, that's so interesting! I don't really know anything about the topic. I'm very interested in magic, but I never investigated the whole 'undead' type of magic."
     n "I find that hard to believe. You look like a darned ghoul, and your soul has been dead for years. You should be an expert."
-    e "Why don’t you do the whole world a favor, Norman; go take a li’l dip in Mallory Lake, swim down to the very bottom, and stay there until you drown."
+    e "Why don't you do the whole world a favor, Norman; go take a li'l dip in Mallory Lake, swim down to the very bottom, and stay there until you drown."
     "Jesus Christ! As a kid, I went around to Mayor Emily's house hundreds of times—she never even raised her voice once."
     "But I think she might actually try and kill this Norman guy—I should say something before they actually start fighting."
-    "But should I help her or him? He started it, and she's the one who got me this job, but she’s being so… vicious. Maybe I should try and stay neutral instead?"
+    "But should I help her or him? He started it, and she's the one who got me this job, but she's being so... vicious. Maybe I should try and stay neutral instead?"
     menu mayorAngryVoices:
         "Hey cowboy, that ain't no way to talk to the mayor!":
             jump defendMayor # {Go to [D1] [S6a] [O1]}
@@ -563,7 +563,7 @@ label mayorEmilySawyer:
             # +_ to Emily's Anger meter
             # +_ to Norman's Friendship meter
 
-        "Okay, okay, why don’t you both take a breath and calm down.":
+        "Okay, okay, why don't you both take a breath and calm down.":
             jump mediateBetweenTheTwo # {Go to [D1] [S6a] [O3]}
             #+_ to Emily's Trust meter
             # +_ to Norman's Trust meter
@@ -573,7 +573,7 @@ label defendMayor: # [D1] [S6a] [O1]
     show emily angry at right
     show norman angry at left
     with fade
-    n "Oh yeah? What are ya' gonna do about it, ya' li’l punk?"
+    n "Oh yeah? What are ya' gonna do about it, ya' li'l punk?"
     ron "You need to apologize to her, then you need to get the hell out, 'cos I ain't gonna stand here and listen to you disrespect her."
     show emily smile with dissolve
     e "Oh, pay that idiot no mind, Ron. The little rat's just been fired, after clinging to this office like crap on a shoe for far too long."
@@ -609,15 +609,15 @@ label mayorAngryVoicesJoinScene: # [D1] [S6a] [C1]
     show emily smile at right
     show norman angry at left
     with fade
-    e "Anyway, Ron, what’s the difference between these ghouls and zombies? ‘Cos that's what we thought the moldy monsters were before my Danny set us straight."
-    ron awkward "Uh…"
+    e "Anyway, Ron, what's the difference between these ghouls and zombies? ‘Cos that's what we thought the moldy monsters were before my Danny set us straight."
+    ron awkward "Uh..."
     "Her sudden tone change catches me off guard."
     ron "Eh-hem."
     ron neutral "Well, ghouls are corpses that are given life on an individual level by the summoner. Zombies are infected by a disease someone has created that's laced with magic."
     show emily confused with dissolve
     e "Huh?"
-    ron thoughtful "In simple terms, ghouls are given life by someone and will obey that person’s orders. They last until sunrise. Zombies are animated by a disease that can be spread. They last until they rot away or are killed. But outside of that, they're pretty similar. They both tear their victims apart. They're both very strong."
-    ron "But ghouls are faster, and as a part of the spell to revive them, the summoner has to ensure that at least one of the ghouls has either something important to the caster or the caster’s DNA on them. It keeps the ghoul tied to them, anchors them."
+    ron thoughtful "In simple terms, ghouls are given life by someone and will obey that person's orders. They last until sunrise. Zombies are animated by a disease that can be spread. They last until they rot away or are killed. But outside of that, they're pretty similar. They both tear their victims apart. They're both very strong."
+    ron "But ghouls are faster, and as a part of the spell to revive them, the summoner has to ensure that at least one of the ghouls has either something important to the caster or the caster's DNA on them. It keeps the ghoul tied to them, anchors them."
     ron "If the ghouls lose it, they'll just wonder around aimlessly until dawn."
     show emily smile with dissolve
     e "Ooh, I see! This is all very fascinating!"
@@ -632,19 +632,19 @@ label mayorAngryVoicesJoinScene: # [D1] [S6a] [C1]
     show emily smile
     with dissolve
     e "Ahh. Air feels cleaner already, don't it? Anyway, what did you want to ask?"
-    ron awkward "Uh…"
+    ron awkward "Uh..."
     ron neutral "Well, was anyone here the night of the attack?"
     show emily neutral with dissolve
     e "No, thank God. We had no idea until we came in the next day and found the back door smashed in."
     ron "Where were you at the time?"
     e "At a dinner meeting with the head of the town council to discuss some things."
     ron "Danny told me that three places were attacked: here, the library, and the sheriff's office. But he couldn't remember what order that was in. Do you know?"
-    e "Let me think—so today is Sunday. Yesterday must have been Saturday, so… the attack on the… I think it must have been the library. Then Friday was here. And that means Thursday must have been the sheriff's office."
+    e "Let me think—so today is Sunday. Yesterday must have been Saturday, so... the attack on the... I think it must have been the library. Then Friday was here. And that means Thursday must have been the sheriff's office."
     ron "Great, thank you. Do you have any idea what they were doing in here?"
-    e "No, we don’t have cameras inside the building—don't have the funding. The police found the bodies in here, by the smashed computer."
+    e "No, we don't have cameras inside the building—don't have the funding. The police found the bodies in here, by the smashed computer."
     ron "Where are the bodies now?"
     e "There's an emergency bunker beneath this building. We've locked them all down there, including the ones from the other scenes."
-    ron "Good call. They shouldn’t be able to re-animate anymore, but I've seen summoners put evil little booby traps in the corpses."
+    ron "Good call. They shouldn't be able to re-animate anymore, but I've seen summoners put evil little booby traps in the corpses."
     e "Oh."
     show emily sad with dissolve
     e "They're- they're not going to come back, are they? The ghouls?"
@@ -666,10 +666,10 @@ label outsideTheMayorsOffice: # [D1] [S6a] [C2] - Outside the Mayors Office
     with fade
     # Location- The Streets of Kingston
     # SFX- Crow caws, small town noises
-    "Danny is watching me uncomfortably closely as I examine the doorway of the mayor’s office building, shaking my water bottle as a I do."
+    "Danny is watching me uncomfortably closely as I examine the doorway of the mayor's office building, shaking my water bottle as a I do."
     mar thoughtful "So this is where they got in?"
-    dan "Yes, we think so. We found… bits of the corpses. Caught on the doorhandle."
-    mar "But the door… it looks fine. Doesn't look like they broke in. Was the door unlocked?"
+    dan "Yes, we think so. We found... bits of the corpses. Caught on the doorhandle."
+    mar "But the door... it looks fine. Doesn't look like they broke in. Was the door unlocked?"
     dan "I dunno. So, what exactly are you doing?"
     mar "Runes."
     dan "Runes?"
@@ -685,10 +685,10 @@ label outsideTheMayorsOffice: # [D1] [S6a] [C2] - Outside the Mayors Office
     show danny confused with dissolve
     dan "Huh?"
     mar "Magic is all about intent. To be honest, I could easily write 'protect this place from ghouls plz' on the door and, as long as I have enough intent behind it, it would work. I could even just draw a pretty picture of a ghoul's head exploding."
-    mar "But in all things magical, the… 'vibe' is incredibly important. Like… think of it as an actor. You give an actor a terrible script, then no matter how good they are, the feeling they put into it isn't going to be the same as if it's a great script."
+    mar "But in all things magical, the... 'vibe' is incredibly important. Like... think of it as an actor. You give an actor a terrible script, then no matter how good they are, the feeling they put into it isn't going to be the same as if it's a great script."
     mar "Runes can channel magic better than normal words because of their perceived mysticism. Also, your average person going by won't have any idea what it's saying. That can be very useful."
-    dan "But wait, if you’re using runes, what was all that time making charms for?"
-    mar "The magic works better if there’s multiple elements working in harmony to achieve the same goal. Also, this way, if one is bypassed for some reason, the other can act as a failsafe."
+    dan "But wait, if you're using runes, what was all that time making charms for?"
+    mar "The magic works better if there's multiple elements working in harmony to achieve the same goal. Also, this way, if one is bypassed for some reason, the other can act as a failsafe."
     show danny thoughtful with dissolve
     dan "I see."
     mar "I'll be honest, studying runes is more a Level Two Witch thing, and I'm just at Level One. I only know a handful of runes. But there are two—technically three—that I need here."
@@ -702,7 +702,7 @@ label outsideTheMayorsOffice: # [D1] [S6a] [C2] - Outside the Mayors Office
     mar "The first one—the one that looks like a capital Y with a stick in the middle—that's Algiz. It's a protection rune."
     dan "Right."
     mar "The other two, they're a bound rune—two runes put together. Originally, there's one that looks like a stickman shrugging. That's Ear. The interpretation on that's a bit vague, but I'm using it to mean 'death.'"
-    mar "The final rune is Kaunan. Looks like the less-than math symbol. Or crocodile jaws. I'm using it to mean ‘fire.’ So, putting them together: burn the dead. The three of them will protect the building and burn anything dead that tries to enter it."
+    mar "The final rune is Kaunan. Looks like the less-than math symbol. Or crocodile jaws. I'm using it to mean ‘fire.' So, putting them together: burn the dead. The three of them will protect the building and burn anything dead that tries to enter it."
     ron "But, uh, won't the rain wash the runes away once you've done them?"
     mar smile "Nope! Once the spell is complete, nothing can wash it off. The spell will keep going until either ninety days pass or each rune is struck through—also with blood."
     dan "I see."
@@ -732,11 +732,11 @@ label outsideTheMayorsOffice: # [D1] [S6a] [C2] - Outside the Mayors Office
     dan "I- I'm not scared of you, Norman!"
     "Norman takes a menacing step forward."
     show danny scared with dissolve
-    dan "Uh- but I think I can hear Ron calling… Got to go!"
+    dan "Uh- but I think I can hear Ron calling... Got to go!"
     hide danny with dissolve
     "Coward. Nathaniel's eyes turn back to me."
     show norman suspicious with dissolve
-    n "… You… you don't work for Sawyer?"
+    n "... You... you don't work for Sawyer?"
     mar "You mean Danny's mom, the mayor? No, I haven't met her."
     n "Or the council?"
     mar "No!"
@@ -749,13 +749,13 @@ label outsideTheMayorsOffice: # [D1] [S6a] [C2] - Outside the Mayors Office
     n "The council is full of a bunch of old, power-hungry farts, led by that spoilt bastard, Chris Maddux. And the mayor—well, she's a conniving witch."
     mar "Really?"
     n "Don't trust her. No matter how much she prattles on about 'helping Kingston,' and 'bringing it into the modern age,' she's just here for the power."
-    n "It's all she cares about—she has this whole town wrapped around her damn finger. And has done for… well, for too long."
+    n "It's all she cares about—she has this whole town wrapped around her damn finger. And has done for... well, for too long."
     "The hell is he talking about?"
     mar "Why? What's she done?"
     n "That ain't none of your business. But listen, the long an' the short of it is this: don't trust no one in Kingston. They all got secrets and agendas."
     n "An' we got some real freaks, too, like the homo half-elf up at the school. Why these fools would ever let someone like that around kids is beyond me."
     "Wow, what a charmer."
-    "If we're looking for someone who hates the town and would want to destroy it, I think there’s a good candidate here."
+    "If we're looking for someone who hates the town and would want to destroy it, I think there's a good candidate here."
     mar "Has she done something to you?"
     show norman moody with dissolve
     n "That ain't none of your business."
@@ -767,13 +767,13 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
     # FADE IN
     scene bg mayors_office
     show emily neutral at center with dissolve
-    ron neutral "Do you mind if I have a quick look over the desk that was destroyed? In fact, I should have a look round the whole office if this was the ghouls’ target."
-    e "Go ahead. I need to visit the li’l girls’ room anyway, so I'll give you some privacy."
+    ron neutral "Do you mind if I have a quick look over the desk that was destroyed? In fact, I should have a look round the whole office if this was the ghouls' target."
+    e "Go ahead. I need to visit the li'l girls' room anyway, so I'll give you some privacy."
     ron "Thank you ma'am."
     hide emily with dissolve
     "As Mayor walks out of her office, I look around her room. The assistant's desk is completely destroyed. A total wreckage. I don't think I'll be able to find much there. But there's a lot of interesting things around the office that catch my eye."
     # Search in Mayor's office
-    # We have a search game around the mayor’s office. There are several things that must be clicked on, and some that can be. When each are selected, Ron will give commentary.
+    # We have a search game around the mayor's office. There are several things that must be clicked on, and some that can be. When each are selected, Ron will give commentary.
 
     # Emily's Diploma (Compulsory)
     # We see a certificate. The writing is very fancy. It is titled 'Barkson Law School' and has the slogan 'Etiam dii et reges ad Dominae Iustitiae potestatem flectere debent'. In the centre is the name Emily Sawyer. However, the paper of the certificate under the name is a very slightly different colour, as if a tiny bit of paper with the name written on it was stuck onto the certificate.
@@ -805,11 +805,11 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
 
     # E. Sawyer
     # Mayor Emily Sawyer
-    "Hmm, so this is Norman's letter of termination. It seems funds have been going missing… and they think it's Norman? Very interesting."
+    "Hmm, so this is Norman's letter of termination. It seems funds have been going missing... and they think it's Norman? Very interesting."
 
 
     # A post-it note (Optional)
-    # Stuck to the mayor’s computer is a yellow post-it note that reads: 'Don't forget to ask Jeff to higher Marianna and Bethany.'
+    # Stuck to the mayor's computer is a yellow post-it note that reads: 'Don't forget to ask Jeff to higher Marianna and Bethany.'
     "Marianna and Bethany? Wonder what they did to get a favor from the mayor."
 
 
@@ -818,7 +818,7 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
     "Aw. That's sweet."
 
     # The Diary (Compulsory)
-    # The diary is lying open on Emily's desk, showing last week’s entries, which are as follows:
+    # The diary is lying open on Emily's desk, showing last week's entries, which are as follows:
     "Monday 6th May"
     "15:00	Meeting with treasury guy—Tony? Terry? Terrance? Something T"
 
@@ -861,12 +861,12 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
     "Victory for Were's over MeTuber!"
     "This Wednesday saw the dramatic conclusion of the Manny Rudeson vs Were Commune of Harris County case. The sentence came back today: GUILTY on all counts."
     "For those of you who haven't been keeping up with the case, we have all details of the events as described by the legal representative of the Were Commune of Harris County, Miss Emily Sawyer."
-    "On the fourth of November, two years ago, Manny Rudeson snuck onto Were Commune grounds. This day was the first day of the full moon, and Rudeson found his way into the area containing the cages that the predator Weres are locked in for the three nights. He hid himself there and, as the sun set, filmed Miss Sawyer's clients as they stripped down naked and began their painful physical transformation. He continued filming her clients all night. During this time, Rudeson often acted to deliberately anger the transformed Weres by using a stick to poke them through the cage’s bars."
+    "On the fourth of November, two years ago, Manny Rudeson snuck onto Were Commune grounds. This day was the first day of the full moon, and Rudeson found his way into the area containing the cages that the predator Weres are locked in for the three nights. He hid himself there and, as the sun set, filmed Miss Sawyer's clients as they stripped down naked and began their painful physical transformation. He continued filming her clients all night. During this time, Rudeson often acted to deliberately anger the transformed Weres by using a stick to poke them through the cage's bars."
     "Rudeson even went so far as to put his hand into some of the cages, pulling it out when the Weres tried to bite it."
-    "Rudeson then left the compound with the help of a guard he had bribed and went home to upload the video to the internet, violating the Weres’ privacy."
+    "Rudeson then left the compound with the help of a guard he had bribed and went home to upload the video to the internet, violating the Weres' privacy."
     "During this case, the two lawyers made vastly different legal arguments."
     "Miss Sawyer pointed out that the Were-animal community is an often-abused minority, citing multiple scandals from the last five years of cruelty aimed at the Weres that were perpetrated by the humans that run the Were communes and provide security."
-    "Some of her most dramatic lines included: 'These people have been infected by a terrifying, life altering disease. And our society's reaction? Lock them away, not just for the nights of the full moon, but twenty-four-seven. The Lycanthropy condition can be dangerous to both the infected and those around them, but it doesn't mean they are any less human. Rudeson and his video have treated my clients like exhibits in a freak show. Just because we unfairly push Weres to the outskirts of society, doesn’t mean they are not owed their privacy and dignity.'"
+    "Some of her most dramatic lines included: 'These people have been infected by a terrifying, life altering disease. And our society's reaction? Lock them away, not just for the nights of the full moon, but twenty-four-seven. The Lycanthropy condition can be dangerous to both the infected and those around them, but it doesn't mean they are any less human. Rudeson and his video have treated my clients like exhibits in a freak show. Just because we unfairly push Weres to the outskirts of society, doesn't mean they are not owed their privacy and dignity.'"
     "Rudeson's lawyer, however, had a very different opinion of the Were-community. His argument included: 'Were-communes are funded by taxpayer money. Surely my client, as a tax-paying American, has the right not only to see what his money is funding, but also to share that information with his followers. This is a freedom of information issue.'"
     "Evidently, Sawyer's argument won over the judge, and Rudeson was ordered to give the individuals his video captured a total of $15,000 as well as all money made from the video, take down the video, and pay all court fees."
     "Rudeson was angered by the ruling and has suggested that he may contest it, telling reporters, 'I ain't giving those freaks a single dime! And darn that monster-screwing lawyer!'"
@@ -893,29 +893,29 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
     "Yesterday a judge ruled that Marvin, the Austin Zoo's prize Yeti, will not be put down and was not culpable for the death of a child."
     "Emily Sawyer, the lawyer representing the zoo, swayed the judge after showing CCTV footage of the child's mother dangling her son over the pit in which Marvin was kept. The mother, Mrs. Dias, then tragically dropped the child, who landed directly onto the sleeping yeti, who proceeded to hit the child into the wall, causing his death."
     "Now that this tragic case has come to a close, judge Benjamin Roosevelt ruled that the death was accidental. Marvin was simply acting on instinct when he struck the child and would not be put down."
-    "Sawyer said that 'This was a great victory for justice. Although it is our duty to acknowledge the tragedy of this situation, we must also remember that Martin is an animal. There was no cruelty in his actions. No hatred. Just the pure instincts that would keep him alive in his natural habitat.’"
+    "Sawyer said that 'This was a great victory for justice. Although it is our duty to acknowledge the tragedy of this situation, we must also remember that Martin is an animal. There was no cruelty in his actions. No hatred. Just the pure instincts that would keep him alive in his natural habitat.'"
     "The Dias' and their representative were not available for comment."
 
     "She really was a defender of all magical beings."
 
 
     # The Pillar (Optional)
-    # In a large case hanging on the wall behind the mayor’s desk is a rotting black wooden post, covered in runes and marks. There is a small plaque that reads 'One of the five protection pillars of Kingston'.
+    # In a large case hanging on the wall behind the mayor's desk is a rotting black wooden post, covered in runes and marks. There is a small plaque that reads 'One of the five protection pillars of Kingston'.
 
     "What the hell is that?"
 
 
     # The Memo (Compulsory)
-    # A neatly handwritten memo lying on the mayor’s desk that reads, 'Emily, I am dismayed to once again inform you that $5,000 has gone unaccounted for in the town’s treasury, despite the more vigorous security systems put in place. The possibility of getting this officially investigated has come up, but we'll need you to sign off on this. Paris.'
+    # A neatly handwritten memo lying on the mayor's desk that reads, 'Emily, I am dismayed to once again inform you that $5,000 has gone unaccounted for in the town's treasury, despite the more vigorous security systems put in place. The possibility of getting this officially investigated has come up, but we'll need you to sign off on this. Paris.'
 
     "Oh dear. That's worrying—missing money."
 
 
     # Receipt (Compulsory)
     # A receipt on the mayor's desk. It's from a shop called The Magical Tome Emporium. The receipt lists three books:
-    "The History of the 13 Branches of Thremmatology…………………………………………………… $23.99"
-    "The Idiot’s Guide to Ghouls…………………………………………………………………………………………$14.99"
-    "A Visual Tour of Bellua Island………………………………………………………………………………………$29.99"
+    "The History of the 13 Branches of Thremmatology............................................................ $23.99"
+    "The Idiot's Guide to Ghouls......................................................................................................$14.99"
+    "A Visual Tour of Bellua Island...................................................................................................$29.99"
     "The receipt is dated the May 9th."
 
     "Hmm. Looks like Emily has an interesting reading list."
@@ -929,7 +929,7 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
     "Norman"
 
     "So, Norman wanted his salary early? I wonder why."
-    "He's also really bad at spelling…"
+    "He's also really bad at spelling..."
 
 
     # St. John's Wart (Compulsory)
@@ -937,7 +937,7 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
 
     "That's strange, why is there a plant here?"
 
-    # Once all the compulsory things have been found, an 'Exit' button will appear at the top right of the screen. After ‘Exit’ is hit, the scene continues.
+    # Once all the compulsory things have been found, an 'Exit' button will appear at the top right of the screen. After ‘Exit' is hit, the scene continues.
 
     "As I give the room a final once-over, Emily returns."
     show emily neutral at right with dissolve
@@ -947,7 +947,7 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
     mar "Hiya. I'm all done, Ron. Put up the runes and used two charms—front door and back. None of the windows are big enough to need it."
     show emily confused with dissolve
     e "What's she talking about?"
-    ron "Oh, Marley put special charms at each of the building’s entrances. Should give some protection if anything happens again."
+    ron "Oh, Marley put special charms at each of the building's entrances. Should give some protection if anything happens again."
     show emily smile with dissolve
     e "Oh, thank you! That's so kind of you."
     show emily neutral with dissolve
@@ -956,7 +956,7 @@ label searchingTheBustedUpDesk: # [D1] [S6a] [C3] - Searching the busted up desk
     e "And I want justice, against whoever has been doing this. Etiam dii et reges ad Dominae Iustitiae potestatem flectere debent."
     ron confused "Huh?"
     show marley thoughtful with dissolve
-    mar "It's Latin. Something about… gods and kings—"
+    mar "It's Latin. Something about... gods and kings—"
     show emily smile with dissolve
     e "'Even gods and kings must kneel to the might of Lady Justice.' The moto of my university, words to live by."
     ron neutral "Well that's nice. Marley, where's Danny?"
@@ -985,7 +985,7 @@ label mayorEmilySawyer2: # [D1] [S6b] [Optional]- Mayor Emily Sawyer 2
     with dissolve
     dan "Mom, I told you not to call me that! I'm twenty-six; I'm not a kid anymore!"
     show emily awkward with dissolve
-    e "Sorry, sorry, I keep forgetting you don’t like being called that. I'll try to be better."
+    e "Sorry, sorry, I keep forgetting you don't like being called that. I'll try to be better."
     dan "Good."
     show danny neutral with dissolve
     dan "Now, can I borrow some money? I'm super broke."
@@ -1024,17 +1024,17 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
     ron "Did you guys not hear—"
     dan "Come on Ron, this is important! It's about the sheriff."
     ron curious "Oh yeah? What about them?"
-    dan "You… you know him."
+    dan "You... you know him."
     ron "Huh?"
     dan "We went to school with him."
     ron worried "Who is it?"
-    dan "Uh…"
+    dan "Uh..."
     ron "Danny, who is it?"
     show terry smile at center with dissolve
     ter "Ron, you old dog, is that you?"
     "Oh crap oh crap oh crap oh crap oh crap."
     ron awkward "Terry Maddux—how nice to see you again after all these years."
-    "I have literally had a vampire pin me down and try to tear out my throat. Not the sexy type either. The face-melty, ugly ones that smell like rats. I've had evil priests try to rip out my heart. I’ve had an infernal possess me."
+    "I have literally had a vampire pin me down and try to tear out my throat. Not the sexy type either. The face-melty, ugly ones that smell like rats. I've had evil priests try to rip out my heart. I've had an infernal possess me."
     "I'd rather go through any of those again than be here, with him."
     ter "Gosh, it's been so long!"
     ron "Yes, the last time we saw each other was when you broke into the principal's office and announced I was 'one of them queers' over the loudspeakers."
@@ -1042,7 +1042,7 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
     ron neutral "Yeah. A smidge."
     ter "My bad, haha. Hey Danny, go grab me a coffee, will you? Black. Machine's over there."
     show danny neutral with dissolve
-    dan "Uh… sure. Be right back."
+    dan "Uh... sure. Be right back."
     show marley neutral with dissolve
     ron "This definitely isn't where I figured you'd end up. Didn't you get a scholarship somewhere?"
     show terry awkward with dissolve
@@ -1051,30 +1051,30 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
     ter "Ooh, and, who's this fine filly?"
     show marley confused with dissolve
     ron "This is Marley, my assistant."
-    ter "Oh, thank the Lord. I was worried you’d turned straight and this was your missus."
-    ron "Uh… no. No, still gay."
+    ter "Oh, thank the Lord. I was worried you'd turned straight and this was your missus."
+    ron "Uh... no. No, still gay."
     ter "So, uh, are you single then, ma'am?"
     show marley moody with dissolve
     mar "Why do you ask?"
-    ter "’Cos you've dang near taken my breath away."
+    ter "'Cos you've dang near taken my breath away."
     mar "I wish that was literal. Your halitosis is a serious problem."
     show terry confused with dissolve
-    ter "Well, uh… that's mighty kind of you to say, ma'am."
+    ter "Well, uh... that's mighty kind of you to say, ma'am."
     show terry neutral with dissolve
     "From the look on Marley's face, I think I'd better step in before she gives the idiot a black eye."
-    ron "So, uh, this place was attacked? As was the mayor’s office and the library? What happened?"
-    ter "Well, this was attacked on Saturday—after the attack on the library, two days after the mayor’s office. In the dead of night, one of the bastards came in and attacked my poor Chief Deputy, Derek Prikus, who was working late. Wrecked his desk."
+    ron "So, uh, this place was attacked? As was the mayor's office and the library? What happened?"
+    ter "Well, this was attacked on Saturday—after the attack on the library, two days after the mayor's office. In the dead of night, one of the bastards came in and attacked my poor Chief Deputy, Derek Prikus, who was working late. Wrecked his desk."
     ter "He's fine. Physically. It seems to have given his nerves a bit of a crack. He's been committed to the psych ward at a nearby hospital, ranting and raving like a loon. Luckily for the guy, I was there and managed to beat the little wretch back."
     ron "And where were you when the attack happened?"
     ter "I was out with your Danny. I was trying to teach him how to hunt."
     show terry moody with dissolve
-    ter "Difficult to do when that weasel of a mayor has got the land ’round here designated as no hunting. Typical woman, always ruining people’s fun."
+    ter "Difficult to do when that weasel of a mayor has got the land 'round here designated as no hunting. Typical woman, always ruining people's fun."
     "Ugh—why would Danny want to spend time with this idiot?"
-    ron "Why don’t you show us where the attack happened?"
+    ron "Why don't you show us where the attack happened?"
     show terry neutral with dissolve
     ter "Right there, over by the chief deputy's desk."
     # Search in Sheriff's office
-    # We mainly see Derek's desk- completely destroyed, the computer nothing but a wreck. There are odd things all over the desk- a picture frame, pot of pens, etc. Next to Derek's desk is Ted’s desk. It is a mess. Wrappers, papers, even moldy food.
+    # We mainly see Derek's desk- completely destroyed, the computer nothing but a wreck. There are odd things all over the desk- a picture frame, pot of pens, etc. Next to Derek's desk is Ted's desk. It is a mess. Wrappers, papers, even moldy food.
 
 
     # Calendar (Compulsory)
@@ -1095,21 +1095,21 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
 
 
     # Photo 2 (Optional)
-    # This photo is better looked after than the first, still on Terry's desk, and sits in a fancy frame. It shows a young Terry sitting on an old man’s lap. The man looks like an older version of Chris. This is Freddy Maddux.
+    # This photo is better looked after than the first, still on Terry's desk, and sits in a fancy frame. It shows a young Terry sitting on an old man's lap. The man looks like an older version of Chris. This is Freddy Maddux.
 
     "Hm. Guess this must be young Terry and his grandpa or uncle or something. This photo looks a lot more taken care of than the rest of the stuff on this desk."
 
 
     # Book (Compulsory)
-    # Terry's desk. Underneath a ragged pile of papers and a half-eaten doughnut, sits a pristine, untouched book- The Idiot’s Guide to Magic.
+    # Terry's desk. Underneath a ragged pile of papers and a half-eaten doughnut, sits a pristine, untouched book- The Idiot's Guide to Magic.
 
-    "Huh. Looks like Terry's been researching magic. Or… meaning to. This looks untouched."
+    "Huh. Looks like Terry's been researching magic. Or... meaning to. This looks untouched."
 
 
     # Small pile of ripped up paper (Compulsory)
     # Around Terry's bin is scattered small scraps of paper. When clicked on, we see one of the lager scraps- a top corner that reads 'Arrest File of-' The rest is cut off.
 
-    "This… this looks important! Should it be here?!"
+    "This... this looks important! Should it be here?!"
 
 
     # Evidence Bag (Compulsory)
@@ -1132,7 +1132,7 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
     "Date 	Tuesday, June 7th, 12:16 pm"
     "Subject: Re: Re: Re: Re: Re: Meeting"
 
-    "Fine. At som pont today I’ll pick a time with u."
+    "Fine. At som pont today I'll pick a time with u."
 
 
     "From: 	Derek_Prikus@Kingstonsheriffsoffice.com"
@@ -1210,7 +1210,7 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
 
 
     # Request to stay late (Compulsory)
-    # This is a memo in the wreckage of Derek’s desk. It is written in Terry's handwriting, but there's teacher style corrections over it in red-
+    # This is a memo in the wreckage of Derek's desk. It is written in Terry's handwriting, but there's teacher style corrections over it in red-
     "Meamo"
     "Fri, June 10th "
     "Hi Darek,"
@@ -1218,12 +1218,12 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
     "Thanxs!"
 
     "Man, these two do not get along."
-    "Wait, hang on— this is dated for Friday. The day Terry said this place was attacked. So then, Terry is the reason that his deputy was here to be attacked. That might be just a coincidence… but Derek does seem to hate Terry…"
+    "Wait, hang on— this is dated for Friday. The day Terry said this place was attacked. So then, Terry is the reason that his deputy was here to be attacked. That might be just a coincidence... but Derek does seem to hate Terry..."
 
     # USB stick (Compulsory)
     # There are the remains of a drawer, which, when clicked on, will turn over, revealing a small USB stick taped to the back of it. 
 
-    "Hmm… Looks like the deputy used a trick I've done myself. Tape something you don’t want found to the underside or back of a drawer."
+    "Hmm... Looks like the deputy used a trick I've done myself. Tape something you don't want found to the underside or back of a drawer."
     "First time I used it was when I wanted to hide Men's Sports: Swimsuit Edition from my parents."
 
 
@@ -1231,8 +1231,8 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
     ter "That's a pretty accent ya got there, Miss Marley. Where ya from?"
     mar "England."
     ter "Oh awesome, whereabouts? Maine? You look like a Maine girl."
-    mar "…Old England. Not New."
-    "I snatch up the hidden flash drive and tuck the yearbook under my coat while Terry’s distracted making goo-goo eyes at a very irritated Marley."
+    mar "...Old England. Not New."
+    "I snatch up the hidden flash drive and tuck the yearbook under my coat while Terry's distracted making goo-goo eyes at a very irritated Marley."
     ron "Whoever was controlling them ghouls really wanted that computer destroyed."
     mar "You think the chief deputy might have been investigating the summoner and this was to cover it up?"
     ron "The idea has cross my mind."
@@ -1250,7 +1250,7 @@ label terryMadux: # [D1] [S6c]- Terry Maddux
             jump defendTerry # {Go to [D1] [S6c] [O2]}
             # +_ to Terry's Friendship meter
         
-        "And that's your professional opinion, is it? Do you have any suspects? Any one in town with a record who you think would go this far to 'cause a ruckus'? ’Cos ghoul summoning spells, they're forbidden by all the magic councils. Mighty tricky to get a hold of one.":
+        "And that's your professional opinion, is it? Do you have any suspects? Any one in town with a record who you think would go this far to 'cause a ruckus'? 'Cos ghoul summoning spells, they're forbidden by all the magic councils. Mighty tricky to get a hold of one.":
             jump makeTerryTrustYou # {Go to [D1] [S6c] [O3]}
             #+_ to Terry's Trust meter
 
@@ -1270,15 +1270,15 @@ label attackVerballyTerry: # [D1] [S6c] [O1]
     ter "Oh I don't know, 'cos they've got a damn chip on their shoulder about how they didn't fit in or whatever, or they're hungry for power or some bullcrap."
     "The unvoiced accusation hangs in the air. I can practically hear it."
     "'People like you, Ron.'"
-    ter "*Sigh* Look, Ron, I get it. Our time here when we were kids weren't… great. But we're adults now. We need to be better than we were. So… so I understand why you don't trust me. But… we gotta work together on this."
+    ter "*Sigh* Look, Ron, I get it. Our time here when we were kids weren't... great. But we're adults now. We need to be better than we were. So... so I understand why you don't trust me. But... we gotta work together on this."
     show terry serious with dissolve
     ter "So, for the sake of this investigation, I'll be a bigger man than I was when I was a boy. And say that I'm sorry. About the way I treated you, back then."
-    "…"
-    "…"
+    "..."
+    "..."
     "BULLCRAP."
     "I ain't never heard such bullcrap before."
     "Terry's full of crap."
-    "But… but if I call him on it, I'll look like a petulant child."
+    "But... but if I call him on it, I'll look like a petulant child."
     "So, I smile."
     ron smile "Well, that's mighty good of you to say, Terry."
     ron "I ain't here to get revenge or nothing. I'm here to solve the case. And we have to work together on that. I'll do what I can to make that goal come true."
@@ -1286,8 +1286,8 @@ label attackVerballyTerry: # [D1] [S6c] [O1]
     ter "Good. I know that we can put our differences aside and crack this puzzle together."
     "Bull."
     "Crap."
-    "He looks like some darn kids’ TV character, talking about peace and working together."
-    "I can smell the lies on his stinkin’ breath."
+    "He looks like some darn kids' TV character, talking about peace and working together."
+    "I can smell the lies on his stinkin' breath."
     jump terryMaduxJoinScene # Go to [D1] [S6c] [C1] 
 
 label defendTerry: # [D1] [S6c] [O2]
@@ -1319,7 +1319,7 @@ label makeTerryTrustYou: # [D1] [S6c] [O3]
     show terry thoughtful with dissolve
     ter "Well, I have a few guesses in mind. But no one with a record or nothing."
     show terry neutral with dissolve
-    ter "But there are people ’round here who've got problems with the town. Who'd pull something like that just as an eff-you to Kingston."
+    ter "But there are people 'round here who've got problems with the town. Who'd pull something like that just as an eff-you to Kingston."
     # Bottom sprite- Ron (Confused)
     ron "Huh? Why would anyone hate Kingston?"
     ter "Beats me. I love this town."
@@ -1330,13 +1330,13 @@ label terryMaduxJoinScene: # [D1] [S6c] [C1]
     show terry neutral at left
     show marley neutral at right
     with dissolve
-    ter "Anywho, where's that dang Danny with my cup o’ joe?"
+    ter "Anywho, where's that dang Danny with my cup o' joe?"
     hide terry with dissolve
     ron neutral "You know something, Mar?"
     mar "What, Ron?"
     ron "I got a hunch there's more to this whole mess than meets the eye."
-    mar "You don’t say. Let me just put up some protection charms, then we can go. Looks like I'll need four—those windows there, there, the front door and the back."
-    ron "Get Danny to help you if you don’t mind. It’ll give him an excuse not to deal with Terry."
+    mar "You don't say. Let me just put up some protection charms, then we can go. Looks like I'll need four—those windows there, there, the front door and the back."
+    ron "Get Danny to help you if you don't mind. It'll give him an excuse not to deal with Terry."
     # FADE OUT
     # Return to MAP
 

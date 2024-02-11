@@ -1,5 +1,4 @@
 label start:
-    jump d1s4
     scene black
 
     pause 1.0

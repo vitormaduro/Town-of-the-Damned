@@ -33,7 +33,7 @@ label d1s4:
     m "No. I am a Witch. A person who connects to nature for magical powers."
     w "Hm. Humans. Always chasing power like a pup chases a squirrel. Ignorant of or uncaring for whatever you trample under-paw in your never-ending hunt for your goal."
 
-    "Well… she's not wrong. I can feel the anger and rage at humans, nestled deep in her lupine heart. Perhaps it's best if I change the topic."
+    "Well... she's not wrong. I can feel the anger and rage at humans, nestled deep in her lupine heart. Perhaps it's best if I change the topic."
     "I'm surprised to see a wolf here at all—I did some research on the wildlife in this area on the way over—the wolves that once lived here were wiped out ages ago."
 
     m "This must be lonely hunting for you, sister. Your pack must be the only one for many territories."
@@ -46,7 +46,7 @@ label d1s4:
 
     "The what?"
 
-    m "The… un-us?"
+    m "The... un-us?"
     w "Those that {i}look{/i} like us, but are not us. The more you look, the more you see—they're short, with too-long limbs, too-silky hair, stretched out faces. Eyes to black. Glassy. Their words so garbled. A false reflection of us."
     w "They are beasts of humans—like their perverted cubs."
 
@@ -76,16 +76,16 @@ label d1s4o1:
 
     w "{i}*Huff*{/i} Fine. If you are so curious, I will tell you. But watch that curiosity of yours, Witch. Many a sibling have followed their curiosity, only to have it ensnare them."
 
-    "Well, that’s something I can definitely relate to."
+    "Well, that's something I can definitely relate to."
 
     m "Thank you sister—your advice is good—I will remember it."
-    w "Good. Here is my pack’s story. Heed it well. It all began many years ago, when my mother’s mother’s mother was barely older than a cub. This is her story. She still lived with her parents and brethren. One day, they smelt another wolf in their territory."
+    w "Good. Here is my pack's story. Heed it well. It all began many years ago, when my mother's mother's mother was barely older than a cub. This is her story. She still lived with her parents and brethren. One day, they smelt another wolf in their territory."
     w "They tracked him down and found a male. But rather than fight, he begged them to listen to him. He spoke of the hardship his pack faced in their old territory—competing for food and hiding from humans and their fire sticks."
-    w "He said that he knew a place where they would be safe and have plenty of prey. He offered to lead them there. My mother’s mother’s mother’s father was very suspicious of this too-perfect promise."
+    w "He said that he knew a place where they would be safe and have plenty of prey. He offered to lead them there. My mother's mother's mother's father was very suspicious of this too-perfect promise."
     w "But my foremother... one look at this stranger, and she knew she would follow him to the ends of the earth. He was strong, but clever too—the cleverest wolf she had ever met. So, she begged her father to listen. And eventually, he agreed."
     w "The stranger eventually convinced three packs to follow him to this promised land. It was a long and painful journey—hiding by day, sneaking through the strange, busy human territories by night. It was terrifying."
     w "But over the journey, the stranger and my foremother fell in love and became mates. Eventually, the three packs reached this land. And at first, all seemed perfect. Their prey was plentiful and easy to catch."
-    w "Occasionally a wolf would be killed by one of the human’s sticks, but it was rare enough that they could manage. For my foremother, life seemed like a dream. Her mate was sweet and kind and tough, and when they had pups, he was a wonderful father."
+    w "Occasionally a wolf would be killed by one of the human's sticks, but it was rare enough that they could manage. For my foremother, life seemed like a dream. Her mate was sweet and kind and tough, and when they had pups, he was a wonderful father."
     w "Except for one thing: he was barely there during the time of the light while she slept. He usually returned soon after she woke to hunt, but when she woke during the middle of the light time, his side of the den was cold."
     w "And sometimes, when he was there, he'd be... different. None of that intelligent spark. More aggressive. Obsessed with the hunt. And then he wouldn't remember what happened during those times."
     w "So, one day, my foremother decided to follow him after the lighting of the sky to see where he went. It's hard to stalk a wolf like you'd stalk prey."
@@ -98,26 +98,26 @@ label d1s4o1:
     w "A human who smelt of the wolf. They watched in horror as the man turned back into their brethren. But when he tried to leave the metal bushes enclosure, out stepped my foremother and the other wolves."
     w "They told him that if he dared show his face near any of their dens again, they would rip him apart. He was not a wolf and not their brother. The not-wolf begged them to listen, insisted that he was one of them, more one of them than one of the humans."
     w "But the wolves felt too deceived—they had trusted him, followed him far from their old dens—and he was not even a true wolf. He went to my foremother, asked for her to listen, to think of the love they shared—and the cubs."
-    w "And she struck him. Bit deep into his neck until her mate’s blood dribbled into her mouth. Terrified and heartbroken, he ripped himself free and fled. They never saw him again."
+    w "And she struck him. Bit deep into his neck until her mate's blood dribbled into her mouth. Terrified and heartbroken, he ripped himself free and fled. They never saw him again."
     w "As for my foremother—life was difficult, raising her pups alone. No other wolf would come near her pups if they could help it, for they were his pups too. Sometimes, as they grew, she'd wake during the light time and find the den empty."
-    w "She'd go outside and there her pups would be, staring up at the moon’s bright brother the same as she gazed at the moon. They were smart too, like their father. Often she'd find them too close to the human territories, watching them curiously."
+    w "She'd go outside and there her pups would be, staring up at the moon's bright brother the same as she gazed at the moon. They were smart too, like their father. Often she'd find them too close to the human territories, watching them curiously."
     w "Of her five pups, only one found a mate, as most were too scared to go near them. And from the litters that came from that coupling, only one wolf reached adulthood, as the prey grew scarcer and the humans and their fire sticks crept into the woods more and more."
     w "And many of my blood fell to the allure of your people. And they were shot. And some just disappeared. The single surviving wolf of that line had only one litter—my litter."
     w "And of them, most have died or disappeared. The other packs have died out too. I am the last wolf left from the families the not-wolf brought here. And the last of {i}his{/i} descendants."
-    w "Although many generations have diluted his blood in my body, I still feel it—the lure of the moon’s bright brother, the call of the humans and their strange above ground dens that reach as high as the trees."
-    w "When my final hunt is over, my body given over for the scavengers to feast on, it gives me peace to know that no more of the not-wolf’s children will walk this earth."
+    w "Although many generations have diluted his blood in my body, I still feel it—the lure of the moon's bright brother, the call of the humans and their strange above ground dens that reach as high as the trees."
+    w "When my final hunt is over, my body given over for the scavengers to feast on, it gives me peace to know that no more of the not-wolf's children will walk this earth."
     w "Sometimes, at the height of the light-time, I think I can feel him. In my blood. My heart. Longing to stretch out my paws until they lengthen. Pull myself up on my hind legs and reach up as high as I can. To feel the wind on my bare skin, free from fur."
     w "It's wrong to want these things. Unnatural. That urge will die with me."
 
-    "Finally, the wolf falls silent, giving me time to mull over her story. It sounds like, many years ago, her pack encountered… No. No, they couldn't have. They're an incredibly regulated group of people. No way one could live out here."
-    "But… it is very isolated..."
+    "Finally, the wolf falls silent, giving me time to mull over her story. It sounds like, many years ago, her pack encountered... No. No, they couldn't have. They're an incredibly regulated group of people. No way one could live out here."
+    "But... it is very isolated..."
     "Well, dogs can have vivid imaginations, maybe wolves can too. But I probably shouldn't tell her that. Remember—respectful."
 
-    m "Thank you for telling me your pack’s story. I am sorry for the pain of your past."
+    m "Thank you for telling me your pack's story. I am sorry for the pain of your past."
     w "Remember the tale, Witch. Remember that the face a stranger shows can be a well-made lie. And you never know what's behind it."
     m "Thank you, sister. I will not forget your advice."
-    w "I need to go. The more time I spend in the light, the more I can feel the unnatural desire to… change."
-    m "Go in peace, sister. Regardless of your family’s past, I wish you well. May your hunts be plentiful. May you always find fresh water. And when your time is done, may the earth accept your remains with open arms as you return to the Mother of all life."
+    w "I need to go. The more time I spend in the light, the more I can feel the unnatural desire to... change."
+    m "Go in peace, sister. Regardless of your family's past, I wish you well. May your hunts be plentiful. May you always find fresh water. And when your time is done, may the earth accept your remains with open arms as you return to the Mother of all life."
 
     "The wolf cocks her head at me."
 

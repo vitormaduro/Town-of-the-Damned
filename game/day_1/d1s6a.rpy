@@ -51,7 +51,7 @@ label d1s6a:
 
     show emily fake smile at right with dissolve
 
-    e "So, Ron, you’re here to investigate the vandal attacks. Is that right?"
+    e "So, Ron, you're here to investigate the vandal attacks. Is that right?"
 
     "Oh right, Danny said that they were telling the townsfolk that it was vandals. That must include the secretary."
 
@@ -66,11 +66,11 @@ label d1s6a:
 
     show emily moody at right with dissolve
 
-    e "Why don’t you do the whole world a favor, Norman; go take a li’l dip in Sandero Lake, swim down to the very bottom, and stay there until you drown."
+    e "Why don't you do the whole world a favor, Norman; go take a li'l dip in Sandero Lake, swim down to the very bottom, and stay there until you drown."
 
     "Jesus Christ! As a kid, I went around to Mayor Emily's house hundreds of times—she never even raised her voice once."
     "But I think she might actually try and kill this Norman guy—I should say something before they actually start fighting."
-    "But should I help her or him? He started it, and she's the one who got me this job, but she’s being so… vicious. Maybe I should try and stay neutral instead?"
+    "But should I help her or him? He started it, and she's the one who got me this job, but she's being so... vicious. Maybe I should try and stay neutral instead?"
 
     menu:
         "Hey cowboy, that ain't no way to talk to the mayor!":
@@ -79,7 +79,7 @@ label d1s6a:
         "Maybe go easier on him, Mayor Sawyer—that's kinda intense.":
             jump d1s6ao2
 
-        "Okay, okay, why don’t you both take a breath and calm down.":
+        "Okay, okay, why don't you both take a breath and calm down.":
             jump d1s6ao3
 
 label d1s6ao1:
@@ -88,7 +88,7 @@ label d1s6ao1:
     show norman angry at left with dissolve
 
     r "Hey cowboy, that ain't no way to talk to the mayor!"
-    n "Oh yeah? What are ya' gonna do about it, ya' li’l punk?"
+    n "Oh yeah? What are ya' gonna do about it, ya' li'l punk?"
     r "You need to apologize to her, then you need to get the hell out, 'cos I ain't gonna stand here and listen to you disrespect her."
 
     show emily smile at right with dissolve
@@ -144,11 +144,11 @@ label d1s6ac1:
     show ron neutral at left with move
     show emily smile at right with dissolve
 
-    e "Ahh. Air feels cleaner already, don't it? Anyway, I’ve got some questions for you if that’s alright?"
+    e "Ahh. Air feels cleaner already, don't it? Anyway, I've got some questions for you if that's alright?"
 
     show ron awkward at left with dissolve
 
-    r "Uh… sure, I guess. Shoot"
+    r "Uh... sure, I guess. Shoot"
 
     show emily neutral at right with dissolve
 
@@ -158,11 +158,11 @@ label d1s6ac1:
 
     r "Well, um, the corpses will be from a local graveyard."
     e "Yes, we found some disturbed graves. I had the sheriff tape up the place and lock it down. Should prevent tampering and such."
-    r "That’s probably for the best, although it won’t much impact the summoner now. They will have already taken earth from the graves for their ritual."
+    r "That's probably for the best, although it won't much impact the summoner now. They will have already taken earth from the graves for their ritual."
     r "Any ghouls we encounter will obey the summoner's commands until dawn, at which point they'll de-animate."
-    e "Ooh, that's so interesting! I don’t really know anything about the topic. I'm very interested in magic, but I never investigated the whole 'undead' type of magic."
+    e "Ooh, that's so interesting! I don't really know anything about the topic. I'm very interested in magic, but I never investigated the whole 'undead' type of magic."
     e "Could you tell me—what is the difference between ghouls and zombies? ‘Cos that's what we thought the moldy monsters were before my Danny set us straight."
-    e "We were ready to call in the Z-squad to lock this place down and declare Kingston an infection site! Good thing we didn’t jump the gun."
+    e "We were ready to call in the Z-squad to lock this place down and declare Kingston an infection site! Good thing we didn't jump the gun."
 
     show ron awkward at left with dissolve
 
@@ -182,12 +182,12 @@ label d1s6ac1:
 
     show ron thoughtful at left with dissolve
 
-    r "In simple terms, ghouls are given life by someone and will obey that person’s orders. They last until sunrise. Zombies are animated by a disease that can be spread. They last until they rot away or are killed."
+    r "In simple terms, ghouls are given life by someone and will obey that person's orders. They last until sunrise. Zombies are animated by a disease that can be spread. They last until they rot away or are killed."
 
     show emily curious at right with dissolve
 
     r "But outside of that, they're pretty similar. They both tear their victims apart. They're both very strong."
-    r "But ghouls are faster, and as a part of the spell to revive them, the summoner has to ensure that at least one of the ghouls has either something important to the caster or the caster’s DNA on them. It keeps the ghoul tied to them, anchors them."
+    r "But ghouls are faster, and as a part of the spell to revive them, the summoner has to ensure that at least one of the ghouls has either something important to the caster or the caster's DNA on them. It keeps the ghoul tied to them, anchors them."
     r "If the ghouls lose it, they'll just wander around aimlessly until dawn."
 
     show emily smile at right with dissolve
@@ -209,12 +209,12 @@ label d1s6ac1:
     r "Where were you at the time?"
     e "At a dinner meeting with the head of the town council to discuss some things."
     r "Danny told me that three places were attacked: here, the library, and the sheriff's office. But he couldn't remember what order that was in. Do you know?"
-    e "Let me think—so today is Sunday. Yesterday must have been Saturday, so… the attack on the… I think it must have been the library. Then Friday was here. And that means Thursday must have been the sheriff's office."
+    e "Let me think—so today is Sunday. Yesterday must have been Saturday, so... the attack on the... I think it must have been the library. Then Friday was here. And that means Thursday must have been the sheriff's office."
     r "Great, thank you. Do you have any idea what they were doing in here?"
-    e "No, we don’t have cameras inside the building—don't have the funding. The police found the bodies in here, by the smashed computer."
+    e "No, we don't have cameras inside the building—don't have the funding. The police found the bodies in here, by the smashed computer."
     r "Where are the bodies now?"
     e "There's an emergency bunker beneath this building. We've locked them all down there, including the ones from the other scenes."
-    r "Good call. They shouldn’t be able to re-animate anymore, but I've seen summoners put evil little booby traps in the corpses."
+    r "Good call. They shouldn't be able to re-animate anymore, but I've seen summoners put evil little booby traps in the corpses."
     e "Oh."
 
     show emily worried at right with dissolve
@@ -246,11 +246,11 @@ label d1s6ac2:
 
     # sfx crow caws, small town noises
 
-    "Danny is standing uncomfortably close, watching me like a hawk as I examine the doorway of the mayor’s office building. As I take it in, I shake my water bottle, mixing the goat’s blood and angelica root together."
+    "Danny is standing uncomfortably close, watching me like a hawk as I examine the doorway of the mayor's office building. As I take it in, I shake my water bottle, mixing the goat's blood and angelica root together."
 
     m "So this is where they got in?"
-    b "Yes, we think so. We found… bits of the corpses. Caught on the door handle."
-    m "But the door… it looks fine. Doesn't look like they broke in. Was the door unlocked?"
+    b "Yes, we think so. We found... bits of the corpses. Caught on the door handle."
+    m "But the door... it looks fine. Doesn't look like they broke in. Was the door unlocked?"
     b "I dunno. So, what exactly are you doing?"
     m "Runes."
     b "Runes?"
@@ -271,10 +271,10 @@ label d1s6ac2:
 
     b "Huh?"
     m "Magic is all about intent. To be honest, I could easily write 'protect this place from ghouls plz' on the door and, as long as I have enough intent behind it, it would work. I could even just draw a pretty picture of a ghoul's head exploding."
-    m "But in all things magical, the… 'vibe' is incredibly important. Like… think of it as an actor. You give an actor a terrible script, then no matter how good they are, the feeling they put into it isn't going to be the same as if it's a great script."
+    m "But in all things magical, the... 'vibe' is incredibly important. Like... think of it as an actor. You give an actor a terrible script, then no matter how good they are, the feeling they put into it isn't going to be the same as if it's a great script."
     m "Runes can channel magic better than normal words because of their perceived mysticism. Also, your average person going by won't have any idea what it's saying. That can be very useful."
-    b "But wait, if you’re using runes, what was all that time making charms for?"
-    m "The magic works better if there’s multiple elements working in harmony to achieve the same goal. Also, this way, if one is bypassed for some reason, the other can act as a failsafe."
+    b "But wait, if you're using runes, what was all that time making charms for?"
+    m "The magic works better if there's multiple elements working in harmony to achieve the same goal. Also, this way, if one is bypassed for some reason, the other can act as a failsafe."
 
     show danny thoughtful at left with dissolve
 
@@ -299,7 +299,7 @@ label after_rune_making_minigame:
     m "The first one—the one that looks like a capital Y with a stick in the middle—that's Algiz. It's a protection rune."
     b "Right."
     m "The other two, they're a bound rune—two runes put together. Originally, there's one that looks like a stickman shrugging. That's Ear. The interpretation on that's a bit vague, but I'm using it to mean 'death.'"
-    m "The final rune is Kaunan. Looks like the less-than math symbol. Or crocodile jaws. I'm using it to mean ‘fire.’ So, putting them together: burn the dead. The three of them will protect the building and burn anything dead that tries to enter it."
+    m "The final rune is Kaunan. Looks like the less-than math symbol. Or crocodile jaws. I'm using it to mean ‘fire.' So, putting them together: burn the dead. The three of them will protect the building and burn anything dead that tries to enter it."
     r "But, uh, won't the rain wash the runes away once you've done them?"
 
     show marley smile at right with dissolve
@@ -363,7 +363,7 @@ label after_rune_making_minigame:
 
     show danny scared at left with dissolve
 
-    b "Uh- but I think I can hear Ron calling… Got to go!"
+    b "Uh- but I think I can hear Ron calling... Got to go!"
 
     show danny scared at offscreenleft with move
     show marley confused at left with move
@@ -372,7 +372,7 @@ label after_rune_making_minigame:
 
     show norman suspicious at right with dissolve
 
-    n "… You… you don't work for Sawyer?"
+    n "... You... you don't work for Sawyer?"
     m "You mean Danny's mom, the mayor? No, I haven't met her."
     n "Or the council?"
     m "No!"
@@ -393,7 +393,7 @@ label after_rune_making_minigame:
     n "The council is full of a bunch of old, power-hungry farts, led by that spoiled bastard, Chris Maddux. And the mayor—well, she's a conniving witch."
     m "Really?"
     n "Don't trust her. No matter how much she prattles on about 'helping Kingston,' and 'bringing it into the modern age,' she's just here for the power."
-    n "It's all she cares about—she has this whole town wrapped around her damn finger. And has done for… well, for too long."
+    n "It's all she cares about—she has this whole town wrapped around her damn finger. And has done for... well, for too long."
 
     "The hell is he talking about?"
 
@@ -402,7 +402,7 @@ label after_rune_making_minigame:
     n "An' we got some real freaks, too, like the half-elf up at the school. Why these fools would ever let someone like that around kids is beyond me."
 
     "Wow, what a charmer."
-    "If we're looking for someone who hates the town and would want to destroy it, I think there’s a good candidate here."
+    "If we're looking for someone who hates the town and would want to destroy it, I think there's a good candidate here."
 
     m "Has she done something to you?"
 
@@ -424,8 +424,8 @@ label d1s6ac3:
     show emily neutral at right with dissolve
     show ron neutral at left with dissolve
 
-    r "Do you mind if I have a quick look over the desk that was destroyed? In fact, I should have a look ‘round the whole office if this was the ghouls’ target."
-    e "Go ahead. I need to visit the li’l girls’ room anyway, so I'll give you some privacy."
+    r "Do you mind if I have a quick look over the desk that was destroyed? In fact, I should have a look ‘round the whole office if this was the ghouls' target."
+    e "Go ahead. I need to visit the li'l girls' room anyway, so I'll give you some privacy."
     r "Thank you ma'am."
 
     show emily neutral at offscreenright with move
@@ -457,7 +457,7 @@ label after_search_office_minigame:
     m "Hiya. I'm all done, Ron. Put up the runes and used two charms—front door and back. None of the windows are big enough to need it."
     r "Where's Danny?"
     m "Hiding from some angry weirdo screaming in the car park. Not sure who he is, but he really hates the mayor and town council."
-    r "Ah. I think I met the angry, screaming weirdo. He’s the mayor’s ex-secretary, Norman."
+    r "Ah. I think I met the angry, screaming weirdo. He's the mayor's ex-secretary, Norman."
 
     show ron neutral at right with dissolve
 
@@ -467,7 +467,7 @@ label after_search_office_minigame:
 
     show marley curious at left with dissolve
 
-    m "Hypericum perforatum, also known as St John’s Wort. It originates from Europe and West Asia. Some came over to America, but I think it’s too hot to find many around here."
+    m "Hypericum perforatum, also known as St John's Wort. It originates from Europe and West Asia. Some came over to America, but I think it's too hot to find many around here."
 
     show ron thoughtful at right with dissolve
 
@@ -494,7 +494,7 @@ label after_search_office_minigame:
 
     show emily curious at right with dissolve
 
-    e "Uh… hello."
+    e "Uh... hello."
 
     show ron neutral at center with dissolve
 
@@ -519,8 +519,8 @@ label after_search_office_minigame:
 
     e "Now, I don't mean to pry, but are you the Witch that Ron mentioned?"
     m "Yes, that would be me."
-    e "Oh, how fascinating! I haven’t met a Witch before!"
-    r "She's been putting up special charms at each of the building’s entrances. Should give some protection if anything were to happen again."
+    e "Oh, how fascinating! I haven't met a Witch before!"
+    r "She's been putting up special charms at each of the building's entrances. Should give some protection if anything were to happen again."
 
     show emily smile at right with dissolve
 
@@ -532,7 +532,7 @@ label after_search_office_minigame:
 
     show emily sad at right with dissolve
 
-    e "No, none live ’round here."
+    e "No, none live 'round here."
     m "Well, that keeps things uncomplicated. The anti-ghoul charms affect vampires as well. If you learn of an upcoming visit, would you please let me know about it? I'll need to edit the spells a little."
 
     show emily neutral at right with dissolve
@@ -551,7 +551,7 @@ label after_search_office_minigame:
 
     show marley thoughtful at left with dissolve
 
-    m "It's Latin. Something about… gods and kings-"
+    m "It's Latin. Something about... gods and kings-"
 
     show ron neutral at center with dissolve
     show emily smile at right with dissolve
@@ -560,7 +560,7 @@ label after_search_office_minigame:
 
     show ron awkward at center with dissolve
 
-    r "Well, that’s nice."
+    r "Well, that's nice."
 
     show ron neutral at center with dissolve
 

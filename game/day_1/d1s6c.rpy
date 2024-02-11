@@ -25,7 +25,7 @@ label d1s6c:
     show ron curious at center with dissolve
 
     r "Oh yeah? What about them?"
-    b "You… you know him."
+    b "You... you know him."
     r "Huh?"
     b "We went to school with him."
 
@@ -45,7 +45,7 @@ label d1s6c:
 
     r "Terry Maddux—how nice to see you again after all these years."
 
-    "I have literally had a vampire pin me down and try to tear out my throat. Not the sexy type either. The face-melty, ugly ones that smell like rats. I've had evil priests try to rip out my heart. I’ve had an infernal possess me."
+    "I have literally had a vampire pin me down and try to tear out my throat. Not the sexy type either. The face-melty, ugly ones that smell like rats. I've had evil priests try to rip out my heart. I've had an infernal possess me."
     "I'd rather go through {i}any{/i} of those again than be here, with {i}him{/i}."
 
     t "Gosh, it's been so long!"
@@ -59,7 +59,7 @@ label d1s6c:
 
     show danny neutral at right with dissolve
 
-    b "Uh… sure. Be right back."
+    b "Uh... sure. Be right back."
 
     show marley neutral at right with dissolve
 
@@ -76,37 +76,37 @@ label d1s6c:
     show marley confused at right with dissolve
 
     r "This is Marley, my assistant."
-    t "Oh, thank the Lord. I was worried you’d turned straight and this was your missus."
-    r "Uh… no. No, still gay."
+    t "Oh, thank the Lord. I was worried you'd turned straight and this was your missus."
+    r "Uh... no. No, still gay."
     t "So, uh, are you single then, ma'am?"
 
     show marley moody at right with dissolve
 
     m "Why do you ask?"
-    t "’Cos you've dang near taken my breath away."
+    t "'Cos you've dang near taken my breath away."
     m "I wish that was literal. Your halitosis is a serious problem."
 
     show terry confused at left with dissolve
 
-    t "Well, uh… that's mighty kind of you to say, ma'am."
+    t "Well, uh... that's mighty kind of you to say, ma'am."
 
     show terry neutral at left with dissolve
 
     "From the look on Marley's face, I think I'd better step in before she gives the idiot a black eye."
 
-    r "So, uh, this place was attacked? As was the mayor’s office and the library? What happened?"
-    t "Well, this was attacked on Saturday—after the attack on the library, two days after the mayor’s office. In the dead of night, one of the bastards came in and attacked my poor Chief Deputy, Derek Prikus, who was working late. Wrecked his desk."
+    r "So, uh, this place was attacked? As was the mayor's office and the library? What happened?"
+    t "Well, this was attacked on Saturday—after the attack on the library, two days after the mayor's office. In the dead of night, one of the bastards came in and attacked my poor Chief Deputy, Derek Prikus, who was working late. Wrecked his desk."
     t "He's fine. Physically. It seems to have given his nerves a bit of a crack. He's been committed to the psych ward at a nearby hospital, ranting and raving like a loon. Luckily for the guy, I was there and managed to beat the little wretch back."
     r "So you were here when the attack happened?"
     t "No, I just got back to catch the end of it. I was out with your Danny, trying to teach him how to hunt."
 
     show terry moody at left with dissolve
 
-    t "Difficult to do when that weasel of a mayor has got the land ’round here designated as no hunting. Typical woman, always ruining people’s fun."
+    t "Difficult to do when that weasel of a mayor has got the land 'round here designated as no hunting. Typical woman, always ruining people's fun."
 
     "Ugh—why would Danny want to spend time with this idiot?"
 
-    r "Why don’t you show us where the attack happened?"
+    r "Why don't you show us where the attack happened?"
 
     show terry neutral at left with dissolve
 
@@ -129,9 +129,9 @@ label after_search_sheriff_office_minigame:
     t "That's a pretty accent ya got there, Miss Marley. Where ya from?"
     m "England."
     t "Oh awesome, whereabouts? Maine? You look like a Maine girl."
-    m "…{i}Old{/i} England. Not {i}New{/i}."
+    m "...{i}Old{/i} England. Not {i}New{/i}."
 
-    "I snatch up the hidden flash drive and tuck the yearbook under my coat while Terry’s distracted making goo-goo eyes at a very irritated Marley."
+    "I snatch up the hidden flash drive and tuck the yearbook under my coat while Terry's distracted making goo-goo eyes at a very irritated Marley."
 
     r "Whoever was controlling them ghouls really wanted that computer destroyed."
     m "You think the chief deputy might have been investigating the summoner and this was to cover it up?"
@@ -153,7 +153,7 @@ label after_search_sheriff_office_minigame:
         "You're probably right, Terry. After all, you've been here longer than I have. You've certainly got a better sense of the town. But it seems like an awful lot of fuss to go through just to 'cause a ruckus.' Ghoul summoning spells are forbidden magic after all— mighty hard to get a hold of. Are teens these days particularly troublesome? The type to go too far to get some fun?":
             jump d1s6co2
 
-        "And that's your professional opinion, is it? Do you have any suspects? Any one in town with a record who you think would go this far to 'cause a ruckus'? ’Cos ghoul summoning spells, they're forbidden by all the magic councils. Mighty tricky to get a hold of one.":
+        "And that's your professional opinion, is it? Do you have any suspects? Any one in town with a record who you think would go this far to 'cause a ruckus'? 'Cos ghoul summoning spells, they're forbidden by all the magic councils. Mighty tricky to get a hold of one.":
             jump d1s6co3
 
 label d1s6co1:
@@ -192,7 +192,7 @@ label d1s6co1:
 
     show terry sad at left with dissolve
 
-    t "{i}*Sigh*{/i} Look, Ron, I get it. Our time here when we were kids weren't… great. But we're adults now. We need to be better than we were. So… so I understand why you don't trust me. But… we gotta work together on this."
+    t "{i}*Sigh*{/i} Look, Ron, I get it. Our time here when we were kids weren't... great. But we're adults now. We need to be better than we were. So... so I understand why you don't trust me. But... we gotta work together on this."
 
     show terry serious at left with dissolve
 
@@ -203,7 +203,7 @@ label d1s6co1:
     "BULLCRAP."
     "I ain't never heard such bullcrap before."
     "Terry's full of crap."
-    "But… but if I call him on it, I'll look like a petulant child."
+    "But... but if I call him on it, I'll look like a petulant child."
     "So, I smile."
 
     show ron smile at center with dissolve
@@ -217,8 +217,8 @@ label d1s6co1:
 
     "Bull."
     "Crap."
-    "He looks like some darn kids’ TV character, talking about peace and working together."
-    "I can smell the lies on his stinkin’ breath."
+    "He looks like some darn kids' TV character, talking about peace and working together."
+    "I can smell the lies on his stinkin' breath."
 
     jump d1s6cc1
 
@@ -279,7 +279,7 @@ label d1s6co3:
 
     show terry neutral at left with dissolve
 
-    t "But there are people ’round here who've got problems with the town. Who'd pull something like that just as an eff-you to Kingston."
+    t "But there are people 'round here who've got problems with the town. Who'd pull something like that just as an eff-you to Kingston."
 
     show ron confused at center with dissolve
 
@@ -295,7 +295,7 @@ label d1s6cc1:
     show marley neutral at right with dissolve
     show ron neutral at center with dissolve
 
-    t "Anywho, where's that dang Danny with my cup o’ joe?"
+    t "Anywho, where's that dang Danny with my cup o' joe?"
 
     show terry neutral at offscreenleft with move
     show ron neutral at left with move
@@ -303,8 +303,8 @@ label d1s6cc1:
     r "You know something, Mar?"
     m "What, Ron?"
     r "I got a hunch there's more to this whole mess than meets the eye."
-    m "You don’t say. Let me just put up some protection charms, then we can go. Looks like I'll need four—those windows there, there, the front door and the back."
-    r "Get Danny to help you if you don’t mind. It’ll give him an excuse not to deal with Terry."
+    m "You don't say. Let me just put up some protection charms, then we can go. Looks like I'll need four—those windows there, there, the front door and the back."
+    r "Get Danny to help you if you don't mind. It'll give him an excuse not to deal with Terry."
 
     scene black with fade
 
