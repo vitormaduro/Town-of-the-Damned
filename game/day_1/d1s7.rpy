@@ -6,20 +6,20 @@ label d1s7:
     show danny neutral at left with dissolve
     show ron moody at center with dissolve
 
-    r "Danny, you could have warned me that the doggone sheriff was Terry frickin’ Maddux."
-    b "Sorry, sorry. But Terry ain’t that bad."
+    r "Danny, you could have warned me that the doggone sheriff was Terry frickin' Maddux."
+    b "Sorry, sorry. But Terry ain't that bad."
     m "You really hate discount Biff Tannen, huh Ron?"
     b "Who?"
-    m "Uh… bad guy from {i}Back to the Future{/i}?"
+    m "Uh... bad guy from {i}Back to the Future{/i}?"
     r "Terry was our high school bully. He beat me up. Stole my lunch money. Beat me up. Made me give him my stuff. Beat me up. Threw me in the dumpster. Beat me up. Ripped up my homework. Beat me up. Poured food all over me. And did I mention he beat me up?"
-    b "You’re exaggerating."
-    r "I once had to get three stitches ’cos he slammed my head into a desk! Why are you defending him? He was even worse to you."
+    b "You're exaggerating."
+    r "I once had to get three stitches 'cos he slammed my head into a desk! Why are you defending him? He was even worse to you."
     b "It was just childhood teasing; I got over it. And hey, you beat him up pretty bad yourself that one time."
 
     show ron confused at center with dissolve
 
     r "When?"
-    b "The- the day that you… left."
+    b "The- the day that you... left."
 
     show ron neutral at center with dissolve
 
@@ -34,25 +34,25 @@ label d1s7:
     r "What do you mean?"
     b "You don't know?"
     r "Know what?"
-    b "Well… do you remember how Terry got a full ride to Ohio State on a football scholarship?"
+    b "Well... do you remember how Terry got a full ride to Ohio State on a football scholarship?"
     r "Yeah. He was the star quarterback in high school. He always talked about how excited he was for it."
-    b "Yeah, it was his dream since he was a kid. Well, after you left, someone sent Ohio State an old video of him being… crappy to you. And they put it online—it went vial. No one knows who it was, but the university rescinded the scholarship."
-    r "Oh. Oh wow. I hate to feel sorry for the guy, but… jeez."
+    b "Yeah, it was his dream since he was a kid. Well, after you left, someone sent Ohio State an old video of him being... crappy to you. And they put it online—it went vial. No one knows who it was, but the university rescinded the scholarship."
+    r "Oh. Oh wow. I hate to feel sorry for the guy, but... jeez."
     m "Let's put aside that muscled twit for now. What have you learnt, Ron? Give me the rundown."
 
     show danny neutral at left with dissolve
     show ron neutral at center with dissolve
 
-    r "Okay, let’s talk about the library first. Occult section looks like it's been put through a shredder."
+    r "Okay, let's talk about the library first. Occult section looks like it's been put through a shredder."
     m "Alright, why?"
-    r "I'd guess either to stop people realizing a book or two’s gone missing, or to make it harder to research what's going on. Maybe both."
+    r "I'd guess either to stop people realizing a book or two's gone missing, or to make it harder to research what's going on. Maybe both."
     m "Makes sense."
-    r "Scene two: mayor’s office. Ghouls ran amok and smashed the mayor's secretary's computer. She then fired him."
+    r "Scene two: mayor's office. Ghouls ran amok and smashed the mayor's secretary's computer. She then fired him."
     m "Angry, screaming weirdo in the car park?"
     r "Angry, screaming weirdo in the car park. Strange timing. Especially since the mayor seems to loathe him."
     m "Suspicious."
     r "Very."
-    b "What, Norman? Nah, he got the job as a favor—his pa used to be on the city council before he died. Norm was awful at his work; he was a jackass to everyone, careless, lazy, whatever. But my mom played nice to butter up his old man. I think this whole ghoul thing’s made her a bit more daring, so she finally gave him the can."
+    b "What, Norman? Nah, he got the job as a favor—his pa used to be on the city council before he died. Norm was awful at his work; he was a jackass to everyone, careless, lazy, whatever. But my mom played nice to butter up his old man. I think this whole ghoul thing's made her a bit more daring, so she finally gave him the can."
     r "Well, we don't know what order the places were attacked, but your mom said her place was attacked on the Friday night. That's the same day that she sent the letter to fire Norman. Gives him a motive, at least for that attack."
     m "But why attack his own desk? Or any desk, why not attack her? No, my theory is that there was something important on the mayor's computer. But ghouls aren't exactly the brightest of magical sidekicks. One computer looks like any other to them."
     r "Hmm, interesting thought. Anyway, scene three: the sheriff's office. Again—very targeted attack"
@@ -85,7 +85,7 @@ label d1s7:
 
     show danny serious at left with dissolve
 
-    b "I wouldn’t be surprised if Sebastian Daley wanted to see this whole town burned to the ground."
+    b "I wouldn't be surprised if Sebastian Daley wanted to see this whole town burned to the ground."
 
     show ron confused at center with dissolve
 
@@ -93,7 +93,7 @@ label d1s7:
     b "He's not a popular guy. That's all you need to know."
     r "What the hell are you going on about?"
 
-    # SFX- Ring ring
+    # TODO: SFX- Ring ring
 
     "The sound of the office phone makes me jump. I pick it up as Danny fiddles awkwardly with a pen."
 
@@ -112,20 +112,20 @@ label d1s7:
 
     r "We'll head to the station soon. See you then."
 
-    # SFX- phone being put down
+    # TODO: SFX- phone being put down
 
     r "Well, it sounds like we're in for a delightful evening. Terry has invited us to patrol the town with him."
 
     show marley moody at right with dissolve
 
-    m "And you couldn't have told him we had better things to do? Like… anything that didn't involve him?"
+    m "And you couldn't have told him we had better things to do? Like... anything that didn't involve him?"
 
     show danny thoughtful at left with dissolve
 
     b "Maybe this will be a good opportunity for you, Ron. To, you know, bond with Terry. For you both to put the past behind you."
     r "I'd rather bond with a benign tumor."
 
-    # SFX- a newspaper drops into a mailbox.
+    # TODO: SFX- a newspaper drops into a mailbox.
 
     show danny moody at left with dissolve
 
@@ -139,12 +139,12 @@ label d1s7:
     show marley confused at right with dissolve
 
     m "Why does that make you mad?"
-    b "There's this gossip columnist, Cléber Chalá, who’s always published in it. Well, I mean, that's probably a pen name. No one in the town has that name."
+    b "There's this gossip columnist, Cléber Chalá, who's always published in it. Well, I mean, that's probably a pen name. No one in the town has that name."
 
     show marley thoughtful at right with dissolve
 
     m "I've heard that name before. I think he's a football player. Or I guess soccer for you guys."
-    b "Well whoever {i}our{/i} Cléber is, they're a pain in my ma's ass. Basically, they can write whatever they want scot-free as long as they say 'there's a rumor that…' in front of it."
+    b "Well whoever {i}our{/i} Cléber is, they're a pain in my ma's ass. Basically, they can write whatever they want scot-free as long as they say 'there's a rumor that...' in front of it."
     m "Why read it if it annoys you?"
     b "Well, the problem, professor, is that the whole darned town reads this stupid column. These idiots eat this garbage up. I need to know what it says so I can be prepared."
 
@@ -163,7 +163,7 @@ screen d1s7_newspaper():
         viewport id "vp":
             draggable True
 
-            text "Chaos Grips Kingston!\n\nI am sure that, just like me, many of you, my darling devoted readers, are deeply disturbed by recent happenings. You may be aware that evidence has emerged showing certain unknown members of our community behaving in a manner that is frankly unacceptable.\nAlthough our authorities have been doing their utmost to keep these events quiet, it's come to the attention of this here writer that the office of our mayor, the sheriff's office, and our community library have all been brutally attacked. I can only assume this is the work of local youths looking to cause a ruckus.\nIn my humble opinion, this disrespectful string of attacks can only be blamed on the moral decay of today’s youngins. I don't know if they're restless on account of the controversial changes our mayor has inflicted on Kingston High by diverting funds away from the football team, where our youngsters can burn off excess energy, and towards things like the famously dull chess club, a useless creative writing group, and an unnecessary LBGT society. Or perhaps we should blame this delinquency on the questionable appointment of a half-elf to the teaching staff.  Either way, if our idealistic mayor and ineffective town council don't tackle this issue at its root, I'd bet my bottom dollar that we won’t see an end to these attacks.\nIf these foolish shenanigans were the only problems our community faced, that would be bad enough. But as the proud owner of the 'Town Gossip' title, part of my duties is to be the breaker of bad news. And as such, I need to break something to you good people:\nMy sources have informed me that we have a thief hiding in the high echelons of our town. Word has it that money has gone missing from the town's treasury.\nThis isn’t confirmed and is just gossip, but apparently, every month or so, a sum of around $5,000 has gone missing! That isn’t an amount to sniff at! Although it's not that much compared to the council’s budget, it still means that someone who has authority over the town is deprived enough to steal our money! Like I said, I haven’t had this confirmed, but your faithful Cléber is gonna be like a dog with a bone as far as this is concerned! I will hold the thief or thieves accountable, and I will make sure that you, good people of Kingston, know exactly what is going on in our town! I will shine a light in every dark, deprived crack of our home!"
+            text "Chaos Grips Kingston!\n\nI am sure that, just like me, many of you, my darling devoted readers, are deeply disturbed by recent happenings. You may be aware that evidence has emerged showing certain unknown members of our community behaving in a manner that is frankly unacceptable.\nAlthough our authorities have been doing their utmost to keep these events quiet, it's come to the attention of this here writer that the office of our mayor, the sheriff's office, and our community library have all been brutally attacked. I can only assume this is the work of local youths looking to cause a ruckus.\nIn my humble opinion, this disrespectful string of attacks can only be blamed on the moral decay of today's youngins. I don't know if they're restless on account of the controversial changes our mayor has inflicted on Kingston High by diverting funds away from the football team, where our youngsters can burn off excess energy, and towards things like the famously dull chess club, a useless creative writing group, and an unnecessary LBGT society. Or perhaps we should blame this delinquency on the questionable appointment of a half-elf to the teaching staff.  Either way, if our idealistic mayor and ineffective town council don't tackle this issue at its root, I'd bet my bottom dollar that we won't see an end to these attacks.\nIf these foolish shenanigans were the only problems our community faced, that would be bad enough. But as the proud owner of the 'Town Gossip' title, part of my duties is to be the breaker of bad news. And as such, I need to break something to you good people:\nMy sources have informed me that we have a thief hiding in the high echelons of our town. Word has it that money has gone missing from the town's treasury.\nThis isn't confirmed and is just gossip, but apparently, every month or so, a sum of around $5,000 has gone missing! That isn't an amount to sniff at! Although it's not that much compared to the council's budget, it still means that someone who has authority over the town is deprived enough to steal our money! Like I said, I haven't had this confirmed, but your faithful Cléber is gonna be like a dog with a bone as far as this is concerned! I will hold the thief or thieves accountable, and I will make sure that you, good people of Kingston, know exactly what is going on in our town! I will shine a light in every dark, deprived crack of our home!"
 
         vbar value YScrollValue("vp")
 
@@ -192,18 +192,18 @@ label d1s7_after_newspaper:
     show ron thoughtful at center with dissolve
     show danny neutral at left with dissolve
 
-    r "But here's what's odd: our question was 'what order did the ghoul attacks happen in?' But of the three people we've interviewed, they’ve all said a different order!"
+    r "But here's what's odd: our question was 'what order did the ghoul attacks happen in?' But of the three people we've interviewed, they've all said a different order!"
 
     show marley surprised at right with dissolve
 
     m "Really?"
     r "Yeah. We know the attacks happened Thursday, Friday, and Saturday."
-    r "But the mayor said it was the sheriff’s office, her office, then the library. Terry said that it was the mayor’s, the library, then his office. And Mrs. Pear said it was the library, the sheriff's office, then the mayor’s."
+    r "But the mayor said it was the sheriff's office, her office, then the library. Terry said that it was the mayor's, the library, then his office. And Mrs. Pear said it was the library, the sheriff's office, then the mayor's."
     r "That doesn't make any sense."
 
     show marley thoughtful at right with dissolve
 
-    m "So… at least two people must have lied."
+    m "So... at least two people must have lied."
 
     show danny awkward at left with dissolve
 
@@ -230,7 +230,7 @@ label d1s7_after_newspaper:
     show ron neutral at center with dissolve
 
     r "Oh don't worry, it's just an example one. You're not a real suspect."
-    b "Uh… well… okay. If you're sure."
+    b "Uh... well... okay. If you're sure."
 
     call screen d1s7_suspect_file
 

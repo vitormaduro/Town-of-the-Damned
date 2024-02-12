@@ -2,7 +2,7 @@
 label d1s6c:
     scene bg sheriffs_office with fade
 
-    # SFX- soft office noises- talking, phone ringing, and occasional radio beep and crackle.
+    # TODO: SFX- soft office noises- talking, phone ringing, and occasional radio beep and crackle.
 
     show danny nervous at right with dissolve
     show marley neutral at left with dissolve
@@ -239,7 +239,7 @@ label d1s6co2:
 
     show terry neutral at left with dissolve
 
-    t "Oh, people have reasons. There are folks ‘round here that sure seem to hate Kingston."
+    t "Oh, people have reasons. There are folks 'round here that sure seem to hate Kingston."
 
     show terry smile at left with dissolve
 
@@ -258,7 +258,7 @@ label d1s6co3:
     show marley neutral at right with dissolve
     show ron serious at center with dissolve
 
-    r "And that's your professional opinion, is it? Do you have any suspects? Any one in town with a record who you think would go this far, to 'cause a ruckus'? ‘Cos ghoul summoning spells, they're forbidden by all the magic councils. Mighty tricky to get a hold of one."
+    r "And that's your professional opinion, is it? Do you have any suspects? Any one in town with a record who you think would go this far, to 'cause a ruckus'? 'Cos ghoul summoning spells, they're forbidden by all the magic councils. Mighty tricky to get a hold of one."
 
     show terry confused at left with dissolve
 

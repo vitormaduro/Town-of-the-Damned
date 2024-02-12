@@ -5,7 +5,7 @@ label d1s1:
     show marley sad at right with dissolve
     show ron anxious at left with dissolve
 
-    #SFX- Muffled city noises (Continuous)
+    # TODO: SFX- Muffled city noises (Continuous)
 
     m "You're firing me?!"
 
@@ -17,7 +17,7 @@ label d1s1:
 
     scene bg cg_unicorn_attacking with pixellate
 
-    # SFX	Police sirens
+    # TODO: SFX	Police sirens
     #     Police radio
     #     Screaming/crying
     #     Angry horse noises.
@@ -26,7 +26,7 @@ label d1s1:
     r "Oh no, it's gonna charge— Marley, help me!"
     m "Sorry Ron, I'm a little busy trying to make sure Billy here sees his seventh birthday!"
 
-    # SFX- 	Horse braying
+    # TODO: SFX- 	Horse braying
     # Thudding hooves
 
     r "Oh holy—"
@@ -101,7 +101,7 @@ label after_box_minigame:
 
     show ron neutral at center with dissolve
 
-    # Sfx- intercom buzz
+    # TODO: SFX- intercom buzz
 
     "Buzzz!"
     "My intercom buzzes to life."
@@ -183,7 +183,7 @@ label after_box_minigame:
 
     b "I'll organize everything right away. I'm on it! Can you set off today? Don't worry, I'll sort it out. I'll call you when I've got it all ready!"
 
-    #SFX- Dial tone
+    # TODO: SFX- Dial tone
 
     "Before I can say a word, the dial tone hums in my ear. I slowly put the phone in its cradle, then lean back in my chair, taking a deep breath."
 

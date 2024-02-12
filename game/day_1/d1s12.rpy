@@ -7,14 +7,14 @@ label d1s12:
     show ron moody at center with dissolve
 
     b "You sure you can play nice with Terry?"
-    r "Yeah, don’t worry. I can play nice as well as the next person."
+    r "Yeah, don't worry. I can play nice as well as the next person."
     b "I was talking to Miss Frigid over there."
 
     show marley annoyed at left with dissolve
 
     m "What the hell is that supposed to mean?"
     b "Well, you were pretty cold to him."
-    m "Oh, I'm sorry I’m not interested in hooking up with your BFF."
+    m "Oh, I'm sorry I'm not interested in hooking up with your BFF."
 
     show danny angry at right with dissolve
 
@@ -35,7 +35,7 @@ label d1s12:
 
     show marley serious at left with dissolve
 
-    m "I've met people like him before. All around the world, there are Terrys. People who think they're so perfect that no one could ever say ‘no’ to them. Terrys think that everyone wants to either be them or be {i}with{/i} them. And the reality is that anyone sensible who has met a Terry knows that whatever angle they look at the prat from, the truth is clear to see—the Terry is trash."
+    m "I've met people like him before. All around the world, there are Terrys. People who think they're so perfect that no one could ever say 'no' to them. Terrys think that everyone wants to either be them or be {i}with{/i} them. And the reality is that anyone sensible who has met a Terry knows that whatever angle they look at the prat from, the truth is clear to see—the Terry is trash."
     b "You ever considered that maybe you're not a people person?"
     m "Oh, I'm a people person alright. Just not a {i}stupid{/i} people person."
 
@@ -53,7 +53,7 @@ label d1s12:
 
     show marley angry at left with dissolve
 
-    m "I don’t think that's such a good idea."
+    m "I don't think that's such a good idea."
     t "Oh? Why not?"
     m "Well, sheriff, I have nothing but respect for you—"
 
@@ -106,7 +106,7 @@ label d1s12:
 
     t "So, uh... that secretary of yours—"
     r "Assistant."
-    t "She's a real beaut’."
+    t "She's a real beaut'."
 
     show ron uncomfortable at left with dissolve
 
@@ -126,7 +126,7 @@ label d1s12:
     show terry smile at right with dissolve
 
     t "Well, then she's the best kinda gal. She wants a chase. It's a game. She loves it but pretends she doesn't. Just like your Marley. Trust me, Ron, you don't understand women. She {i}wants{/i} me."
-    r "Either I {i}really{/i} don't understand straight people or you’re way past confused."
+    r "Either I {i}really{/i} don't understand straight people or you're way past confused."
 
     show ron neutral at left with dissolve
 
@@ -139,14 +139,14 @@ label d1s12:
 
     show terry serious at right with dissolve
 
-    "The words come out of my mouth before I realize what I’ve said."
+    "The words come out of my mouth before I realize what I've said."
     "But I guess I might as well plough on."
 
     r "I- I'm sorry. It must have been real hard. I hope you don't... blame me for that."
 
     show terry smile at right with dissolve
 
-    t "Blame you? Shucks man, of course not! Nah, me losing that scholarship was the best thing that could’ve happened to me!"
+    t "Blame you? Shucks man, of course not! Nah, me losing that scholarship was the best thing that could've happened to me!"
 
     show ron confused at left with dissolve
 
@@ -180,7 +180,7 @@ label d1s12:
 
     "That idiot might just have something resembling a point."
 
-    # SFX- Radio Bleep
+    # TODO: SFX- Radio Bleep
 
     "Terry's radio beeps to life at his hip."
 
@@ -216,7 +216,7 @@ label d1s12:
     show marley concerned at left with dissolve
 
     m "We heard you guys on the radio—"
-    r "Marley, you got your goat’s blood?"
+    r "Marley, you got your goat's blood?"
     m "Uh-huh!"
     r "Good. Go around the building and write up those runes to seal in the undead."
     m "Yes, boss!"

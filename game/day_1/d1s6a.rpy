@@ -1,12 +1,12 @@
 label d1s6a:
     scene bg mayors_office with fade
 
-    # sfx muffled arguing
+    # TODO: SFX muffled arguing
 
     "As I head up to the Mayor's Office, I can hear angry voices coming from inside. One sounds like Emily—Danny's mom. Then someone I don't know, a man."
     "I reach for the door handle and start to pull it open."
 
-    # sfx door opening
+    # TODO: SFX door opening
 
     show emily angry at right with dissolve
     show ron confused at center with dissolve
@@ -161,7 +161,7 @@ label d1s6ac1:
     r "That's probably for the best, although it won't much impact the summoner now. They will have already taken earth from the graves for their ritual."
     r "Any ghouls we encounter will obey the summoner's commands until dawn, at which point they'll de-animate."
     e "Ooh, that's so interesting! I don't really know anything about the topic. I'm very interested in magic, but I never investigated the whole 'undead' type of magic."
-    e "Could you tell me—what is the difference between ghouls and zombies? ‘Cos that's what we thought the moldy monsters were before my Danny set us straight."
+    e "Could you tell me—what is the difference between ghouls and zombies? 'Cos that's what we thought the moldy monsters were before my Danny set us straight."
     e "We were ready to call in the Z-squad to lock this place down and declare Kingston an infection site! Good thing we didn't jump the gun."
 
     show ron awkward at left with dissolve
@@ -244,7 +244,7 @@ label d1s6ac2:
     show danny neutral at left with dissolve
     show marley thoughtful at right with dissolve
 
-    # sfx crow caws, small town noises
+    # TODO: SFX crow caws, small town noises
 
     "Danny is standing uncomfortably close, watching me like a hawk as I examine the doorway of the mayor's office building. As I take it in, I shake my water bottle, mixing the goat's blood and angelica root together."
 
@@ -299,7 +299,7 @@ label after_rune_making_minigame:
     m "The first one—the one that looks like a capital Y with a stick in the middle—that's Algiz. It's a protection rune."
     b "Right."
     m "The other two, they're a bound rune—two runes put together. Originally, there's one that looks like a stickman shrugging. That's Ear. The interpretation on that's a bit vague, but I'm using it to mean 'death.'"
-    m "The final rune is Kaunan. Looks like the less-than math symbol. Or crocodile jaws. I'm using it to mean ‘fire.' So, putting them together: burn the dead. The three of them will protect the building and burn anything dead that tries to enter it."
+    m "The final rune is Kaunan. Looks like the less-than math symbol. Or crocodile jaws. I'm using it to mean 'fire.' So, putting them together: burn the dead. The three of them will protect the building and burn anything dead that tries to enter it."
     r "But, uh, won't the rain wash the runes away once you've done them?"
 
     show marley smile at right with dissolve
@@ -424,7 +424,7 @@ label d1s6ac3:
     show emily neutral at right with dissolve
     show ron neutral at left with dissolve
 
-    r "Do you mind if I have a quick look over the desk that was destroyed? In fact, I should have a look ‘round the whole office if this was the ghouls' target."
+    r "Do you mind if I have a quick look over the desk that was destroyed? In fact, I should have a look 'round the whole office if this was the ghouls' target."
     e "Go ahead. I need to visit the li'l girls' room anyway, so I'll give you some privacy."
     r "Thank you ma'am."
 
@@ -449,7 +449,7 @@ screen search_office_minigame():
 label after_search_office_minigame:
     "As I give the room a final once-over, I hear footsteps coming down the hall."
 
-    # sfx - footsteps
+    # TODO: SFX - footsteps
 
     show ron neutral at right with move
     show marley neutral at left with move
@@ -477,7 +477,7 @@ label after_search_office_minigame:
 
     m "It's possible."
 
-    # sfx - footsteps. Door opening
+    # TODO: SFX - footsteps. Door opening
 
     "The door opens and Emily walks in."
 

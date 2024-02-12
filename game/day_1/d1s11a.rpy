@@ -7,10 +7,10 @@ label d1s11a:
 
     r "You got the suspect files?"
     m "Yep. Ready to fill them in."
-    r "Good. Mrs. Pear works here, and this was attacked one night—’course, we don't know which one. Let's see if we can find some evidence to narrow it down."
+    r "Good. Mrs. Pear works here, and this was attacked one night—'course, we don't know which one. Let's see if we can find some evidence to narrow it down."
     r "The mayor said it was night three, Saturday. Terry said it was Friday, and Mrs. Pear herself said it was Thursday."
 
-    # SFX- Footsteps
+    # TODO: SFX- Footsteps
 
     show ron neutral at center with move
     show seb blushing at right with dissolve
@@ -27,7 +27,7 @@ label d1s11a:
 
     show ron awkward at center with dissolve
 
-    r "Yeah… Marley, meet Seb. Seb, this is my assistant, Marley, whose job is to say absolutely nothing and take notes."
+    r "Yeah... Marley, meet Seb. Seb, this is my assistant, Marley, whose job is to say absolutely nothing and take notes."
 
     show marley laughing at left with dissolve
 
@@ -45,10 +45,10 @@ label d1s11a:
 
     show seb sad at right with dissolve
 
-    s "Not that anyone notices. It's always so quiet ‘round here."
+    s "Not that anyone notices. It's always so quiet 'round here."
     r "Oh."
 
-    "Well… I don't think Seb is the summoner. But I suppose we should make a suspect file for him. Just to be thorough and prove that he {i}didn't{/i} do it."
+    "Well... I don't think Seb is the summoner. But I suppose we should make a suspect file for him. Just to be thorough and prove that he {i}didn't{/i} do it."
 
     show ron neutral at center with dissolve
 
@@ -60,18 +60,18 @@ label d1s11a:
 
     show ron blushing at center with dissolve
 
-    r "Uh… you know… for- for the investigation."
+    r "Uh... you know... for- for the investigation."
     s "I see."
 
     "Focus! Focus, man!"
 
     show ron awkward at center with dissolve
 
-    r "Okay, first question, um… well, uh, there's been some disagreement about the order of these… dangerous attacks. That were done by… people."
+    r "Okay, first question, um... well, uh, there's been some disagreement about the order of these... dangerous attacks. That were done by... people."
 
     show seb confused at right with dissolve
 
-    s "Uh… yes… yes, that's what I thought…"
+    s "Uh... yes... yes, that's what I thought..."
 
     "So smooth, Ron."
 
@@ -84,7 +84,7 @@ label d1s11a:
     show ron thoughtful at center with dissolve
 
     r "Not even the day the library was attacked? 'Cos Mrs. Pear said it was Thursday, the sheriff said it was Friday, and the mayor said it was Saturday."
-    s "Ah. Well, I don't know about Friday or Saturday, but I'm sure it wasn’t Thursday."
+    s "Ah. Well, I don't know about Friday or Saturday, but I'm sure it wasn't Thursday."
 
     show ron curious at center with dissolve
 
@@ -92,7 +92,7 @@ label d1s11a:
 
     show seb sad at right with dissolve
 
-    s "Poor old Mrs. Pear had a bit of a funny turn Thursday, so I sent her home, said I'd lock up. I ended up staying late, 'till about midnight, alone in the library, grading papers. If I'm here, I don’t have to spend money on lights and the aircon in my apartment."
+    s "Poor old Mrs. Pear had a bit of a funny turn Thursday, so I sent her home, said I'd lock up. I ended up staying late, 'till about midnight, alone in the library, grading papers. If I'm here, I don't have to spend money on lights and the aircon in my apartment."
 
     # Fill in section 1.1 of Seb's suspect file
 
@@ -121,7 +121,7 @@ label d1s11ao1:
 
     show seb thoughtful at right with dissolve
 
-    s "Uh, Friday, let me think… There's this new coffee shop near my flat. It's open late. I went there to check it out."
+    s "Uh, Friday, let me think... There's this new coffee shop near my flat. It's open late. I went there to check it out."
     r "Where is it?"
     s "Maple Street. Not far from my family's restaurant."
     r "Did you go with anyone?"
@@ -165,11 +165,11 @@ label d1s11ac1:
 
     menu:
         "So, you've got a pretty good friendship with Mrs. Pear, right?":
-            # Fill in section 2.4.1 of Seb's suspect file and 2.5.2 section of Mrs. Pear’s.
+            # Fill in section 2.4.1 of Seb's suspect file and 2.5.2 section of Mrs. Pear's.
             jump d1s11ac2o1
 
         "You remember Terry, right? He's the sheriff now, as I'm sure you know. What do you think of him?":
-            # Fill in section 2.3.1 of Seb's suspect file and 2.X.2 section of Terry’s.
+            # Fill in section 2.3.1 of Seb's suspect file and 2.X.2 section of Terry's.
             jump d1s11ac2o2
 
         "You ever see Danny's ma', Emily, around?":
@@ -177,7 +177,7 @@ label d1s11ac1:
             jump d1s11ac2o3
 
         "You ever met Norman Conlee? The mayor's secretary—well, ex-secretary.":
-            # Fill in section 2.2.1 of Seb's suspect file and 2.2.2 section of Norman’s.
+            # Fill in section 2.2.1 of Seb's suspect file and 2.2.2 section of Norman's.
             jump d1s11ac2o4
 
 label d1s11ac2o1:
@@ -194,7 +194,7 @@ label d1s11ac2o1:
 
     show seb thoughtful at right with dissolve
 
-    s "We’re friends, and I have a lot of respect for her, but I also try to look out for her."
+    s "We're friends, and I have a lot of respect for her, but I also try to look out for her."
     r "Great, thanks."
 
     jump d1s11ac3
@@ -208,7 +208,7 @@ label d1s11ac2o2:
 
     show seb moody at right with dissolve
 
-    s "Yeah, I remember the jerk. Hard to forget him. Especially now that he's got that darned job. I mean, I do my best to avoid the law ’round here in general, but him especially. Haven't had anything much to do with them."
+    s "Yeah, I remember the jerk. Hard to forget him. Especially now that he's got that darned job. I mean, I do my best to avoid the law 'round here in general, but him especially. Haven't had anything much to do with them."
     s "But from what I've heard, he's a pretty rubbish sheriff."
     r "If you could sum up your relationship with him in one sentence, what would it be?"
 
@@ -225,8 +225,8 @@ label d1s11ac2o3:
     show ron neutral at center with dissolve
 
     r "You ever see Danny's ma', Emily, around?"
-    s "Yeah, sometimes. She comes into the library now and then—probably the most frequent visitor after myself. I know she wants to renovate it; she’s asked me for my ideas."
-    s "She also gave more funding to the school, and because of her, they started new clubs, which the principal has all made my responsibility. We’ve now got a creative writing club and a GSA, along with a few others."
+    s "Yeah, sometimes. She comes into the library now and then—probably the most frequent visitor after myself. I know she wants to renovate it; she's asked me for my ideas."
+    s "She also gave more funding to the school, and because of her, they started new clubs, which the principal has all made my responsibility. We've now got a creative writing club and a GSA, along with a few others."
 
     "Oh yeah, I read about that in the newspaper column."
 
@@ -257,7 +257,7 @@ label d1s11ac2o4:
 
     show seb thoughtful at right with dissolve
 
-    s "We don’t like each other; I avoid him."
+    s "We don't like each other; I avoid him."
     r "Cool, thank you."
 
     jump d1s11ac3
@@ -298,12 +298,12 @@ label d1s11ac4o1:
     r "What time would this have been, then?"
     s "School ends at 3, and it takes me about half an hour to get organized and get out of there. But the library is right next door. So, I guess it would have been approximately 3:35."
     r "Anything happen while you were there?"
-    s "Mrs. Pear was busy, so I went behind her desk to scan through the book’s return myself, shelved it, went to chat with her, then left for my parent's restaurant to help prepare for dinner."
+    s "Mrs. Pear was busy, so I went behind her desk to scan through the book's return myself, shelved it, went to chat with her, then left for my parent's restaurant to help prepare for dinner."
     r "And before you left, did anything odd happen?"
 
     show seb sad at right with dissolve
 
-    s "Yeah, Mrs. Pear was having one of her funny turns. She was in the occult section. I think she was meant to be checking stock and comparing it to what we’re supposed to have."
+    s "Yeah, Mrs. Pear was having one of her funny turns. She was in the occult section. I think she was meant to be checking stock and comparing it to what we're supposed to have."
 
     "The occult section—that's the section that was attacked."
 
@@ -320,7 +320,7 @@ label d1s11ac4o1:
 
     show ron thoughtful at center with dissolve
 
-    r "I see… That's useful to know. Thank you for telling me."
+    r "I see... That's useful to know. Thank you for telling me."
 
     jump d1s11ac5
 
@@ -333,7 +333,7 @@ label d1s11ac4o2:
 
     show seb thoughtful at right with dissolve
 
-    s "The mayor’s office, huh? I think that would have been… Wednesday. So, four days ago."
+    s "The mayor's office, huh? I think that would have been... Wednesday. So, four days ago."
 
     show ron thoughtful at center with dissolve
 
@@ -350,7 +350,7 @@ label d1s11ac4o2:
     r "So what happened?"
     s "She forgot about it, apparently—I ran into her outside. Think she was just heading back into the office. We were both pretty tired, so we just had a quick talk. Then Danny arrived to see her, so I left them to it and headed home."
     r "I see. So besides meeting outside, was there anything odd happening? With her, with the building, or in the area?"
-    s "Hmm… Emily seemed a bit distracted. Happy distracted—like she'd just had some good news. But when I asked, she said it was nothing and she'd just seen some 'funny karma.' I didn't wanna pry."
+    s "Hmm... Emily seemed a bit distracted. Happy distracted—like she'd just had some good news. But when I asked, she said it was nothing and she'd just seen some 'funny karma.' I didn't wanna pry."
     r "Nothing else odd?"
     s "Nope."
     r "Alright."
@@ -366,12 +366,12 @@ label d1s11ac4o3:
 
     show seb thoughtful at right with dissolve
 
-    s "The sheriff’s office, hm? Let me think… probably Tuesday. Last Tuesday—the seventh."
+    s "The sheriff's office, hm? Let me think... probably Tuesday. Last Tuesday—the seventh."
     r "Why were you there?"
 
     show seb awkward at right with dissolve
 
-    s "Uh… I was… I was reporting a crime, I think."
+    s "Uh... I was... I was reporting a crime, I think."
 
     show ron confused at center with dissolve
 
@@ -388,7 +388,7 @@ label d1s11ac4o3:
     r "What were you reporting?"
     s "I dunno—I guess it wasn't that important."
 
-    "… Okay. Let's see if he can answer any questions for the file."
+    "... Okay. Let's see if he can answer any questions for the file."
 
     show ron curious at center with dissolve
 
@@ -405,18 +405,18 @@ label d1s11ac4o3:
 
     "Seb pauses for a second, looking like he's thinking hard."
 
-    s "I think… I think I heard arguing. Pretty sure it was Terry and… someone. Not sure who, it was in another room."
+    s "I think... I think I heard arguing. Pretty sure it was Terry and... someone. Not sure who, it was in another room."
 
     "So he remembers some overheard yelling, but not what he was reporting to the cops?"
 
     r "Did you hear what they were arguing about?"
-    s "No, it was all muffled through the walls, so I didn't really hear many individual words… I mean there were one or two, I think. Pretty sure I heard the word 'snooping' from Terry. Then I think whoever he was arguing with called him 'unfit.'"
+    s "No, it was all muffled through the walls, so I didn't really hear many individual words... I mean there were one or two, I think. Pretty sure I heard the word 'snooping' from Terry. Then I think whoever he was arguing with called him 'unfit.'"
 
     "He remembers all that, but not why he was there? What the hell?"
 
     r "Do you go there often?"
     s "Oh God no. I try to avoid it when I can. Not a fan of walking into Terry's lair."
-    r "Well, uh… okay."
+    r "Well, uh... okay."
 
     jump d1s11ac5
 
@@ -438,7 +438,7 @@ label d1s11ac5:
     show ron serious at center with dissolve
 
     r "Eh hem. Thank you for your time. We've got to get going."
-    s "I understand. I guess I'll, uh… see you round, Ron."
+    s "I understand. I guess I'll, uh... see you round, Ron."
 
     show ron blushing at center with dissolve
 
@@ -454,7 +454,7 @@ label d1s11ac5:
     show ron moody at right with dissolve
 
     r "Don't."
-    m "Was… was that {i}flirting{/i}, Ron? With that hot half-elf guy? Because it was painful to watch."
+    m "Was... was that {i}flirting{/i}, Ron? With that hot half-elf guy? Because it was painful to watch."
     r "Ugh. Come on."
     m "Well, some things in this case are starting to make sense."
 

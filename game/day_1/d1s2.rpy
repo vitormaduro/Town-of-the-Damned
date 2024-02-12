@@ -5,7 +5,7 @@ label d1s2:
     show marley smile at right
     show ron anxious at left
 
-    # SFX Town noises, crows cawing
+    # TODO: SFX Town noises, crows cawing
 
     m "So {i}this{/i} is the place that raised you."
     r "Shut it, Mar."

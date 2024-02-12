@@ -11,7 +11,7 @@ label d1s10:
 
     "That voice, I'd heard that voice again! Taunting me! Did... did it know..."
 
-    b "Oh you’re just jealous!"
+    b "Oh you're just jealous!"
     m "Of {i}what{/i}? You're the one that's been acting like an insecure lead cheerleader from a cliché high school film!"
 
     "Something's wrong here... something deeper than ghouls attacking buildings. I can feel it."
@@ -44,7 +44,7 @@ label d1s10:
 
     "I need something—anything—to make him scram."
 
-    r "Why don't you check in with Terry about tonight's patrol? Get an idea of the route and who's going to be there, or anything else that’s useful."
+    r "Why don't you check in with Terry about tonight's patrol? Get an idea of the route and who's going to be there, or anything else that's useful."
 
     "Anything to get him to go!"
 
@@ -136,7 +136,7 @@ label d1s10:
     show marley moody at right with dissolve
 
     m "The office gets like ten different completely useless magazine subscriptions because you couldn't get yourself together and cancel them!"
-    r "It's not that I can’t get myself together! It's that they make it so difficult—"
+    r "It's not that I can't get myself together! It's that they make it so difficult—"
     m "The sink in your apartment has been blocked since the day you moved in, but you keep putting off telling your landlord."
     r "You try telling a six-foot-five half-troll that you need him to do some DIY!"
     m "One time you almost married that siren lady so she could get a green card! The only reason you didn't was because I pretended to be your secret wife that you thought had died! She still sends us anniversary cards!"

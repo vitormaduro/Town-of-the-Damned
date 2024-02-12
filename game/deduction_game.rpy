@@ -1,4 +1,4 @@
-screen deduction_game_menu:
+screen deduction_game_menu():
     image Solid("#000")
 
     text "Drag and drop the pieces to form a sentence, then click on the Arrow button" size 50 align(0.5, 0.1)

@@ -3,13 +3,13 @@ label d1s4:
     scene black
     scene bg cg_witch with fade
 
-    # sfx Nature noises
+    # TODO: SFX Nature noises
 
     "I follow nature's pull on my soul away from the tiny town. I head past some farms and find myself in thick woodland."
     "Perfect."
     "After a bit of walking, I find a small clearing and sit myself down. I close my eyes and focus on my breathing."
 
-    # sfx deep breathing
+    # TODO: SFX deep breathing
 
     "With every breath in, the smell of flowers, the trees' bark, the rotting leaves, animals' musk all mix in my nose. A wonderful orchestra of scents."
     "Then the sounds—the leaves rustling through the trees. The cawing of the crows above."
@@ -18,7 +18,7 @@ label d1s4:
     "Connects to the creatures as they scurry around, chasing each other or hunting for food, and the crows in the branches high above me. I can feel them watch me curiously. Figuring out if I'm friend or foe. But knowing in their hearts that I am no ordinary mortal."
     "The forest around me feels like I'm home, even though I'm miles from Chicago. And even further away from where I was born."
 
-    # SFX- loud twig snap
+    # TODO: SFX- loud twig snap
 
     "I open my eyes."
 
@@ -125,7 +125,7 @@ label d1s4o1:
     m "It's an ancient Witch blessing."
     w "Oh. Well... thank you. The same to you... sister."
 
-    # SFX- Deep breath
+    # TODO: SFX- Deep breath
     #      Padding feet
 
     "As the she-wolf stands, I close my eyes and take another deep breath."
@@ -149,7 +149,7 @@ label d1s4o2:
 
     m "I'm sorry, sister. I did not mean to offend—"
 
-    # SFX- Continuous low growling
+    # TODO: SFX- Continuous low growling
 
     w "Do not call me sister. You may be a Witch, but you are still human."
 

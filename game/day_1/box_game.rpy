@@ -85,7 +85,7 @@ init:
         "box_packing/bpm-wand_hover.png"
         zoom 0.5 
 
-screen box_game_menu:
+screen box_game_menu():
     image Solid("#000000")
 
     text "Click on an object, then click on the box" size 50 align(0.5, 0.1)
@@ -158,7 +158,7 @@ screen absorb_input(): #Borrowed code to block anything below while showing dial
         action Function(renpy.ui.saybehavior, allow_dismiss = renpy.config.say_allow_dismiss)
 
 
-screen box_mini_game:
+screen box_mini_game():
     image ("box_packing/bmp-wall-stuff.png") zoom 0.5
 
     for i in remaining_items:
