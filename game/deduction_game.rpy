@@ -6,7 +6,7 @@ screen deduction_game_menu():
     imagebutton idle "temp/play_button_idle.png" action Function(setup_deduction_game) align(0.5, 0.8)
 
 label puzzle:
-    screen deduction_mini_game:
+    screen deduction_mini_game():
         image Solid("#C6B0B0")
 
         imagebutton idle "temp/check_solution.png":

@@ -244,6 +244,8 @@ label after_evidence:
 
     scene black with fade
 
+    jump d1s4
+
 init python:
     def check_evidences():
         global hair_checked
