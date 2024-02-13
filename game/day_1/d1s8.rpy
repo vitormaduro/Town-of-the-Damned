@@ -3,14 +3,14 @@ label d1s8:
     scene bg kingston_streets with fade
 
     show marley thoughtful at right with dissolve
-    show danny neutral at left with dissolve
     show ron neutral at center with dissolve
+    show danny neutral at left with dissolve
 
     m "Why don't we go check out where the corpses came from—I'm guessing the graveyard?"
 
     "Oh no."
 
-    show ron awkward at center with dissolve
+    show ron awkward with dissolve
 
     r "Uh that ain't necessary."
     m "Oh I'm sure it'll be useful. The summoner must have gone there to raise the ghouls. Where is it, Danny?"

@@ -2,8 +2,8 @@
 label d1s11a:
     scene bg library with fade
 
-    show marley neutral at left with dissolve
-    show ron neutral at right with dissolve
+    show ron neutral at dialogright with dissolve
+    show marley neutral at dialogleft with dissolve
 
     r "You got the suspect files?"
     m "Yep. Ready to fill them in."
@@ -12,64 +12,68 @@ label d1s11a:
 
     # TODO: SFX- Footsteps
 
-    show ron neutral at center with move
-    show seb blushing at right with dissolve
+    show marley at left
+    show ron neutral at center 
+    with move
+
+    show seb blushing at offscreenright
+    show seb at right with move
 
     s "Ron."
 
-    show ron blushing at center with dissolve
+    show ron blushing with dissolve
 
     r "Seb!"
 
-    show marley thoughtful at left with dissolve
+    show marley thoughtful with dissolve
 
     m "Ooh, so {i}this{/i} is the infamous Seb."
 
-    show ron awkward at center with dissolve
+    show ron awkward with dissolve
 
     r "Yeah... Marley, meet Seb. Seb, this is my assistant, Marley, whose job is to say absolutely nothing and take notes."
 
-    show marley laughing at left with dissolve
+    show marley laughing with dissolve
 
     m "Hehehe."
 
-    show marley neutral at left with dissolve
-    show seb neutral at right with dissolve
+    show marley neutral with dissolve
+    show seb neutral with dissolve
 
     s "If you're looking for Mrs. Pear, she left early today."
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "I thought she was the only librarian—how can she leave?"
     s "Oh, I'm an official volunteer here. I'm not really meant to be left alone, but I told her I didn't mind. She's not as spry as she used to be, of course. So she often heads home early and leaves me to close up."
 
-    show seb sad at right with dissolve
+    show seb sad with dissolve
 
     s "Not that anyone notices. It's always so quiet 'round here."
     r "Oh."
 
     "Well... I don't think Seb is the summoner. But I suppose we should make a suspect file for him. Just to be thorough and prove that he {i}didn't{/i} do it."
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     r "Well I guess I need to talk to you anyway."
 
-    show seb smile at right with dissolve
+    show seb smile with dissolve
 
     s "'{i}Need{/i} to'?"
 
-    show ron blushing at center with dissolve
+    show ron blushing with dissolve
 
     r "Uh... you know... for- for the investigation."
     s "I see."
 
     "Focus! Focus, man!"
 
-    show ron awkward at center with dissolve
+    show ron awkward with dissolve
 
     r "Okay, first question, um... well, uh, there's been some disagreement about the order of these... dangerous attacks. That were done by... people."
 
-    show seb confused at right with dissolve
+    show seb confused with dissolve
 
     s "Uh... yes... yes, that's what I thought..."
 
@@ -77,26 +81,26 @@ label d1s11a:
 
     r "You have any idea of the order?"
 
-    show seb awkward at right with dissolve
+    show seb awkward with dissolve
 
     s "I'm afraid not. I haven't paid much attention. And things have been kept under pretty tight wraps."
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "Not even the day the library was attacked? 'Cos Mrs. Pear said it was Thursday, the sheriff said it was Friday, and the mayor said it was Saturday."
     s "Ah. Well, I don't know about Friday or Saturday, but I'm sure it wasn't Thursday."
 
-    show ron curious at center with dissolve
+    show ron curious with dissolve
 
     r "Really?"
 
-    show seb sad at right with dissolve
+    show seb sad with dissolve
 
     s "Poor old Mrs. Pear had a bit of a funny turn Thursday, so I sent her home, said I'd lock up. I ended up staying late, 'till about midnight, alone in the library, grading papers. If I'm here, I don't have to spend money on lights and the aircon in my apartment."
 
     # Fill in section 1.1 of Seb's suspect file
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "So I wonder why she said it was Thursday."
     s "She's not as young as she used to be, especially recently. Think her mind is going a bit."
@@ -113,25 +117,25 @@ label d1s11a:
             jump d1s11ao2
 
 label d1s11ao1:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "What about Friday? Where were you Friday night?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "Uh, Friday, let me think... There's this new coffee shop near my flat. It's open late. I went there to check it out."
     r "Where is it?"
     s "Maple Street. Not far from my family's restaurant."
     r "Did you go with anyone?"
 
-    show seb awkward at right with dissolve
+    show seb awkward with dissolve
 
     s "No."
     r "Okay. Any idea if the place has CCTV?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "I doubt it. Place looked pretty new but not entirely finished and not that well-funded. But I don't know."
     r "Okay then. Thanks."
@@ -139,13 +143,13 @@ label d1s11ao1:
     jump d1s11ac1
 
 label d1s11ao2:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "Well then, what can you tell me about Saturday night?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "Saturday—yesterday. Stayed home all day, graded some exams."
     r "Alone?"
@@ -157,9 +161,9 @@ label d1s11ao2:
     jump d1s11ac1
 
 label d1s11ac1:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     "Okay, that's one alibi got. Let's ask him about another suspect. But which one?"
 
@@ -181,18 +185,18 @@ label d1s11ac1:
             jump d1s11ac2o4
 
 label d1s11ac2o1:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "So, you've got a pretty good friendship with Mrs. Pear, right?"
 
-    show seb smile at right with dissolve
+    show seb smile with dissolve
 
     s "Yeah, she's really nice. She must be ancient to be honest. But she keeps going, and thank God she does. Besides the mayor and me, she's the only one who cares about the library. Without Mrs. Pear, it would be closed."
     r "If you could sum up your relationship with her in one sentence, what would it be?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "We're friends, and I have a lot of respect for her, but I also try to look out for her."
     r "Great, thanks."
@@ -200,19 +204,19 @@ label d1s11ac2o1:
     jump d1s11ac3
 
 label d1s11ac2o2:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "You remember Terry, right? He's the sheriff now, as I'm sure you know. What do you think of him?"
 
-    show seb moody at right with dissolve
+    show seb moody with dissolve
 
     s "Yeah, I remember the jerk. Hard to forget him. Especially now that he's got that darned job. I mean, I do my best to avoid the law 'round here in general, but him especially. Haven't had anything much to do with them."
     s "But from what I've heard, he's a pretty rubbish sheriff."
     r "If you could sum up your relationship with him in one sentence, what would it be?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "I try to avoid him, and I don't think much of him."
     r "Cool, thank you."
@@ -220,9 +224,9 @@ label d1s11ac2o2:
     jump d1s11ac3
 
 label d1s11ac2o3:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "You ever see Danny's ma', Emily, around?"
     s "Yeah, sometimes. She comes into the library now and then—probably the most frequent visitor after myself. I know she wants to renovate it; she's asked me for my ideas."
@@ -236,7 +240,7 @@ label d1s11ac2o3:
     s "So I like her—in a distant kinda way."
     r "Can you sum up your relationship with her in one sentence?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "She's a vague friend who I think is a good person, and I owe her one."
     r "That's perfect, thank you."
@@ -244,18 +248,18 @@ label d1s11ac2o3:
     jump d1s11ac3
 
 label d1s11ac2o4:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "You ever met Norman Conlee? The mayor's secretary—well, ex-secretary."
 
-    show seb awkward at right with dissolve
+    show seb awkward with dissolve
 
     s "Yeah, kinda. I mean, it's a small town. People know people around here. And he's got a reputation for being a cantankerous crap-head. And sometimes, if he's had too much to drink and sees me going by, he makes his opinion on elves and half-elves {i}very{/i} clear."
     r "Could you sum up how you feel about him in one sentence?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "We don't like each other; I avoid him."
     r "Cool, thank you."
@@ -263,9 +267,9 @@ label d1s11ac2o4:
     jump d1s11ac3
 
 label d1s11ac3:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     "Okay, great. I think the last thing to ask about is the last time he was at the various crime scenes."
 
@@ -286,13 +290,13 @@ label d1s11ac3:
             jump d1s11ac4o3
 
 label d1s11ac4o1:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "When was the last time you were at the library before the attack? Was it Thursday? You mentioned that earlier."
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "Umm, no. It would have been Friday. Just after school. Needed to return a book."
     r "What time would this have been, then?"
@@ -301,7 +305,7 @@ label d1s11ac4o1:
     s "Mrs. Pear was busy, so I went behind her desk to scan through the book's return myself, shelved it, went to chat with her, then left for my parent's restaurant to help prepare for dinner."
     r "And before you left, did anything odd happen?"
 
-    show seb sad at right with dissolve
+    show seb sad with dissolve
 
     s "Yeah, Mrs. Pear was having one of her funny turns. She was in the occult section. I think she was meant to be checking stock and comparing it to what we're supposed to have."
 
@@ -310,32 +314,32 @@ label d1s11ac4o1:
     s "But she was muttering to herself kinda frantically. Cursing about every missing book. And when she saw me, she demanded to know if I'd been doing magic. I hadn't, of course. But it was like she didn't even know who I was."
     s "I made her a cup of sweet tea and got her to calm down eventually. Convinced her to close early and go rest. Then I left as she was getting ready to go."
 
-    show ron sad at center with dissolve
+    show ron sad with dissolve
 
     r "Oh no. Poor Mrs. Pear. Has she ever done anything else like this?"
 
-    show seb awkward at right with dissolve
+    show seb awkward with dissolve
 
     s "She gets a bit paranoid about things. Sees monsters in every shadow."
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "I see... That's useful to know. Thank you for telling me."
 
     jump d1s11ac5
 
 label d1s11ac4o2:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "When was the last time you were in or near the mayor's office?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "The mayor's office, huh? I think that would have been... Wednesday. So, four days ago."
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "So the day before the first attack?"
     s "Yeah. Emily asked for a meeting—she'd asked me to report on how the clubs she's funding for the school are doing. We were meant to meet up Thursday, because I was helping at my dad's restaurant after work on Wednesday."
@@ -345,7 +349,7 @@ label d1s11ac4o2:
 
     "Ah, there was a meeting in the mayor's diary on Wednesday at 10 with 'S.' It must have been Seb."
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     r "So what happened?"
     s "She forgot about it, apparently—I ran into her outside. Think she was just heading back into the office. We were both pretty tired, so we just had a quick talk. Then Danny arrived to see her, so I left them to it and headed home."
@@ -358,26 +362,26 @@ label d1s11ac4o2:
     jump d1s11ac5
 
 label d1s11ac4o3:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "When was the last time you were in or near the sheriff's office?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     s "The sheriff's office, hm? Let me think... probably Tuesday. Last Tuesday—the seventh."
     r "Why were you there?"
 
-    show seb awkward at right with dissolve
+    show seb awkward with dissolve
 
     s "Uh... I was... I was reporting a crime, I think."
 
-    show ron confused at center with dissolve
+    show ron confused with dissolve
 
     r "You {i}think{/i}?"
 
-    show seb confused at right with dissolve
+    show seb confused with dissolve
 
     s "I don't remember. It was a while ago."
     r "It was last week!"
@@ -390,18 +394,18 @@ label d1s11ac4o3:
 
     "... Okay. Let's see if he can answer any questions for the file."
 
-    show ron curious at center with dissolve
+    show ron curious with dissolve
 
     r "What time was this?"
     s "7:30, I think. Around then. Before school. I went in, talked to someone—can't remember who—then left."
 
-    show ron worried at center with dissolve
+    show ron worried with dissolve
 
     r "You haven't hit your head or anything, have you?"
     s "No, no. Nothing like that."
     r "Hmm. Did you notice anything odd?"
 
-    show seb thoughtful at right with dissolve
+    show seb thoughtful with dissolve
 
     "Seb pauses for a second, looking like he's thinking hard."
 
@@ -421,13 +425,13 @@ label d1s11ac4o3:
     jump d1s11ac5
 
 label d1s11ac5:
-    show seb neutral at right with dissolve
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show seb neutral with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
 
     r "Thank you for the information. It'll all be very useful."
 
-    show seb smile at right with dissolve
+    show seb smile with dissolve
 
     s "I'm glad I could help! Good luck finding the vandals."
     r "Thanks."
@@ -435,23 +439,25 @@ label d1s11ac5:
     "I give him an awkward smile. Gosh, he's mighty fine to look at."
     "But I don't have time to gawk at his face all day."
 
-    show ron serious at center with dissolve
+    show ron serious with dissolve
 
     r "Eh hem. Thank you for your time. We've got to get going."
     s "I understand. I guess I'll, uh... see you round, Ron."
 
-    show ron blushing at center with dissolve
+    show ron blushing with dissolve
 
     r "Not- not if I s-see you first."
     s "Hehe."
 
     show seb smile at offscreenright with move
-    show ron blushing at right with move
-    show marley laughing at left with dissolve
+
+    show marley laughing at dialogleft
+    show ron blushing at dialogright 
+    with move
 
     m "{i}*Giggles*{/i}"
 
-    show ron moody at right with dissolve
+    show ron moody with dissolve
 
     r "Don't."
     m "Was... was that {i}flirting{/i}, Ron? With that hot half-elf guy? Because it was painful to watch."

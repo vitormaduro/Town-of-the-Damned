@@ -40,4 +40,4 @@ label after_reading_book:
 
     b "Come on; can't stay in a musty old library all day."
 
-    call screen map_screen with fade    
+    call screen d1s2_map with fade    

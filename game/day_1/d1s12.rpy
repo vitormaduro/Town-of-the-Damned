@@ -2,81 +2,90 @@
 label d1s12:
     scene bg kingston_streets_night with fade
 
-    show marley neutral at left with dissolve
     show danny neutral at right with dissolve
     show ron moody at center with dissolve
+    show marley neutral at left with dissolve
 
     b "You sure you can play nice with Terry?"
     r "Yeah, don't worry. I can play nice as well as the next person."
     b "I was talking to Miss Frigid over there."
 
-    show marley annoyed at left with dissolve
+    show marley annoyed with dissolve
 
     m "What the hell is that supposed to mean?"
     b "Well, you were pretty cold to him."
     m "Oh, I'm sorry I'm not interested in hooking up with your BFF."
 
-    show danny angry at right with dissolve
+    show danny angry with dissolve
 
     b "Do you always have to be so rude?"
 
-    show marley angry at left with dissolve
+    show marley angry with dissolve
 
     m "Only for as long as you continue to be such a pain! Your precious Terry drooled over me so much I'm still wiping off his spit!"
     r "He was always a ladies' man in school. Seemed to think he was God's gift to women."
 
-    show marley frustrated at left with dissolve
+    show marley frustrated with dissolve
 
     m "Well, I hope God still has the receipt, because I want to return him."
 
-    show danny confused at right with dissolve
+    show danny confused with dissolve
 
     b "Why do you hate him so much?"
 
-    show marley serious at left with dissolve
+    show marley serious with dissolve
 
     m "I've met people like him before. All around the world, there are Terrys. People who think they're so perfect that no one could ever say 'no' to them. Terrys think that everyone wants to either be them or be {i}with{/i} them. And the reality is that anyone sensible who has met a Terry knows that whatever angle they look at the prat from, the truth is clear to see—the Terry is trash."
     b "You ever considered that maybe you're not a people person?"
     m "Oh, I'm a people person alright. Just not a {i}stupid{/i} people person."
 
-    show terry smile at right with dissolve
+    show ron moody at centerleft
+    show danny confused at centerright
+    with move
+
+    show terry smile at offscreenright
+    show terry smile at right with move
 
     t "Ron, Danny, Marley, welcome!"
 
-    show ron moody at center with dissolve
-    show marley moody at left with dissolve
+    show ron moody with dissolve
+    show marley moody with dissolve
 
     r "Hey, Terry."
     t "Alright, so me and my men have divided up the town. I'll give you each a partner from my posse, and then each pair will be assigned an area to monitor."
     r "Sure thing."
     t "Danny, you're with Captain Stone over there. Ron, you're with Deputy Thomas. And sugar, you're with me."
 
-    show marley angry at left with dissolve
+    show marley angry with dissolve
 
     m "I don't think that's such a good idea."
     t "Oh? Why not?"
     m "Well, sheriff, I have nothing but respect for you—"
 
-    show terry blushing at right with dissolve
+    show terry blushing with dissolve
 
     t "Aw, well shucks—"
     m "And not much of that."
 
-    show terry confused at right with dissolve
+    show terry confused with dissolve
 
     t "Huh?"
     r "Actually, I'd like to work with you, Terry. Good opportunity to... reminisce. Chat about the old times."
 
-    show marley neutral at left with dissolve
-    show terry sad at right with dissolve
+    show marley neutral with dissolve
+    show terry sad with dissolve
 
     t "Oh, I see. Well, sure. That works too. Let's go—we've got downtown."
     r "Alright."
     m "Thanks, Ron."
 
-    show marley neutral at offscreenleft with move
-    show ron moody at left with move
-    show danny confused at center with move
+    show marley neutral at offscreenleft
+    show danny confused at offscreenleft
+    with move
+
+    show ron moody at dialogleft 
+    show terry sad at dialogright
+    with move
 
     "For a few painful minutes, Terry and I walk silently through the streets. It's awkward as hell."
 
@@ -94,7 +103,7 @@ label d1s12:
     r "Well, we've only just started. But it's all very intriguing."
     t "I don't know, seems pretty straightforward to me."
 
-    show ron curious at left with dissolve
+    show ron curious with dissolve
 
     r "Oh yeah? Who do you think is the summoner, then?"
     t "I thought Danny told you? It's Seb Daley."
@@ -108,12 +117,12 @@ label d1s12:
     r "Assistant."
     t "She's a real beaut'."
 
-    show ron uncomfortable at left with dissolve
+    show ron uncomfortable with dissolve
 
     r "Uh... I guess."
     t "It's cute to see how much she likes me."
 
-    show ron shocked at left with dissolve
+    show ron shocked with dissolve
 
     r "Uh, what? I don't think—"
     t "It's clear as day. She's just playing hard to get."
@@ -123,39 +132,39 @@ label d1s12:
     t "Ah, well, she just wants me to try a little harder. She wants me to prove I'm worth getting all flustered about."
     r "... Uh-huh. And if she's just plain awful to you?"
 
-    show terry smile at right with dissolve
+    show terry smile with dissolve
 
     t "Well, then she's the best kinda gal. She wants a chase. It's a game. She loves it but pretends she doesn't. Just like your Marley. Trust me, Ron, you don't understand women. She {i}wants{/i} me."
     r "Either I {i}really{/i} don't understand straight people or you're way past confused."
 
-    show ron neutral at left with dissolve
+    show ron neutral with dissolve
 
     "Poor Marley. I don't envy having Terry's attention."
     "Silence falls again for a few minutes, and my conversation with Danny from earlier in the day surfaces in my mind—the one about Terry losing his scholarship."
 
-    show ron awkward at left with dissolve
+    show ron awkward with dissolve
 
     r "Danny told me about Ohio State."
 
-    show terry serious at right with dissolve
+    show terry serious with dissolve
 
     "The words come out of my mouth before I realize what I've said."
     "But I guess I might as well plough on."
 
     r "I- I'm sorry. It must have been real hard. I hope you don't... blame me for that."
 
-    show terry smile at right with dissolve
+    show terry smile with dissolve
 
     t "Blame you? Shucks man, of course not! Nah, me losing that scholarship was the best thing that could've happened to me!"
 
-    show ron confused at left with dissolve
+    show ron confused with dissolve
 
     r "Huh?"
     t "Nah. I would have been miserable at Ohio State."
     r "Really?"
     t "Ain't you noticed? This town practically worships me!"
 
-    show ron dubious at left with dissolve
+    show ron dubious with dissolve
 
     r "Uh-huh?"
     t "See, I realized something a few years back, Ron—you and I are kinda similar."
@@ -167,12 +176,12 @@ label d1s12:
     r "You mean why you beat me up all the time?"
     t "Tomayto, tomahto. But, see, when you went off to the big city, you became a big fish in a {i}huge{/i} pond. Massive. And look where it's got you—Danny told me your business is dying. Ya got no family, live in a run-down flat—"
 
-    show ron confused at left with dissolve
+    show ron confused with dissolve
 
     r "You seem to know a lot about me."
     t "Danny yaps on about you all the damn time."
 
-    show ron neutral at left with dissolve
+    show ron neutral with dissolve
 
     r "Huh."
     t "But see, me, I'm a big fish that's got an itty-bitty pond all to myself. This place loves me, ain't you noticed? Believe me, if I went to that college, I would've drowned in a huge pond, just like you."
@@ -186,8 +195,8 @@ label d1s12:
 
     b "Uh— Emergency, emergency! Oh God, I don't know what I'm supposed to be saying!"
 
-    show terry concerned at right with dissolve
-    show ron worried at left with dissolve
+    show terry concerned with dissolve
+    show ron worried with dissolve
 
     t "Danny, is that you?"
     b "Terry! Oh, thank God! Can you get to the high school? Like, right now!"
@@ -197,11 +206,16 @@ label d1s12:
     "The sound of our feet hitting the road echoes around us, underlined by heavy breathing."
     "We get to the high school in a few minutes."
 
-    show danny afraid at center with dissolve
+    show ron worried at left
+    show terry concerned at center
+    with move
+
+    show danny afraid at offscreenright
+    show danny afraid at right with move
 
     "Danny is kneeling on the ground by the unconscious body of Captain Stone."
 
-    show terry horrified at right with dissolve
+    show terry horrified with dissolve
 
     t "What the hell happened, Danny?"
     b "It was the ghouls! Two of them came out of that alley over there. The captain tried to stop them, but—"
@@ -213,7 +227,12 @@ label d1s12:
 
     "I hear someone running towards us and turn to see Marley come to a stop in front of me."
 
-    show marley concerned at left with dissolve
+    show ron worried at centerleft
+    show terry horrified at centerright
+    with move
+
+    show marley concerned at offscreenleft
+    show marley concerned at left with move
 
     m "We heard you guys on the radio—"
     r "Marley, you got your goat's blood?"
@@ -222,6 +241,10 @@ label d1s12:
     m "Yes, boss!"
 
     show marley concerned at offscreenleft with move
+
+    show ron worried at left
+    show terry horrified at center
+    with move
 
     "She disappears into the night."
 

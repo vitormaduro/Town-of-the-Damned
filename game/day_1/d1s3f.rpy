@@ -11,7 +11,7 @@ label d1s3f:
     m "Thanks—"
     b "I was talking to Ron, Maisy."
 
-    show marley moody at right with dissolve
+    show marley moody with dissolve
 
     m "Marley."
     b "We're currently showing a display on how the town has changed over the years. I doubt it'll be much help, but it's kinda interesting."
@@ -43,16 +43,16 @@ screen maps(index):
 
 # After checking the maps of the city
 label after_maps:
-    show marley curious at right
+    show marley curious
 
     m "What happened to that lake there?"
     r "They built a dam and turned it into a reservoir which they still call Mallory Lake. It's just further to the west."
 
-    show danny neutral at left with dissolve
+    show danny neutral with dissolve
 
     b "You'll also see here there's a display on the Madduxes up at the moment. You remember them, don't you?"
 
-    show ron moody at center with dissolve
+    show ron moody with dissolve
 
     r "Unfortunately."
     m "Not a fan of the family?"
@@ -92,12 +92,12 @@ label after_reading_display:
     r "Come on. I have no interest in staring at this shrine to my old bully's great-great-grandpa. Or staying in this godforsaken place any longer."
     b "It's gotten a lot better here recently. Mom got some interesting projects funded—"
 
-    show ron moody at center with dissolve
+    show ron moody with dissolve
 
     r "Yes, yes, we get it, your mum is amazing. Now come on, let's get out of here."
     b "Come on, we don't have all day."
 
-    call screen map_screen with fade
+    call screen d1s2_map with fade
 
 init python:
     def change_map(index):

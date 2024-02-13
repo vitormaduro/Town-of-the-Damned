@@ -3,8 +3,8 @@ label d1s7:
     scene bg rons_office with fade
 
     show marley neutral at right with dissolve
-    show danny neutral at left with dissolve
-    show ron moody at center with dissolve
+    show danny neutral at center with dissolve
+    show ron moody at left with dissolve
 
     r "Danny, you could have warned me that the doggone sheriff was Terry frickin' Maddux."
     b "Sorry, sorry. But Terry ain't that bad."
@@ -16,20 +16,20 @@ label d1s7:
     r "I once had to get three stitches 'cos he slammed my head into a desk! Why are you defending him? He was even worse to you."
     b "It was just childhood teasing; I got over it. And hey, you beat him up pretty bad yourself that one time."
 
-    show ron confused at center with dissolve
+    show ron confused with dissolve
 
     r "When?"
     b "The- the day that you... left."
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     r "Oh right, yeah. I remember now. Well, he deserved it."
 
-    show danny annoyed at left with dissolve
+    show danny annoyed with dissolve
 
     b "Well, everything kind of blew up for poor Terry after you left."
 
-    show ron confused at center with dissolve
+    show ron confused with dissolve
 
     r "What do you mean?"
     b "You don't know?"
@@ -40,8 +40,8 @@ label d1s7:
     r "Oh. Oh wow. I hate to feel sorry for the guy, but... jeez."
     m "Let's put aside that muscled twit for now. What have you learnt, Ron? Give me the rundown."
 
-    show danny neutral at left with dissolve
-    show ron neutral at center with dissolve
+    show danny neutral with dissolve
+    show ron neutral with dissolve
 
     r "Okay, let's talk about the library first. Occult section looks like it's been put through a shredder."
     m "Alright, why?"
@@ -69,7 +69,7 @@ label d1s7:
 
     "I notice something else in the bag."
 
-    show ron surprised at center with dissolve
+    show ron surprised with dissolve
 
     r "Oh shoot—there's the book. I forgot about that; I didn't mean to bring it."
     m "What is it?"
@@ -83,11 +83,11 @@ label d1s7:
     b "Revenge? Rage?"
     r "What do you mean?"
 
-    show danny serious at left with dissolve
+    show danny serious with dissolve
 
     b "I wouldn't be surprised if Sebastian Daley wanted to see this whole town burned to the ground."
 
-    show ron confused at center with dissolve
+    show ron confused with dissolve
 
     r "Why?"
     b "He's not a popular guy. That's all you need to know."
@@ -97,7 +97,7 @@ label d1s7:
 
     "The sound of the office phone makes me jump. I pick it up as Danny fiddles awkwardly with a pen."
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     r "Hello?"
     t "Ron, my man!"
@@ -106,7 +106,7 @@ label d1s7:
     r "Oh, right. Thanks. We'll be there."
     t "Awesome! You'll get to see how {i}real{/i} detectives act."
 
-    show ron moody at center with dissolve
+    show ron moody with dissolve
 
     "I roll my eyes."
 
@@ -116,39 +116,39 @@ label d1s7:
 
     r "Well, it sounds like we're in for a delightful evening. Terry has invited us to patrol the town with him."
 
-    show marley moody at right with dissolve
+    show marley moody with dissolve
 
     m "And you couldn't have told him we had better things to do? Like... anything that didn't involve him?"
 
-    show danny thoughtful at left with dissolve
+    show danny thoughtful with dissolve
 
     b "Maybe this will be a good opportunity for you, Ron. To, you know, bond with Terry. For you both to put the past behind you."
     r "I'd rather bond with a benign tumor."
 
     # TODO: SFX- a newspaper drops into a mailbox.
 
-    show danny moody at left with dissolve
+    show danny moody with dissolve
 
     b "Aww crap."
 
-    show ron curious at center with dissolve
+    show ron curious with dissolve
 
     r "What?"
     b "The paper. The Kingston Rag."
 
-    show marley confused at right with dissolve
+    show marley confused with dissolve
 
     m "Why does that make you mad?"
     b "There's this gossip columnist, Cléber Chalá, who's always published in it. Well, I mean, that's probably a pen name. No one in the town has that name."
 
-    show marley thoughtful at right with dissolve
+    show marley thoughtful with dissolve
 
     m "I've heard that name before. I think he's a football player. Or I guess soccer for you guys."
     b "Well whoever {i}our{/i} Cléber is, they're a pain in my ma's ass. Basically, they can write whatever they want scot-free as long as they say 'there's a rumor that...' in front of it."
     m "Why read it if it annoys you?"
     b "Well, the problem, professor, is that the whole darned town reads this stupid column. These idiots eat this garbage up. I need to know what it says so I can be prepared."
 
-    show marley moody at right with dissolve
+    show marley moody with dissolve
 
     m "Alright, alright, no need for the attitude. Let's see this dreaded column then."
 
@@ -168,66 +168,66 @@ screen d1s7_newspaper():
         vbar value YScrollValue("vp")
 
     imagebutton idle "images/ui/next_button.png" action Jump("d1s7_after_newspaper"):
-        xpos 0.5
-        ypos 0.8
+        xalign 0.5
+        yalign 0.9
 
 label d1s7_after_newspaper:
-    show marley confused at right with dissolve
-    show ron shocked at center with dissolve
+    show marley confused with dissolve
+    show ron shocked with dissolve
 
     r "Jeez—whoever this writer is, they really hate your ma'!"
     b "They hate everyone. Attack anyone they can. Anyone in the public eye. Like I've said, we're trying to keep the whole 'ghoul' thing under the rug. But if whoever this Cléber guy is finds out, half of the local government would be ripped apart."
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "I see."
 
-    show marley thoughtful at right with dissolve
+    show marley thoughtful with dissolve
 
     m "We'll have to keep an eye out for this writer."
     b "Oh definitely. Especially because you two will probably end up in the column as soon as Cléber finds out about you. They adore gossiping about strangers. And you two are mighty strange."
     m "True."
     r "Well, nothing we can do about it for now. We need to focus on the case."
 
-    show ron thoughtful at center with dissolve
-    show danny neutral at left with dissolve
+    show ron thoughtful with dissolve
+    show danny neutral with dissolve
 
     r "But here's what's odd: our question was 'what order did the ghoul attacks happen in?' But of the three people we've interviewed, they've all said a different order!"
 
-    show marley surprised at right with dissolve
+    show marley surprised with dissolve
 
     m "Really?"
     r "Yeah. We know the attacks happened Thursday, Friday, and Saturday."
     r "But the mayor said it was the sheriff's office, her office, then the library. Terry said that it was the mayor's, the library, then his office. And Mrs. Pear said it was the library, the sheriff's office, then the mayor's."
     r "That doesn't make any sense."
 
-    show marley thoughtful at right with dissolve
+    show marley thoughtful with dissolve
 
     m "So... at least two people must have lied."
 
-    show danny awkward at left with dissolve
+    show danny awkward with dissolve
 
     b "Or been confused. Might just be all this stress getting to them."
 
-    show marley thoughtful at right with dissolve
+    show marley thoughtful with dissolve
 
     m "I dunno—if my place of work was attacked, I'd remember when it happened. And it's only been a few days."
     r "We have to figure out the order."
 
-    show marley neutral at right with dissolve
+    show marley neutral with dissolve
 
     m "Well, in the meantime, we can at least start on the suspect files."
 
-    show danny curious at left with dissolve
+    show danny curious with dissolve
 
     b "The what?"
     m "We always make suspect files for anyone involved in the case. I'll show you what we do if you like—I can make an example one of you!"
 
-    show danny awkward at left with dissolve
+    show danny awkward with dissolve
 
     b "Uh, what? You're going to make a suspect file of me? I don't think—"
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     r "Oh don't worry, it's just an example one. You're not a real suspect."
     b "Uh... well... okay. If you're sure."
@@ -237,15 +237,15 @@ label d1s7_after_newspaper:
 screen d1s7_suspect_file():
     image "black"
     text "This minigame is not available yet":
-        xpos 0.5
-        ypos 0.3
+        xalign 0.5
+        yalign 0.3
 
     imagebutton idle "images/ui/next_button.png" action Jump("d1s7_after_suspect_file"):
-        xpos 0.5
-        ypos 0.9
+        xalign 0.5
+        yalign 0.9
 
 label d1s7_after_suspect_file:
-    show danny neutral at left with dissolve
+    show danny neutral with dissolve
 
     b "Can't we do the rest later?"
     r "Sure. We also need to ask the others these questions. And we need to work out what order the attacks happened in. Why don't we go back out and see what we can find?"

@@ -2,8 +2,8 @@
 label d1s1:
     scene bg rons_office
 
-    show marley sad at right with dissolve
-    show ron anxious at left with dissolve
+    show marley sad at dialogright with dissolve
+    show ron neutral at dialogleft with dissolve
 
     # TODO: SFX- Muffled city noises (Continuous)
 
@@ -31,14 +31,14 @@ label d1s1:
 
     r "Oh holy—"
 
-    scene bg rons_office 
+    scene bg rons_office with pixellate
 
-    show marley sad at right with dissolve
-    show ron anxious at left with dissolve
+    show marley sad at dialogright with dissolve
+    show ron anxious at dialogleft with dissolve
 
     r "{i}*Shudder*{/i} Every time I see a birthday cake, I get flashbacks. And we only got a couple hundred bucks from it." 
 
-    show ron moody at left with dissolve
+    show ron moody with dissolve
 
     r "Just 'cos we have the word 'supernatural' in the company's name, doesn't mean we can deal with anything magical! They should have just called animal control!"
     r "{i}*Sigh*{/i} I can't pay rent for this office. They've turned the lights off at my apartment. I ain't got no choice but to dissolve the business."
@@ -50,13 +50,13 @@ label d1s1:
 
     "Oh crap. Maybe she ain't faking it."
 
-    show ron sad at left with dissolve
+    show ron sad with dissolve
 
     r "Look Mar, it ain't my fault! We've got those big corporations flooding the market, and we've got those terrible fake reviews– Another one was put up today!"
 
     "I fumble awkwardly for my phone, pull it out of my pocket, and get Yelf up."
 
-    show ron angry at left with dissolve
+    show ron angry with dissolve
 
     r "Listen to this garbage:" 
     r "'I hired Mr. Ron to rid my family of a banshee. He took my money, did some cleansing ritual, and vanished. But the blasted banshee is still here. "
@@ -80,12 +80,12 @@ label d1s1:
 
     "The sound of the phone ringing from Marley's office breaks me out of my thoughts."
 
-    show ron neutral at left with dissolve
+    show ron neutral with dissolve
 
     r "Can you get that, Mar?"
     m "You're a cad, Ron."
 
-    hide marley with dissolve
+    show marley at offscreenright with move
     show ron neutral at center with move
 
     "She gets up and leaves the room, slamming the door behind her, muffling the sound of her sobs."
@@ -121,7 +121,7 @@ label after_box_minigame:
     r "A... a job? Where?"
     b "Well, uh... here. In Kingston."
 
-    show ron moody at center with dissolve
+    show ron moody with dissolve
 
     r "Danny, you know how I feel about that place."
 
@@ -129,7 +129,7 @@ label after_box_minigame:
 
     b "I know, I know, but just hear me out! Kingston keeps being attacked by ghouls!"
 
-    show ron confused at center with dissolve
+    show ron confused with dissolve
 
     "That makes me pause."
 
@@ -145,36 +145,36 @@ label after_box_minigame:
     r "Oh yeah? How much?"
     b "Five hundred thousand upon completion of the case."
 
-    show ron blushing at center with dissolve
+    show ron blushing with dissolve
 
     r "Jesus Christ!"
     b "That's the standard fee for 'The Dead Busters.' And I told Mom you were a hundred times better than them."
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     "I'm tempted. So darn tempted. If I take this job, it might just save the business. But..."
 
     r "I can't do it, Danny. I can't go back."
     b "I think there's one thing that might just change your mind."
 
-    show ron moody at center with dissolve
+    show ron moody with dissolve
 
     r "Danny—"
     b "Just listen. I've looked into it myself a bit, and I think I already know who did it. It's an old friend of ours."
 
-    show ron confused at center with dissolve
+    show ron confused with dissolve
 
     r "...Who?"
     b "Seb Daley."
 
-    show ron blushing at center with dissolve
+    show ron blushing with dissolve
 
     "The name stops my heart. It echoes around my head. It wraps itself around my throat, makes my breath catch."
     "Sebastian Daley. Me and Danny went to school with him. He was smart. Handsome. Funny. Kind."
     "...and the reason I left that darned town. The reason I never went back."
     "I force myself to breathe again."
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     r "Can you lend me the money for two plane tickets?"
     b "YES!"
@@ -187,7 +187,7 @@ label after_box_minigame:
 
     "Before I can say a word, the dial tone hums in my ear. I slowly put the phone in its cradle, then lean back in my chair, taking a deep breath."
 
-    show ron moody at center with dissolve
+    show ron moody with dissolve
 
     r "Crap."
 

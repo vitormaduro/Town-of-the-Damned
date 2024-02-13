@@ -1,1 +1,1 @@
-define l = Character("Mrs. Pear")
+define l = Character("Mrs. Pear", image = "pear")

@@ -28,7 +28,7 @@ label d1s3h:
     m "Well, we 'need' you to tell us what's going on so we can solve the case, so—"
     b "Anything at all, Ron. Anything you want. Don't hesitate to ask. No holds barred."
 
-    show marley frustrated at right with dissolve
+    show marley frustrated with dissolve
 
     m "So what's happening—"
     b "I can get you a TV in here, a coffee machine—you can even use my computer for any research! Try it! Click on the search box and type in a question. What about 'The History of Kingston'?"
@@ -78,8 +78,8 @@ label after_reading_article:
 
     r "So what's been going on, Danny?"
 
-    show marley neutral at right with dissolve
-    show danny neutral at left with dissolve
+    show marley neutral with dissolve
+    show danny neutral with dissolve
 
     b "Well, long story short, three places in town have been attacked over the last week: the mayor-my mom's-office, the library, and the sheriff's office."
     b "I can't remember in what order. Anyway, luckily no one's been killed yet; the bastards only appear at night when there's not many people around."
@@ -88,33 +88,33 @@ label after_reading_article:
     r "Right. I'll need to have a look at the scenes."
     b "Maybe you should also talk to Seb. You know, interrogate the prime suspect?"
 
-    show ron nervous at center with dissolve
+    show ron nervous with dissolve
 
     r "Uh, no. Not just yet. It's too soon."
     b "If you're sure."
 
-    show ron neutral at center with dissolve
+    show ron neutral with dissolve
 
     m "Why do you think this Seb guy is behind it?"
 
-    show danny moody at left with dissolve
+    show danny moody with dissolve
 
     b "Your secretary sure asks a lot of questions, don't she?"
 
-    show marley angry at right with dissolve
+    show marley angry with dissolve
 
     m "Hey, what the hell?"
 
-    show ron angry at center with dissolve
+    show ron angry with dissolve
 
     r "Knock it off, Danny. She's my assistant, a Witch, and a doggone good friend. So answer her question."
     b "Fine. Well, Marie—"
     m "Marley!"
     b "I've checked out all the scenes-they've been left as they were after the attack for you to examine. And I've found things belonging to Seb at each place. Look—"
 
-    show marley neutral at right with dissolve
-    show ron neutral at center with dissolve
-    show danny neutral at left with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
+    show danny neutral with dissolve
 
     "He pulls out a plastic zipper bag from one of the desk's drawers and holds it out to me."
     "There are three objects in it."
@@ -155,11 +155,10 @@ screen evidence_description(description):
         yalign 0.9
 
 label after_evidence:
-    scene bg rons_office with fade
-
-    show marley neutral at right with dissolve
-    show ron thoughtful at center with dissolve
-    show danny neutral at left with dissolve
+    show marley neutral at right
+    show ron thoughtful at center
+    show danny neutral at left
+    with dissolve
 
     r "Um. You found these all at the locations that were attacked?"
     b "Uh-huh."
@@ -167,20 +166,20 @@ label after_evidence:
     b "Stopped by after the police were through checking the scenes."
     r "It's strange that they were all left at the scenes."
 
-    show danny confused at left with dissolve
+    show danny confused with dissolve
 
     b "How so?"
     r "Seb's a smart guy. You'd think he wouldn't leave such easily identifiable things at a crime scene. Part of the process to summon a ghoul is to give it an item that's important to you... an anchor—but surely he would have found a way to grab them back afterwards."
 
-    show danny neutral at left with dissolve
+    show danny neutral with dissolve
 
     b "I don't know. Anyway, we should start checking out the scenes before it gets too late—"
 
-    show marley serious at right with dissolve
+    show marley serious with dissolve
 
     m "Not yet."
 
-    show danny moody at left with dissolve
+    show danny moody with dissolve
 
     b "What? Why not, what's wrong?"
     m "I need to meditate."
@@ -196,21 +195,23 @@ label after_evidence:
     "I fight off a laugh as Marley turns and leaves before Danny can muster a comeback."
 
     show marley serious at offscreenright with move
-    show ron thoughtful at right with move
-    show danny angry at left with dissolve
+    
+    show ron thoughtful at dialogright
+    show danny angry at dialogleft 
+    with move
 
     b "SON OF A-!"
     r "You deserved that."
 
-    show danny smile at left with dissolve
+    show danny smile with dissolve
 
     b "Listen, Ron—you know, we could just go without her. We've got lots to do that we don't need her weird magic for, like interrogating suspects—"
 
-    show danny curious at left with dissolve
+    show danny curious with dissolve
 
     b "You got a strategy in mind for the questioning?"
 
-    show ron neutral at right with dissolve
+    show ron neutral with dissolve
 
     r "Same one I always do."
     b "Yeah?"
@@ -222,21 +223,21 @@ label after_evidence:
     r "Then, finally, you can try and make 'em angry. That's the {i}most{/i} dangerous one; even if they're innocent, the suspect might try and screw you up out of spite. They stonewall you. Although, I have known people who responded well when I tried to make them mad—liked the brutal honesty of it, I guess."
     r "But in a case like this, ego is always involved, so if you make the guilty suspect angry, they'll take it to heart. They'll probably try to screw you over, but they'll also probably make mistakes—ones big enough to show themselves."
 
-    show danny thoughtful at left with dissolve
+    show danny thoughtful with dissolve
 
     b "I see. So ya' assess each suspect and pick the best technique?"
 
-    show ron smile at right with dissolve
+    show ron smile with dissolve
 
     r "Exactly. None of the methods are wrong, but some are better than others depending on the situation. They'll each get different results. Every decision I make when talking to a suspect aims to make them feel a certain way about me. Everything I do is trying to get them to feel one of those ways."
     b "That's very clever, Ron."
     r "Thank you."
 
-    show danny neutral at left with dissolve
+    show danny neutral with dissolve
 
     b "Should we go?"
 
-    show ron serious at right with dissolve
+    show ron serious with dissolve
 
     r "Nope. No, we wait for Marley."
 

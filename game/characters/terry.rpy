@@ -1,4 +1,4 @@
-define t = Character("Terry")
+define t = Character("Terry", image = "terry")
 
 image terry anger:
     "images/terry_anger_small.png"

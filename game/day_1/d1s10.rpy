@@ -3,8 +3,8 @@ label d1s10:
     scene bg kingston_streets with fade
 
     show marley moody at right with dissolve
-    show danny moody at left with dissolve
     show ron worried at center with dissolve
+    show danny moody at left with dissolve
 
     b "You can't call me names!"
     m "Just watch me, you human embodiment of a loose toenail!"
@@ -28,17 +28,17 @@ label d1s10:
 
     r "This is an investigation; I'm not having the two of you following me around squabbling like children!"
 
-    show danny awkward at left with dissolve
+    show danny awkward with dissolve
 
     b "Sorry, Ron."
 
     "Marley doesn't apologize. Just stares at me stubbornly. She looks mad."
 
-    show ron tired at center with dissolve
+    show ron tired with dissolve
 
     r "{i}*Sigh*{/i} Why don't you do me a favor, Danny?"
 
-    show danny smile at left with dissolve
+    show danny smile with dissolve
 
     b "Sure, Ron. Whatever you need!"
 
@@ -51,76 +51,79 @@ label d1s10:
     b "Sure, whatever I can do to help!"
 
     show danny smile at offscreenleft with move
-    show ron tired at left with move
+
+    show ron tired at dialogleft 
+    show marley at dialogright
+    with move
 
     "For a second, Marley just keeps staring at me. Not angry anymore. Just... thinking. Calculating. Then, finally, she speaks."
 
-    show marley serious at right with dissolve
+    show marley serious with dissolve
 
     m "Don't you think you should have told me about {i}that{/i}?"
 
     "I know what she's talking about. But... I don't want to."
 
-    show ron awkward at left with dissolve
+    show ron awkward with dissolve
 
     r "Told you about what?"
     m "Don't play dumb with me Ronald-bloody-Kitzinger, or I will shout about Danny's crush on you so loud that the whole town will hear."
 
-    show ron blushing at left with dissolve
+    show ron blushing with dissolve
 
     r "Don't you dare!"
 
-    show ron awkward at left with dissolve
+    show ron awkward with dissolve
 
     r "{i}*Sigh*{/i} And it's not a {i}crush{/i}. Not really."
     m "No. You're right. It's worse than that!"
 
-    show ron moody at left with dissolve
+    show ron moody with dissolve
 
     r "Now you're just being dramatic."
     m "He's like an overprotective guard dog!"
     r "He doesn't like change. Or... strong personalities."
 
-    show ron tired at left with dissolve
+    show ron tired with dissolve
 
     r "I would have thought he would have got over it by now."
 
-    show marley thoughtful at right with dissolve
+    show marley thoughtful with dissolve
 
     m "When did this all start?"
     r "When we were still at school. It was awkward as hell—I was oblivious at first."
 
-    show marley neutral at right with dissolve
+    show marley neutral with dissolve
 
     m "You? Oblivious? Never."
     r "Yeah, yeah. Well, he was my best friend back then. And I told him I was gay before anyone else."
 
-    show ron awkward at left with dissolve
+    show ron awkward with dissolve
 
     r "And I {i}also{/i} told him I had a crush on someone in our grade."
     m "And Danny thought you meant him?"
     r "Exactly. I told Danny I had this big idea to ask my 'mystery man' out. Poor old Danny upped his advances, until even I couldn't mistake them. I finally put two and two together. Realized he was sweet on me and thought I was sweet on him."
 
-    show marley curious at right with dissolve
+    show marley curious with dissolve
 
     m "So how did he take it when you broke the news?"
     r "Uh... well, um... about that..."
 
-    show marley worried at right with dissolve
+    show marley worried with dissolve
 
     m "Ron..."
     r "I didn't! I never acknowledged it. Just ignored it and hoped it would go away."
 
-    show marley tired at right with dissolve
+    show marley tired with dissolve
 
     m "Ron!"
     r "He found out it wasn't him eventually. The day I left. But that was nearly ten years ago! I thought he would have got over it by now."
 
-    show marley moody at right with dissolve
+    show marley moody with dissolve
 
     m "He didn't, Ron! He absolutely did not!"
 
-    show ron tired at left with dissolve
+    show ron tired with dissolve
 
     r "Listen, Danny—he's harmless. If you give him a talking to when he's been too much of a pest, he'll back down."
     m "This is a flaw of yours, Ron. You never deal with problems."
@@ -129,11 +132,11 @@ label d1s10:
 
     "I try desperately not to think of the graveyard I'd insisted we leave."
 
-    show ron awkward at left with dissolve
+    show ron awkward with dissolve
 
     r "What, me? When have I ever—"
 
-    show marley moody at right with dissolve
+    show marley moody with dissolve
 
     m "The office gets like ten different completely useless magazine subscriptions because you couldn't get yourself together and cancel them!"
     r "It's not that I can't get myself together! It's that they make it so difficult—"
@@ -143,21 +146,21 @@ label d1s10:
     r "Look, when there's no monster to slay or criminal to catch, problems get... complicated."
     m "No kidding, Ron! That's why they're called {i}problems{/i}!"
 
-    show ron serious at left with dissolve
+    show ron serious with dissolve
 
     r "Look, can you just promise me you're not going to get involved? You can scare him into backing down if he gets too..."
 
-    show marley serious at right with dissolve
+    show marley serious with dissolve
 
     m "Too much like a possessive teen obsessed with their ex?"
     r "If he gets too {i}much{/i}, you're welcome to... get him to back off. In that charming way of yours."
 
-    show marley smile at right with dissolve
+    show marley smile with dissolve
 
     m "I am charming."
     r "But don't talk about this whole... crush mess. Promise?"
 
-    show marley moody at right with dissolve
+    show marley moody with dissolve
 
     m "Shocking as it may seem, Ron, I have no burning desire to fix your screw-ups."
     r "Say that you promise!"
@@ -165,7 +168,7 @@ label d1s10:
     r "Good."
     m "Now can we please get back to some actual work?"
 
-    show ron neutral at left with dissolve
+    show ron neutral with dissolve
 
     r "Great idea. We've got these suspect files to fill in. Where should we head to first?"
 

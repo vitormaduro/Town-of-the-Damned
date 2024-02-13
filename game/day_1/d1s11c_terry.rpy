@@ -1,67 +1,69 @@
 label d1s11c_terry:
-    show terry neutral at center with dissolve
+    show terry neutral at centerright with dissolve
     show norman neutral at right with dissolve
+    show ron neutral at centerleft with dissolve
     show marley neutral at left with dissolve
-    show ron neutral at left with dissolve
 
     r "...Terry. Since this is one of the places that was attacked, I need to check a few things with you."
 
-    show terry smile at center with dissolve
+    show terry smile with dissolve
 
     t "Go ahead, Kitzinger. I knew it would only be a matter of time before you came to the trusty sheriff for help, but I didn't think it would be so soon!"
 
-    show ron serious at left with dissolve
+    show ron serious with dissolve
 
     r "I'm questioning you as a witness, Terry."
 
     "'And as a suspect' is what I leave unsaid."
 
-    show terry serious at center with dissolve
-    show norman moody at right with dissolve
+    show terry serious with dissolve
+    show norman moody with dissolve
 
     n "Look, Mr. I-Peaked-in-High School, are you gonna arrest Sawyer or not?"
 
-    show terry moody at center with dissolve
+    show terry moody with dissolve
 
     t "Still no. And last time I checked, Mr. Conlee, one of us is the sheriff, and the other is a recently unemployed—because he was {i}fired{/i}—personal underling of the mayor. So, I ain't so sure {i}you're{/i} in any position to insult {i}me{/i}."
 
-    show norman angry at right with dissolve
+    show norman angry with dissolve
 
     n "You only got that job because of your darn pa!"
 
-    show norman moody at right with dissolve
+    show norman moody with dissolve
 
     n "Ug, whatever. This is a waste of time."
 
-    show norman moody at offscreenright with move
-    show terry moody at right with move
-    show ron serious at center with move
+    show norman moody at offscreenleft with move
+
+    show terry moody at right
+    show ron serious at center 
+    with move
 
     t "Pfft. Little creep."
 
-    show terry neutral at right with dissolve
+    show terry neutral with dissolve
     
     t "Now then, how can I help the two of you?"
 
-    show ron serious at center with dissolve
+    show ron serious with dissolve
 
     r "Well Terry, it seems like there's some... discrepancies with the witness stories."
 
-    show terry curious at right with dissolve
+    show terry curious with dissolve
 
     t "Discrepancies? What are you on about?"
     r "It's about the order of when the attacks happened."
 
-    show terry neutral at right with dissolve
+    show terry neutral with dissolve
 
     t "I already told you that! Thursday was the mayor's office, Friday the library, an' Saturday was right here."
     r "Well, other folks are tellin' a different story. There're {i}three{/i} conflicting accounts!"
 
-    show terry moody at right with dissolve
+    show terry moody with dissolve
 
     t "What 'other folks'?"
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "Well, uh—"
 
@@ -81,21 +83,21 @@ label d1s11c_terry:
             jump d1s11c_terry_o4
 
 label d1s11c_terry_o1:
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
-    show terry neutral at right with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
+    show terry neutral with dissolve
 
     r "Well it's Mrs. Pear, you see. She said that Thursday was the library, Friday here, and Saturday the mayor's office."
 
-    show terry smile at right with dissolve
+    show terry smile with dissolve
 
     t "Mrs. Pear—you mean that ancient librarian? Oh, I wouldn't mind her. She spouts nonsense sometimes."
 
-    show ron serious at center with dissolve
+    show ron serious with dissolve
 
     r "She does work at one of the scenes, and she's sure that it was attacked Thursday."
 
-    show terry serious at right with dissolve
+    show terry serious with dissolve
 
     t "Well it wasn't. I'm the sheriff, I've investigated each of the scenes, and I know the order! You can't seriously be listening to her over me? Honestly, if you ask me, it's high time that particular mare was taken out to pasture—"
     t "Put her out of her misery like a horse with a broken leg."
@@ -103,11 +105,11 @@ label d1s11c_terry_o1:
     "It's good to see some things never change—Terry's just as kind an' sensitive as ever."
     "But this business seems to be riling him up. Maybe I should lay off him..."
 
-    show ron thoughtful at center with dissolve
+    show ron thoughtful with dissolve
 
     r "Well she ain't the only one who's story don't line up with yours, Terry. An' I ain't seen no hard evidence corroborating the day any of 'em were hit—"
 
-    show terry moody at right with dissolve
+    show terry moody with dissolve
 
     t "Look, who are you gonna take seriously here, me, the {i}sheriff{/i}, or crazy Mrs. Pear?"
 
@@ -122,21 +124,21 @@ label d1s11c_terry_o1:
             jump d1s11c_terry_o12o2
 
 label d1s11c_terry_o12o1:
-    show marley neutral at left with dissolve
-    show ron thoughtful at center with dissolve
-    show terry neutral at right with dissolve
+    show marley neutral with dissolve
+    show ron thoughtful with dissolve
+    show terry neutral with dissolve
 
     r "Alright, fine, Terry. You might have a point there. I don't know much about Mrs. Pear, I ain't seen her in years. She- she could have changed."
 
-    show terry smile at right with dissolve
+    show terry smile with dissolve
 
     t "Exactly! Look, Mrs. Pear—she's old. Older than anyone else in this town. And I know you were close to her back in the day, but you gotta accept that the old coot just ain't got it all there anymore. Ain't all there like she used to be."
 
-    show ron curious at center with dissolve
+    show ron curious with dissolve
 
     r "Does she... {i}do{/i} things that are unusual? That suggests she's... degrading?"
 
-    show terry thoughtful at right with dissolve
+    show terry thoughtful with dissolve
 
     t "Yeah, she makes a fuss about things that are... just nuts. She hears things—I'm sure you'll see."
     r "Okay..."
@@ -144,38 +146,38 @@ label d1s11c_terry_o12o1:
     jump d1s11c_terry_c1
 
 label d1s11c_terry_o12o2:
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
-    show terry neutral at right with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
+    show terry neutral with dissolve
 
     r "I know it's been a while, but I was close to Mrs. Pear once. And it don't seem like she's changed much—as far as I can see, she's as sharp as ever. Listen, Terry, I need evidence. Cold hard evidence."
 
-    show terry moody at right with dissolve
+    show terry moody with dissolve
 
     t "Pfft! Evidence? Like what?"
 
-    show marley thoughtful at left with dissolve
+    show marley thoughtful with dissolve
 
     m "Well, shouldn't there be, like, crime scene photos, forensic evidence that's dated, reports—can't we see those?"
 
-    show terry awkward at right with dissolve
+    show terry awkward with dissolve
 
     t "Well, uh... n-no."
 
-    show terry serious at right with dissolve
+    show terry serious with dissolve
 
     t "No, you can't."
 
-    show marley curious at left with dissolve
+    show marley curious with dissolve
 
     m "And whyever not?"
     t "It's classified police evidence."
 
-    show ron serious at center with dissolve
+    show ron serious with dissolve
 
     r "But you're meant to be helping us."
 
-    show terry awkward at right with dissolve
+    show terry awkward with dissolve
     
     t "Uh, well, it's official police records. Can't let you look without the proper... clearance."
 
@@ -183,15 +185,15 @@ label d1s11c_terry_o12o2:
 
     t "An' what's more, we didn't know what we were looking at until we found the corpses in the mayor's office—"
 
-    show terry serious at right with dissolve
+    show terry serious with dissolve
 
     t "Because that was the place attacked first. Before that, we just thought it was a regular vandal attack."
 
-    show marley serious at left with dissolve
+    show marley serious with dissolve
 
     m "How could you have had an opinion 'before' if you found corpses at the first scene?"
 
-    show terry smile at right with dissolve
+    show terry smile with dissolve
 
     t "Well aren't you paying attention, little lady. It was just what we thought before we found the bodies—you know, during the initial assessment."
 
@@ -204,9 +206,9 @@ label d1s11c_terry_o12o2:
     jump d1s11c_terry_c1
 
 label d1s11c_terry_o2:
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
-    show terry neutral at right with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
+    show terry neutral with dissolve
 
     r "The mayor for one. She told us a completely different story—she said Thursday was here, Friday her office, and Saturday the library."
     t "And what does the mayor know? She spends so long running around, I'm surprised she even knows what day it is, let alone what days attacks happened."
@@ -220,9 +222,9 @@ label d1s11c_terry_o2:
     jump d1s11c_terry_c1
 
 label d1s11c_terry_o3:
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
-    show terry neutral at right with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
+    show terry neutral with dissolve
 
     r "Well both Mrs. Pear {i}and{/i} Mayor Sawyer disagree with your story. Can you think of any reason for these discrepancies?"
     t "Yeah I can think of two! They're crazy and they're tryin' to sabotage this case. They wan' me to look incompetent. Huh, like anyone would believe that!"
@@ -232,9 +234,9 @@ label d1s11c_terry_o3:
     jump d1s11c_terry_c1
 
 label d1s11c_terry_o4:
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
-    show terry neutral at right with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
+    show terry neutral with dissolve
 
     r "I can't speak about other witnesses, sheriff. You should know that. It's confidential information."
     t "Well that's just a load of crock! I'm the doggone sheriff, I should have the clearance to hear whatever you've learned."
@@ -254,9 +256,9 @@ label d1s11c_terry_o4:
     jump d1s11c_terry_c1
 
 label d1s11c_terry_c1:
-    show marley neutral at left with dissolve
-    show ron neutral at center with dissolve
-    show terry neutral at right with dissolve
+    show marley neutral with dissolve
+    show ron neutral with dissolve
+    show terry neutral with dissolve
 
     r "Alright, Terry. Well thanks for answering my questions. I'm sure it'll all be very... useful."
 
@@ -264,7 +266,7 @@ label d1s11c_terry_c1:
 
     r "I think that's all the questions I've got for now."
 
-    show terry smile at right with dissolve
+    show terry smile with dissolve
 
     t "Sure thing, Ron. No problem at all!"
     t "And, hey, I'll see y'all at patrol tonight."
